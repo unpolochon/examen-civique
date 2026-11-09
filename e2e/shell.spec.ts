@@ -1,14 +1,15 @@
 import { expect, test } from '@playwright/test'
+import { seed } from './helpers'
 
 test('la barre de navigation change d’écran et d’élément actif', async ({ page }) => {
-  await page.goto('./')
+  await seed(page)
   const nav = page.getByRole('navigation', { name: 'Navigation principale' })
 
   for (const [label, title, hash] of [
     ['Leçons', 'Leçons', '#/lecons'],
     ['Cartes', 'Cartes', '#/cartes'],
     ['Progrès', 'Progrès', '#/progres'],
-    ['Accueil', 'Accueil', '#/'],
+    ['Accueil', 'Bonjour Paul', '#/'],
   ]) {
     await nav.getByRole('link', { name: label }).click()
     await expect(page).toHaveURL(new RegExp(`${hash}$`))
@@ -18,7 +19,7 @@ test('la barre de navigation change d’écran et d’élément actif', async ({
 })
 
 test('la barre est absente hors des écrans principaux et ne masque pas le contenu', async ({ page }) => {
-  await page.goto('./#/reglages')
+  await seed(page, undefined, '#/reglages')
   await expect(page.getByRole('heading', { level: 1, name: 'Réglages' })).toBeVisible()
   await expect(page.getByRole('navigation')).toHaveCount(0)
 

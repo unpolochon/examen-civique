@@ -40,6 +40,8 @@ export function useRoute(): Route {
   return matchRoute(hash)
 }
 
-export function navigate(path: string) {
-  location.hash = path
+/** `replace` swaps the current history entry, for redirects that the back button must skip. */
+export function navigate(path: string, replace = false) {
+  if (replace) location.replace(`#${path}`)
+  else location.hash = path
 }

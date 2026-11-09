@@ -7,7 +7,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   reporter: process.env.CI ? 'github' : 'list',
-  use: { baseURL: `http://localhost:${port}/`, trace: 'on-first-retry' },
+  use: { baseURL: `http://localhost:${port}/`, locale: 'fr-FR', trace: 'on-first-retry' },
   projects: [
     { name: 'iphone-webkit', use: { ...devices['iPhone 13'] } },
     { name: 'pixel-chromium', use: { ...devices['Pixel 7'] } },

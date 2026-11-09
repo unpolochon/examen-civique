@@ -8,3 +8,4 @@ dev-dist/
 *.tsbuildinfo
 /blob-report/
 /playwright/.cache/
+e2e/screenshots/

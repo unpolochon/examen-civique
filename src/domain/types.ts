@@ -121,3 +121,11 @@ export interface AppData {
   /** Lesson ids. */
   lessonsRead: string[]
 }
+
+export const THEME_LABELS: Record<Theme, string> = {
+  principes: 'Principes et valeurs',
+  institutions: 'Institutions et politique',
+  droits: 'Droits et devoirs',
+  histoire: 'Histoire, géographie, culture',
+  societe: 'Vivre dans la société',
+}
