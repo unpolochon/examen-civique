@@ -50,7 +50,7 @@ export default function Bienvenue() {
       </div>
 
       <div className="bienvenue__intro">
-        <h1>Préparez l'examen civique de la carte de résident</h1>
+        <h1>Préparez l’examen civique de la carte de résident</h1>
         <p>40 questions, 45 minutes, 32 bonnes réponses pour réussir. Vos données restent sur ce téléphone.</p>
       </div>
 

@@ -18,7 +18,7 @@ test('un examen en cours se reprend depuis l’accueil', async ({ page }) => {
   await expect(card.getByText('En cours')).toBeVisible()
   await expect(card.getByText('Question 13 sur 40')).toBeVisible()
   await expect(card.getByText('Recommandé')).toHaveCount(0)
-  await expect(card.getByRole('link', { name: "Reprendre l'examen blanc" })).toHaveAttribute('href', '#/examen')
+  await expect(card.getByRole('link', { name: 'Reprendre l’examen blanc' })).toHaveAttribute('href', '#/examen')
 })
 
 test('après un examen terminé, l’accueil montre le dernier score', async ({ page }) => {

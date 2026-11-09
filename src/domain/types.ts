@@ -145,8 +145,8 @@ export const NOTION_LABELS: Record<NotionId, string> = {
   'histoire.periodes': 'Principales périodes et personnages historiques',
   'histoire.geographie': 'Territoires et géographie',
   'histoire.patrimoine': 'Patrimoine français',
-  'societe.installation': "S'installer et résider en France",
-  'societe.soins': "L'accès aux soins",
+  'societe.installation': 'S’installer et résider en France',
+  'societe.soins': 'L’accès aux soins',
   'societe.travail': 'Travailler en France',
   'societe.ecole': 'Autorité parentale et système éducatif',
 }

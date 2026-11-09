@@ -32,7 +32,7 @@ export function ExamNotFound() {
   return (
     <div className="resultats">
       <header className="resultats__header">
-        <BackLink href="#/" label="Retour à l'accueil" />
+        <BackLink href="#/" label="Retour à l’accueil" />
       </header>
       <div className="card">
         <h1>Examen introuvable</h1>
@@ -66,7 +66,7 @@ export default function Resultats({ id }: Record<string, string>) {
   return (
     <div className="resultats">
       <header className="resultats__header">
-        <BackLink href="#/" label="Retour à l'accueil" />
+        <BackLink href="#/" label="Retour à l’accueil" />
         <span>{examTitle(record.finishedAt)}</span>
       </header>
 
@@ -137,7 +137,7 @@ export default function Resultats({ id }: Record<string, string>) {
             </a>
           ))
         ) : (
-          <p className="card resultats__empty">Aucune erreur : rien à revoir.</p>
+          <p className="card resultats__empty">Aucune erreur&nbsp;: rien à revoir.</p>
         )}
       </section>
 

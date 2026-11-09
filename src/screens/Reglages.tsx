@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import ConfirmDialog from '../components/ConfirmDialog'
 import InstallHint from '../components/InstallHint'
-import { exportFileName } from '../domain/format'
+import { exportFileName, frenchSpacing } from '../domain/format'
 import { exportJson, importJson } from '../domain/storage'
 import type { AppData } from '../domain/types'
 import { isStandalone } from '../install'
@@ -84,7 +84,7 @@ export default function Reglages() {
         />
         {message && (
           <p role={message.error ? 'alert' : 'status'} className={message.error ? 'field__error' : 'reglages__status'}>
-            {message.text}
+            {frenchSpacing(message.text)}
           </p>
         )}
       </section>
@@ -119,7 +119,7 @@ export default function Reglages() {
           }}
           onCancel={() => setConfirmErase(false)}
         >
-          Votre profil, vos examens et vos cartes seront supprimés de ce téléphone. Exportez d'abord une sauvegarde pour les garder.
+          Votre profil, vos examens et vos cartes seront supprimés de ce téléphone. Exportez d’abord une sauvegarde pour les garder.
         </ConfirmDialog>
       )}
     </div>
@@ -155,7 +155,7 @@ function ProfileForm({ data, update }: { data: AppData; update: ReturnType<typeo
         )}
       </label>
       <label className="field">
-        Date de l'examen
+        Date de l’examen
         <input type="date" value={data.profile.examDate ?? ''} onChange={(e) => setProfile({ examDate: e.target.value || null })} />
       </label>
     </form>

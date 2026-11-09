@@ -9,7 +9,7 @@
   --primary-soft: #e9e9fb;
   --warn: #9a4a12;
   --warn-soft: #fde7dc;
-  --success: #2f7d46;
+  --success: #2a7340;
   --success-soft: #e4f4e8;
   --examen: #d5c8f5;
   --examen-strong: #c2b1ef;
@@ -207,7 +207,7 @@ a:hover {
 
 .bottom-nav a[aria-current='page'] {
   background: var(--primary-soft);
-  color: var(--primary);
+  color: var(--primary-hover); /* --primary on --primary-soft is 4.48:1, under 4.5:1 */
   font-weight: 600;
 }
 
@@ -487,6 +487,9 @@ a:hover {
 }
 
 .accueil__section a {
+  /* 44px touch target, same layout as the 13px text link of the mockup. */
+  padding: 14px 12px;
+  margin: -14px -12px;
   font-size: 13px;
   font-weight: 600;
 }
@@ -1863,10 +1866,6 @@ a:hover {
   color: #fff;
 }
 
-.cartes__grade--oui span {
-  color: var(--primary-soft);
-}
-
 .cartes__state {
   flex: 1;
   display: flex;
@@ -2082,10 +2081,6 @@ a:hover {
 .progression__redo strong {
   font-size: 15px;
   font-weight: 700;
-}
-
-.progression__redo span {
-  color: var(--primary-soft);
 }
 
 .progression__history {

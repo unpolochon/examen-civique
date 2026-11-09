@@ -30,8 +30,8 @@ export default function Progression() {
       <div className="progression">
         <h1>Votre progression</h1>
         <section className="card progression__empty">
-          <h2>Pas encore d'examen blanc</h2>
-          <p>Passez un premier examen blanc : vos scores et votre maîtrise de chaque thématique apparaîtront ici.</p>
+          <h2>Pas encore d’examen blanc</h2>
+          <p>Passez un premier examen blanc&nbsp;: vos scores et votre maîtrise de chaque thématique apparaîtront ici.</p>
           <a href="#/examen" className="pill-button pill-button--primary">
             Faire un examen blanc
           </a>

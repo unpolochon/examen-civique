@@ -19,7 +19,7 @@ export function examDateLabel(examDate: string | null, now: Date): string | null
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
   const days = Math.round((date.getTime() - today.getTime()) / DAY_MS) // round: DST days last 23 or 25 hours
   if (days < 0) return 'Examen passé'
-  if (days === 0) return "Examen aujourd'hui"
+  if (days === 0) return 'Examen aujourd’hui'
   const label = date.toLocaleDateString('fr-FR', {
     day: 'numeric',
     month: 'short',
@@ -58,7 +58,7 @@ export function scoreDeltaLabel(first: { score: number; finishedAt: string }, la
   }
   const days = Math.round((day(last.finishedAt) - day(first.finishedAt)) / DAY_MS) // round: DST days last 23 or 25 hours
   const period =
-    days === 0 ? "aujourd'hui" : days < 14 ? `en ${plural(days, 'jour')}` : days < 60 ? `en ${Math.round(days / 7)} semaines` : `en ${Math.round(days / 30)} mois`
+    days === 0 ? 'aujourd’hui' : days < 14 ? `en ${plural(days, 'jour')}` : days < 60 ? `en ${Math.round(days / 7)} semaines` : `en ${Math.round(days / 30)} mois`
   return `${delta > 0 ? '+' : '-'}${Math.abs(delta)} ${period}`
 }
 

@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import InstallHint from '../components/InstallHint'
 import { lessons, questions } from '../content'
 import { isPassed } from '../domain/exam'
-import { examDateLabel, themeMeta } from '../domain/format'
+import { examDateLabel, frenchSpacing, themeMeta } from '../domain/format'
 import { dueCards } from '../domain/srs'
 import { PASS_SCORE, THEME_LABELS, THEMES, type AppData } from '../domain/types'
 import { dismissInstallHint, installHintDismissed, isIosSafari, isStandalone } from '../install'
@@ -84,7 +84,7 @@ function ExamCard({ data }: { data: AppData }) {
         'En cours',
         `Question ${inProgress.current + 1} sur ${inProgress.questionIds.length}`,
         'Vos réponses sont enregistrées : reprenez là où vous en étiez.',
-        "Reprendre l'examen blanc",
+        'Reprendre l’examen blanc',
       ]
     : last
       ? [
@@ -98,7 +98,7 @@ function ExamCard({ data }: { data: AppData }) {
       : [
           'Recommandé',
           '40 questions · 45 min · comme le jour J',
-          "Commencez par là : vous verrez vos points forts et ce qu'il faut revoir.",
+          'Commencez par là : vous verrez vos points forts et ce qu’il faut revoir.',
           'Commencer',
         ]
 
@@ -106,8 +106,8 @@ function ExamCard({ data }: { data: AppData }) {
     <section className="exam-card" aria-labelledby="exam-card-title">
       {tag && <span className="exam-card__tag">{tag}</span>}
       <h2 id="exam-card-title">Examen blanc</h2>
-      <span className="exam-card__meta">{meta}</span>
-      <p>{text}</p>
+      <span className="exam-card__meta">{frenchSpacing(meta)}</span>
+      <p>{frenchSpacing(text)}</p>
       <a href="#/examen" className="pill-button pill-button--primary pill-button--small">
         {action}
       </a>

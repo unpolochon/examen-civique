@@ -62,7 +62,7 @@ test('un seul examen : pas d’évolution affichée', async ({ page }) => {
 
 test('sans examen, la page invite à en passer un', async ({ page }) => {
   await seed(page, appData(), '#/progres')
-  await expect(page.getByRole('heading', { name: "Pas encore d'examen blanc" })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Pas encore d’examen blanc' })).toBeVisible()
   await expect(page.getByRole('link', { name: 'Faire un examen blanc' })).toHaveAttribute('href', '#/examen')
   await expect(page.getByRole('img')).toHaveCount(0)
 })

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef } from 'react'
 import ThemeHero from '../components/ThemeHero'
 import { lessonById, lessons, questions } from '../content'
 import { renderLesson } from '../content/markdown'
+import { frenchSpacing } from '../domain/format'
 import { THEME_LABELS, type Lesson } from '../domain/types'
 import { useAppData } from '../state'
 
@@ -93,7 +94,7 @@ function Sibling({ lesson, label, next }: { lesson: Lesson; label: string; next?
   return (
     <a href={`#/lecon/${lesson.id}`} className={next ? 'lecon__sibling lecon__sibling--next' : 'lecon__sibling'}>
       <small>{label}</small>
-      <span>{lesson.title}</span>
+      <span>{frenchSpacing(lesson.title)}</span>
     </a>
   )
 }
@@ -109,7 +110,7 @@ export function NotFound() {
         </a>
         <h1>Leçon introuvable</h1>
       </header>
-      <p className="lecons__empty">Cette page n'existe pas ou plus.</p>
+      <p className="lecons__empty">Cette page n’existe pas ou plus.</p>
     </div>
   )
 }

@@ -12,12 +12,12 @@ test('modifier le prénom et la date est enregistré aussitôt', async ({ page }
   expect((await stored(page)).profile.firstName).toBe('Paul')
 
   await name.fill('Jean Marc ')
-  await page.getByLabel("Date de l'examen").fill('2030-01-20')
+  await page.getByLabel('Date de l’examen').fill('2030-01-20')
   expect((await stored(page)).profile).toMatchObject({ firstName: 'Jean Marc', examDate: '2030-01-20' })
 
   await page.reload()
   await expect(page.getByLabel('Prénom')).toHaveValue('Jean Marc')
-  await expect(page.getByLabel("Date de l'examen")).toHaveValue('2030-01-20')
+  await expect(page.getByLabel('Date de l’examen')).toHaveValue('2030-01-20')
 
   await page.getByRole('link', { name: 'Retour' }).click()
   await expect(page.getByRole('heading', { level: 1, name: 'Bonjour Jean Marc' })).toBeVisible()
@@ -55,7 +55,7 @@ test('importer remplace les données après confirmation', async ({ page }) => {
 test('un fichier invalide affiche une erreur et ne change rien', async ({ page }) => {
   await seed(page, undefined, '#/reglages')
   await page.getByLabel('Fichier de sauvegarde à importer').setInputFiles({ name: 'photo.json', mimeType: 'application/json', buffer: Buffer.from('pas du json') })
-  await expect(page.getByRole('alert')).toHaveText("Ce fichier n'est pas une sauvegarde Civique (JSON illisible).")
+  await expect(page.getByRole('alert')).toHaveText('Ce fichier n’est pas une sauvegarde Civique (JSON illisible).')
   await expect(page.getByRole('dialog')).toHaveCount(0)
   expect((await stored(page)).profile.firstName).toBe('Paul')
 })

@@ -85,7 +85,7 @@ test('examen-terminer', async ({ page }) => {
   exam.answers[exam.questionIds[21]] = null
   exam.flagged = [exam.questionIds[4], exam.questionIds[17], exam.questionIds[33]]
   await seed(page, appData({ profile, examInProgress: exam }), '#/examen')
-  await page.getByRole('button', { name: "Terminer l'examen" }).click()
+  await page.getByRole('button', { name: 'Terminer l’examen' }).click()
   await shoot(page, 'examen-terminer')
 })
 

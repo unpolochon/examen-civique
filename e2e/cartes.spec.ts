@@ -53,7 +53,7 @@ test('les cartes dues se révèlent, se notent et sont enregistrées', async ({ 
   await expect(grades.getByRole('button')).toHaveText(['Nondans 10 min', 'Hésitédans 3 jours', 'Ouidans 7 jours'])
   await grades.getByRole('button', { name: /^Non/ }).click()
 
-  await expect(page.getByRole('heading', { level: 1, name: "Bravo, plus de cartes pour aujourd'hui" })).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1, name: 'Bravo, plus de cartes pour aujourd’hui' })).toBeVisible()
   await expect(page.getByText('Vous avez revu 2 cartes.')).toBeVisible()
   await expect(page.locator('.cartes__count')).toHaveText(['1Non', '0Hésité', '1Oui'])
   cards = (await stored(page)).cards

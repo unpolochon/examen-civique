@@ -1,5 +1,6 @@
 import ThemeHero from '../components/ThemeHero'
 import { lessons, questions } from '../content'
+import { frenchSpacing } from '../domain/format'
 import { NOTION_LABELS, THEME_LABELS, THEMES, type Theme as ThemeId } from '../domain/types'
 import { useAppData } from '../state'
 import { NotFound } from './Lecon'
@@ -28,7 +29,7 @@ export default function Theme({ theme }: Record<string, string>) {
             <li key={lesson.id}>
               <a href={`#/lecon/${lesson.id}`} className="lesson-card">
                 <span className="lesson-card__text">
-                  <span className="lesson-card__title">{lesson.title}</span>
+                  <span className="lesson-card__title">{frenchSpacing(lesson.title)}</span>
                   <span className="lesson-card__meta">
                     {lesson.minutes} min · {NOTION_LABELS[lesson.notion]}
                   </span>

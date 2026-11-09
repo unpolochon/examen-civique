@@ -20,12 +20,12 @@ export function parseLesson(text: string): Lesson {
       continue
     }
     const pair = /^([a-z]+):\s*(.*)$/.exec(line)
-    if (!pair) throw new Error(`ligne d'en-tête illisible : « ${line} »`)
+    if (!pair) throw new Error(`ligne d’en-tête illisible : « ${line} »`)
     inSources = pair[1] === 'sources'
     if (!inSources) fields[pair[1]] = pair[2].trim().replace(/^"(.*)"$/, '$1')
   }
   for (const key of ['id', 'theme', 'notion', 'title', 'minutes', 'order']) {
-    if (!fields[key]) throw new Error(`champ « ${key} » manquant dans l'en-tête`)
+    if (!fields[key]) throw new Error(`champ « ${key} » manquant dans l’en-tête`)
   }
   const minutes = Number(fields.minutes)
   const order = Number(fields.order)

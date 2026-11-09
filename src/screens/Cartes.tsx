@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { lessonById, questionById, questions } from '../content'
-import { intervalLabel } from '../domain/format'
+import { frenchSpacing, intervalLabel } from '../domain/format'
 import { dueCards, review, type Grade } from '../domain/srs'
 import { THEME_LABELS } from '../domain/types'
 import { useAppData } from '../state'
@@ -65,7 +65,7 @@ function Session({ lessonId }: { lessonId?: string }) {
           title={lessonId ? 'Aucune carte pour cette leçon' : 'Aucune carte à revoir'}
           text={
             lessonId
-              ? "Cette leçon n'a pas encore de questions. Choisissez une autre leçon."
+              ? 'Cette leçon n’a pas encore de questions. Choisissez une autre leçon.'
               : Object.keys(cards).length
                 ? 'Vos prochaines cartes ne sont pas encore dues. Faites un examen blanc ou révisez une leçon en attendant.'
                 : 'Les erreurs de vos examens blancs deviennent des cartes à revoir. Faites un examen blanc ou révisez une leçon.'
@@ -90,7 +90,7 @@ function Session({ lessonId }: { lessonId?: string }) {
         {header()}
         <State
           done
-          title={lessonId ? 'Bravo, toutes les cartes de la leçon sont revues' : "Bravo, plus de cartes pour aujourd'hui"}
+          title={lessonId ? 'Bravo, toutes les cartes de la leçon sont revues' : 'Bravo, plus de cartes pour aujourd’hui'}
           text={`Vous avez revu ${ids.length} carte${ids.length > 1 ? 's' : ''}.`}
         >
           <div className="cartes__counts">
@@ -107,7 +107,7 @@ function Session({ lessonId }: { lessonId?: string }) {
             </a>
           )}
           <a href="#/" className="pill-button pill-button--primary">
-            {"Retour à l'accueil"}
+            {'Retour à l’accueil'}
           </a>
         </State>
       </div>
@@ -137,14 +137,14 @@ function Session({ lessonId }: { lessonId?: string }) {
       <section className={`cartes__card theme-tile--${question.theme}`} aria-label="Carte">
         <span className="chip">{THEME_LABELS[question.theme]}</span>
         <h1 ref={questionRef} tabIndex={-1}>
-          {question.question}
+          {frenchSpacing(question.question)}
         </h1>
         {revealed && (
           <div ref={answerRef} tabIndex={-1} className="cartes__answer">
             <span className="cartes__answer-label">Réponse</span>
-            <span className="cartes__answer-text">{question.choices[question.answer]}</span>
-            <p>{question.explanation}</p>
-            {questionLesson && <a href={`#/lecon/${questionLesson.id}`}>Relire la leçon « {questionLesson.title} »</a>}
+            <span className="cartes__answer-text">{frenchSpacing(question.choices[question.answer])}</span>
+            <p>{frenchSpacing(question.explanation)}</p>
+            {questionLesson && <a href={`#/lecon/${questionLesson.id}`}>{frenchSpacing(`Relire la leçon « ${questionLesson.title} »`)}</a>}
           </div>
         )}
       </section>
@@ -152,7 +152,7 @@ function Session({ lessonId }: { lessonId?: string }) {
       <div className="cartes__actions">
         {revealed ? (
           <>
-            <span id="cartes-prompt">Vous la connaissiez ?</span>
+            <span id="cartes-prompt">Vous la connaissiez&nbsp;?</span>
             <div className="cartes__grades" role="group" aria-labelledby="cartes-prompt">
               {GRADES.map(({ grade: value, label }) => {
                 const delay = intervalLabel(Date.parse(review(cards[question.id], value, now).due) - now.getTime())
@@ -193,8 +193,8 @@ function State({ title, text, done = false, children }: { title: string; text: s
           )}
         </svg>
       </span>
-      <h1>{title}</h1>
-      <p>{text}</p>
+      <h1>{frenchSpacing(title)}</h1>
+      <p>{frenchSpacing(text)}</p>
       <div className="cartes__state-actions">{children}</div>
     </section>
   )
