@@ -17,14 +17,16 @@ const patterns = {
 export type RouteName = keyof typeof patterns
 export type Route = { name: RouteName; params: Record<string, string> }
 
+/** Query parameters (`#/cartes?lecon=a%2Fb`) are added to the route params. */
 export function matchRoute(hash: string): Route {
-  const parts = (hash.replace(/^#/, '') || '/').split('/').filter(Boolean)
+  const [path, query] = hash.replace(/^#/, '').split('?', 2)
+  const parts = (path || '/').split('/').filter(Boolean)
   for (const [name, pattern] of Object.entries(patterns) as [RouteName, string][]) {
     const keys = pattern.split('/').filter(Boolean)
     if (keys.length !== parts.length) continue
     const params: Record<string, string> = {}
     if (keys.every((k, i) => (k.startsWith(':') ? (params[k.slice(1)] = decodeURIComponent(parts[i])) : k === parts[i]))) {
-      return { name, params }
+      return { name, params: { ...Object.fromEntries(new URLSearchParams(query)), ...params } }
     }
   }
   return { name: 'accueil', params: {} } // ponytail: unknown routes fall back to Accueil, add a 404 screen if needed

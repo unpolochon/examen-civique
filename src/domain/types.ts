@@ -129,3 +129,22 @@ export const THEME_LABELS: Record<Theme, string> = {
   histoire: 'Histoire, géographie, culture',
   societe: 'Vivre dans la société',
 }
+
+export const NOTION_LABELS: Record<NotionId, string> = {
+  'principes.devise-symboles': 'Devise et symboles de la République',
+  'principes.laicite': 'Laïcité',
+  'principes.situations': 'Mises en situation',
+  'institutions.democratie-vote': 'Démocratie et droit de vote',
+  'institutions.organisation': 'Organisation de la République française',
+  'institutions.europe': 'Institutions européennes',
+  'droits.fondamentaux': 'Droits fondamentaux',
+  'droits.obligations': 'Obligations et devoirs',
+  'droits.situations': 'Mises en situation',
+  'histoire.periodes': 'Principales périodes et personnages historiques',
+  'histoire.geographie': 'Territoires et géographie',
+  'histoire.patrimoine': 'Patrimoine français',
+  'societe.installation': "S'installer et résider en France",
+  'societe.soins': "L'accès aux soins",
+  'societe.travail': 'Travailler en France',
+  'societe.ecole': 'Autorité parentale et système éducatif',
+}

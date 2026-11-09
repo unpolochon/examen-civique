@@ -11,5 +11,7 @@ test('matchRoute reconnaît les routes et leurs paramètres', () => {
     params: { theme: 'histoire', slug: 'la-revolution' },
   })
   expect(matchRoute('#/resultats/abc')).toEqual({ name: 'resultats', params: { id: 'abc' } })
+  expect(matchRoute('#/cartes?lecon=principes%2Fliberte')).toEqual({ name: 'cartes', params: { lecon: 'principes/liberte' } })
+  expect(matchRoute('#/lecons/droits?theme=x')).toEqual({ name: 'theme', params: { theme: 'droits' } })
   expect(matchRoute('#/inconnu/x')).toEqual({ name: 'accueil', params: {} })
 })

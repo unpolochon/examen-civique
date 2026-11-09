@@ -1,4 +1,4 @@
-import { useEffect, type ComponentType } from 'react'
+import { useEffect, useLayoutEffect, type ComponentType } from 'react'
 import BottomNav from './components/BottomNav'
 import { navigate, useRoute, type RouteName } from './router'
 import Accueil from './screens/Accueil'
@@ -49,6 +49,11 @@ function Shell() {
   const name: RouteName = redirect ? (data ? 'accueil' : 'bienvenue') : route.name
   const params = redirect ? {} : route.params
   const Screen = screens[name]
+  // A new screen opens at the top (a hash change keeps the scroll position). Layout effect: before screens observe what is visible.
+  const routeKey = name + JSON.stringify(params)
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [routeKey])
   const nav = withNav.includes(name)
   return (
     <>
