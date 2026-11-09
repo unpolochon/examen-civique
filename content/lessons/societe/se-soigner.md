@@ -75,7 +75,7 @@ La contraception est accessible à **toute personne qui le souhaite**, femme ou 
 
 ## Prévenir les maladies
 
-La **vaccination** protège chacun et protège les autres. Certains vaccins sont **obligatoires** pour les jeunes enfants : ils sont exigés pour entrer à la crèche ou à l’école. Les vaccins faits sont notés dans le **carnet de santé**.
+La **vaccination** protège chacun et protège les autres. **11 vaccins** sont **obligatoires** pour les jeunes enfants : ils sont exigés pour entrer à la crèche ou à l’école. Les vaccins faits sont notés dans le **carnet de santé**.
 
 Le **dépistage** repère une maladie avant les premiers signes, pour mieux la soigner.
 

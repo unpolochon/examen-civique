@@ -699,7 +699,7 @@
       "Plus de 2 milliards"
     ],
     "answer": 0,
-    "explanation": "Environ 396 millions de personnes parlent français dans le monde, sur les 5 continents.",
+    "explanation": "Le référentiel de l’examen compte 321 millions de francophones, sur les 5 continents.",
     "lesson": "histoire/artistes-et-langue-francaise",
     "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
   },
@@ -783,16 +783,15 @@
     "official": true,
     "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
     "choices": [
-      "Quatrième",
+      "Cinquième",
       "Première",
       "Deuxième",
       "Dixième"
     ],
     "answer": 0,
-    "explanation": "Avec environ 396 millions de locuteurs, le français est la 4e langue la plus parlée au monde, selon la fiche officielle et le rapport 2026 de la Francophonie.",
+    "explanation": "Le référentiel officiel de l’examen (arrêté du 10 octobre 2025) et le quiz recommandé par le ministère retiennent 321 millions de francophones : le français est la 5e langue la plus parlée au monde.",
     "lesson": "histoire/artistes-et-langue-francaise",
-    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/",
-    "review": "L’arrêté du 10 octobre 2025 (annexe I) écrit « 5e langue mondiale » et « 321 millions de francophones » (chiffres de l’OIF de 2022). La fiche officielle et le rapport de l’OIF de mars 2026 donnent la 4e place et 396 millions de locuteurs. Nous retenons la 4e place, donnée la plus récente et conforme à leqcmcivique. « Cinquième » est exclu des choix pour éviter deux réponses défendables."
+    "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052381620/"
   },
   {
     "id": "CR-173",

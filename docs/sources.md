@@ -25,7 +25,7 @@ Recensement fait le 9 novembre 2026. Les sources officielles font foi. Les autre
 | [Fiches par journée](https://formation-civique.interieur.gouv.fr/fiches-par-journ%C3%A9e/) | Même contenu, découpé par journée de formation | Complément |
 | [Ministère de l'Intérieur - examen civique](https://www.immigration.interieur.gouv.fr/limmigration-en-france/sejour-des-etrangers/lexamen-civique-pour-demander-titre-de-sejour) | Page de référence | Vérification |
 | [Manuel du candidat (FEI)](https://www.france-education-international.fr/document/manuelcandidatexamencivique) | Déroulement le jour J | Conseils pratiques |
-| [Quiz France Fraternité](https://www.ensemble-en-france.org/quiz-examen-civique-gratuit-debutant/) | 50 questions, recommandé par le ministère | Exemples de mises en situation |
+| [Quiz France Fraternité](https://www.ensemble-en-france.org/quiz-examen-civique-gratuit-debutant/) | 5 quiz thématiques, 75 questions corrigées, recommandé par le ministère | Référence pour trancher les divergences (voir [divergences.md](divergences.md)) |
 
 Les 5 thématiques officielles et le nombre de questions de connaissance CR publiées :
 

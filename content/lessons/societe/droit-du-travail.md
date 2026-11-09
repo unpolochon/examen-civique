@@ -39,6 +39,7 @@ On peut travailler dès **16 ans**, avec l’autorisation de ses parents.
 - Le salaire ne peut pas être inférieur au **SMIC** (salaire minimum de croissance).
 - L’employeur remet un **bulletin de paie** à chaque versement du salaire.
 - Chaque salarié a droit à des **congés payés** : **2,5 jours ouvrables** par mois travaillé, soit **5 semaines** par an.
+- À la naissance, la mère a droit à un **congé de maternité** d’au moins **16 semaines**. Le père ou le second parent a droit à un **congé de paternité et d’accueil de l’enfant** de **25 jours**, dont **4 jours obligatoires**.
 - Après une naissance ou une adoption, **chaque parent salarié**, le père comme la mère, peut demander un **congé parental d’éducation** pour s’occuper de son enfant. Il faut au moins **1 an** d’ancienneté dans l’entreprise.
 
 ## Se défendre ensemble : syndicats et grève

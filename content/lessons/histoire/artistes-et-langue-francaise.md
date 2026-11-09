@@ -70,9 +70,9 @@ La culture française s’enrichit aussi d’artistes venus d’ailleurs :
 
 Le français est parlé sur les **5 continents**. Il est la langue officielle de **plus de 30 pays**.
 
-Selon la fiche officielle et le rapport 2026 de l’Organisation internationale de la Francophonie, environ **396 millions** de personnes parlent français. C’est la **4e langue la plus parlée** au monde.
+Le référentiel officiel de l’examen (arrêté du 10 octobre 2025) compte **321 millions** de francophones. Le français est la **5e langue la plus parlée** au monde. C’est la réponse attendue à l’examen.
 
-Attention : l’arrêté de 2025 sur l’examen reprend des chiffres plus anciens (2022) : 321 millions de francophones et 5e langue mondiale. Dans tous les cas, retenez **plus de 300 millions** de locuteurs.
+Un rapport plus récent de l’Organisation internationale de la Francophonie (2026) avance environ 396 millions de locuteurs. Dans tous les cas, retenez **plus de 300 millions** de locuteurs.
 
 Le français est aussi une langue de travail à l’ONU, dans l’Union européenne et au Comité international olympique.
 
@@ -85,5 +85,5 @@ Les **Alliances françaises** et les **Instituts français**, présents dans plu
 - Marguerite Yourcenar est une écrivaine, première femme élue à l’Académie française (1980) ; Simone de Beauvoir et George Sand sont aussi de grandes écrivaines.
 - Claude Monet et Auguste Renoir sont des peintres impressionnistes français.
 - Auguste Rodin est un sculpteur, auteur du Penseur ; Claude Debussy est un compositeur.
-- Plus de 300 millions de personnes parlent français (environ 396 millions selon l’OIF en 2026).
-- Le français est la 4e langue la plus parlée au monde selon la fiche officielle (5e dans l’arrêté de 2025).
+- Plus de 300 millions de personnes parlent français : 321 millions selon le référentiel de l’examen.
+- Le français est la 5e langue la plus parlée au monde.

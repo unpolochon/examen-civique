@@ -31,6 +31,8 @@ Une fois inscrit, on reçoit :
 
 Chez le médecin ou à la pharmacie, on présente sa carte Vitale. Le professionnel envoie une feuille de soins électronique, et le remboursement est rapide. La carte Vitale n’est pas une carte de paiement.
 
+Une consultation chez le médecin est remboursée à **70 %** par l’Assurance maladie, moins une participation forfaitaire de 2 €. La **complémentaire santé** (mutuelle) peut payer le reste. Hors du parcours de soins coordonnés, c’est-à-dire sans passer par son médecin traitant, on est moins bien remboursé.
+
 Avec le **tiers payant**, on n’avance pas l’argent : l’Assurance maladie paie directement le professionnel. On suit ses remboursements sur son **compte Ameli**, en ligne.
 
 ## La complémentaire santé

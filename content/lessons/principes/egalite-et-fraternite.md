@@ -58,6 +58,7 @@ L’État lutte contre plusieurs formes de rejet : le racisme, l’antisémitism
 Une victime peut agir :
 
 - auprès du **Défenseur des droits**, une autorité indépendante qui défend l’égalité et aide gratuitement les victimes ;
+- au **39 28**, le numéro gratuit pour les victimes et les témoins de discriminations ;
 - en déposant plainte au commissariat ou à la gendarmerie ;
 - au travail, auprès de l’Inspection du travail, d’un représentant du personnel ou d’un syndicat.
 
