@@ -1,0 +1,191 @@
+[
+  {
+    "id": "CR-011",
+    "theme": "principes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est la devise de la France ?",
+    "choices": [
+      "Liberté, Égalité, Fraternité",
+      "Travail, Famille, Patrie",
+      "Unité, Progrès, Justice",
+      "Liberté, Sécurité, Solidarité"
+    ],
+    "answer": 0,
+    "explanation": "Explication CR-011.",
+    "notion": "principes.devise-symboles",
+    "lesson": "principes/symboles",
+    "review": "Réponse confirmée par l'article 2 de la Constitution.",
+    "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052381620/"
+  },
+  {
+    "id": "P-01",
+    "theme": "principes",
+    "type": "connaissance",
+    "official": false,
+    "question": "Question P-01 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-01.",
+    "notion": "principes.devise-symboles",
+    "lesson": "principes/symboles"
+  },
+  {
+    "id": "P-02",
+    "theme": "principes",
+    "type": "connaissance",
+    "official": false,
+    "question": "Question P-02 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-02.",
+    "notion": "principes.devise-symboles",
+    "lesson": "principes/symboles"
+  },
+  {
+    "id": "P-03",
+    "theme": "principes",
+    "type": "connaissance",
+    "official": false,
+    "question": "Question P-03 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-03.",
+    "notion": "principes.laicite",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-04",
+    "theme": "principes",
+    "type": "connaissance",
+    "official": false,
+    "question": "Question P-04 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-04.",
+    "notion": "principes.laicite",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S1",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S1 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S1.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S2",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S2 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S2.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S3",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S3 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S3.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S4",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S4 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S4.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S5",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S5 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S5.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  },
+  {
+    "id": "P-S6",
+    "theme": "principes",
+    "type": "situation",
+    "official": false,
+    "question": "Question P-S6 ?",
+    "choices": [
+      "Réponse A",
+      "Réponse B",
+      "Réponse C",
+      "Réponse D"
+    ],
+    "answer": 0,
+    "explanation": "Explication P-S6.",
+    "notion": "principes.situations",
+    "lesson": "principes/laicite"
+  }
+]
