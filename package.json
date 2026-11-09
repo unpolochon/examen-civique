@@ -10,7 +10,8 @@
     "test": "vitest run",
     "lint": "eslint .",
     "e2e": "playwright test",
-    "icons": "node scripts/make-icons.mjs"
+    "icons": "node scripts/make-icons.mjs",
+    "validate:content": "node scripts/validate-content.ts"
   },
   "dependencies": {
     "react": "19.3.1",
