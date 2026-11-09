@@ -11,7 +11,7 @@ Format : `[ID] [P?] [Histoire] Description`
 ## Phase 1 : mise en place
 
 - [ ] T001 Initialiser le projet : Vite + React + TypeScript, `vite-plugin-pwa`, ESLint, Vitest, Playwright, git. Fichiers : `package.json`, `vite.config.ts`, `tsconfig.json`.
-- [ ] T002 [P] Déploiement GitHub Pages par GitHub Actions à chaque push sur `main`. Fichier : `.github/workflows/deploy.yml`.
+- [x] T002 [P] Déploiement GitHub Pages par GitHub Actions à chaque push sur `main`. Fichier : `.github/workflows/deploy.yml`.
 - [x] T003 [P] Vérifier sur Légifrance la répartition des 40 questions par thématique. Fait : [docs/referentiel.md](../../docs/referentiel.md).
 
 ## Phase 2 : fondations (bloque les histoires utilisateur)
@@ -19,7 +19,7 @@ Format : `[ID] [P?] [Histoire] Description`
 - [ ] T004 Types du contenu (`Question`, `Lesson`) et script `scripts/validate-content.ts` : 4 choix, 1 bonne réponse, leçon existante, 209 questions officielles présentes. Lancé dans `npm test`.
 - [ ] T005 [P] Module de stockage `src/domain/storage.ts` : un profil unique, version, export, import, effacement. Tests Vitest.
 - [ ] T006 [P] Coquille de l'app : routeur par hash, barre de navigation basse, jetons CSS de la palette pastel de [plan.md](plan.md), polices Inter et Space Grotesk. Fichiers : `src/App.tsx`, `src/styles.css`.
-- [ ] T031 [P] Script `scripts/check-official.ts` : télécharge la liste officielle CR et le jeu data.gouv, compare avec `data/official/cr-questions.json`, échoue en cas de différence. Commande `npm run check:official`.
+- [x] T031 [P] Script `scripts/check-official.ts` : télécharge la liste officielle CR et le jeu data.gouv, compare avec `data/official/cr-questions.json`, échoue en cas de différence. Commande `npm run check:official`.
 
 ## Phase 3 : contenu (en parallèle, un agent par thématique)
 
