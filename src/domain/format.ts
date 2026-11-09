@@ -60,6 +60,8 @@ export function scoreDeltaLabel(first: { score: number; finishedAt: string }, la
   const period =
     days === 0 ? "aujourd'hui" : days < 14 ? `en ${plural(days, 'jour')}` : days < 60 ? `en ${Math.round(days / 7)} semaines` : `en ${Math.round(days / 30)} mois`
   return `${delta > 0 ? '+' : '-'}${Math.abs(delta)} ${period}`
+}
+
 /** Countdown as mm:ss, rounded up so that 00:00 shows only when the time is over. */
 export function formatTimer(ms: number): string {
   const seconds = Math.ceil(ms / 1000)

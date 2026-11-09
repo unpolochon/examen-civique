@@ -44,6 +44,8 @@ test('scoreDeltaLabel compare le premier et le dernier examen affichés', () => 
   expect(scoreDeltaLabel(exam(20, 9), exam(24, 9))).toBe("+4 aujourd'hui")
   expect(scoreDeltaLabel(exam(20, 1, 7), exam(30, 9))).toBe('+10 en 3 mois')
   expect(scoreDeltaLabel(exam(25, 1), exam(25, 9))).toBe('Score stable')
+})
+
 test('plural accorde chaque mot', () => {
   expect(plural(1, 'bonne réponse')).toBe('1 bonne réponse')
   expect(plural(5, 'bonne réponse')).toBe('5 bonnes réponses')

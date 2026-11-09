@@ -43,28 +43,28 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 ## Phase 5 : US2 - Examen blanc (P1)
 
 - [x] T016 [P] [US2] Tirage et score dans `src/domain/exam.ts` : 28 + 12, répartition de T003, priorité aux questions non vues, mélange. Tests Vitest.
-- [ ] T017 [US2] Écran d'examen : question, 4 choix, minuteur de 45 min, « À revoir », progression, sauvegarde à chaque réponse, reprise après fermeture. Fichier : `src/screens/Examen.tsx`.
+- [x] T017 [US2] Écran d'examen : question, 4 choix, minuteur de 45 min, « À revoir », progression, sauvegarde à chaque réponse, reprise après fermeture. Fichier : `src/screens/Examen.tsx`.
 - [x] T018 [US2] Accueil : carte « Faites un examen blanc » mise en avant tant qu'aucun examen n'est terminé, liste des 5 modules. Fichier : `src/screens/Accueil.tsx`.
 
 ## Phase 6 : US3 - Résultats et plan de révision (P1)
 
 - [x] T019 [P] [US3] Plan de révision dans `src/domain/plan.ts` selon les règles de [plan.md](plan.md). Tests Vitest avec des examens types.
-- [ ] T020 [US3] Écran de résultats : score, écart au seuil, scores par thématique, plan de révision. Fichier : `src/screens/Resultats.tsx`.
-- [ ] T021 [US3] Correction détaillée : réponse donnée, bonne réponse, explication, lien vers la leçon. Fichier : `src/screens/Correction.tsx`.
+- [x] T020 [US3] Écran de résultats : score, écart au seuil, scores par thématique, plan de révision. Fichier : `src/screens/Resultats.tsx`.
+- [x] T021 [US3] Correction détaillée : réponse donnée, bonne réponse, explication, lien vers la leçon. Fichier : `src/screens/Correction.tsx`.
 
 ## Phase 7 : US4 - Leçons (P2)
 
-- [ ] T022 [US4] Liste des leçons d'un module et lecteur de leçon (Markdown, encadré « À retenir », source), marquage « lue ». Fichiers : `src/screens/Module.tsx`, `src/screens/Lecon.tsx`.
-- [ ] T023 [US4] Bouton « Me tester sur cette leçon » qui ouvre les cartes de la leçon.
+- [x] T022 [US4] Liste des leçons d'un module et lecteur de leçon (Markdown, encadré « À retenir », source), marquage « lue ». Fichiers : `src/screens/Module.tsx`, `src/screens/Lecon.tsx`.
+- [x] T023 [US4] Bouton « Me tester sur cette leçon » qui ouvre les cartes de la leçon.
 
 ## Phase 8 : US5 - Cartes (P2)
 
 - [x] T024 [P] [US5] Répétition espacée dans `src/domain/srs.ts` (Leitner, 6 niveaux). Tests Vitest avec horloge simulée.
-- [ ] T025 [US5] Écran de cartes : recto, verso, réponses « Non », « Hésité », « Oui ». Les erreurs d'examen deviennent dues. Fichier : `src/screens/Cartes.tsx`.
+- [x] T025 [US5] Écran de cartes : recto, verso, réponses « Non », « Hésité », « Oui ». Les erreurs d'examen deviennent dues. Fichier : `src/screens/Cartes.tsx`.
 
 ## Phase 9 : US6 - Progression (P3)
 
-- [ ] T026 [US6] Écran Progrès : courbe des scores avec le seuil de 32, maîtrise par thématique, « Refaire un examen blanc ». Fichier : `src/screens/Progression.tsx`.
+- [x] T026 [US6] Écran Progrès : courbe des scores avec le seuil de 32, maîtrise par thématique, « Refaire un examen blanc ». Fichier : `src/screens/Progression.tsx`.
 
 ## Phase 10 : finitions
 

@@ -149,6 +149,8 @@ export const NOTION_LABELS: Record<NotionId, string> = {
   'societe.soins': "L'accès aux soins",
   'societe.travail': 'Travailler en France',
   'societe.ecole': 'Autorité parentale et système éducatif',
+}
+
 /** Labels where space is short (results rows, progress tiles), as in the mockups. */
 export const THEME_SHORT_LABELS: Record<Theme, string> = {
   ...THEME_LABELS,
