@@ -114,7 +114,7 @@ Système de Leitner à 6 niveaux, intervalles : 10 min, 1 j, 3 j, 7 j, 16 j, 35 
 - « Hésité » : le niveau ne change pas.
 - « Oui » : niveau + 1.
 
-Une carte au niveau 5 est considérée comme maîtrisée.
+Une carte est considérée comme maîtrisée à partir du niveau 3 (intervalle d'au moins 7 jours) : c'est cette part qui donne la « maîtrise par thématique » de l'écran Progrès.
 
 ### Stockage
 
