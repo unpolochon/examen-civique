@@ -1,0 +1,887 @@
+[
+  {
+    "id": "CR-129",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel était le surnom de Louis XIV ?",
+    "choices": [
+      "Le Roi-Soleil",
+      "Le Bien-Aimé",
+      "Le Petit Caporal",
+      "Le Roi des Français"
+    ],
+    "answer": 0,
+    "explanation": "Louis XIV est surnommé le Roi-Soleil. Il incarne la monarchie absolue de l’Ancien Régime.",
+    "lesson": "histoire/de-la-monarchie-a-la-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789/"
+  },
+  {
+    "id": "CR-130",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "choices": [
+      "Louis XVI",
+      "Louis XIV",
+      "Louis XVIII",
+      "Charles X"
+    ],
+    "answer": 0,
+    "explanation": "Louis XVI est renversé le 10 août 1792, puis exécuté en 1793, sous la Première République.",
+    "lesson": "histoire/de-la-monarchie-a-la-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+  },
+  {
+    "id": "CR-131",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "choices": [
+      "En 1804",
+      "En 1789",
+      "En 1799",
+      "En 1815"
+    ],
+    "answer": 0,
+    "explanation": "Napoléon Bonaparte est proclamé empereur le 18 mai 1804. Le Premier Empire dure jusqu’en 1815.",
+    "lesson": "histoire/de-la-monarchie-a-la-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"
+  },
+  {
+    "id": "CR-132",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "choices": [
+      "Charles de Gaulle",
+      "Louis XIV",
+      "Clovis",
+      "Charlemagne"
+    ],
+    "answer": 0,
+    "explanation": "Charles de Gaulle a fondé la Ve République en 1958 et en a été le premier président. Les trois autres sont des rois de l’époque de la monarchie, bien avant la Révolution.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/"
+  },
+  {
+    "id": "CR-133",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "choices": [
+      "Le 18 juin 1940",
+      "Le 14 juillet 1789",
+      "Le 11 novembre 1918",
+      "Le 8 mai 1945"
+    ],
+    "answer": 0,
+    "explanation": "Le 18 juin 1940, depuis Londres, le général de Gaulle appelle à la radio les Français à continuer le combat contre l’Allemagne nazie.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+  },
+  {
+    "id": "CR-134",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "choices": [
+      "Pour ne pas oublier le génocide des Juifs et lutter contre la haine",
+      "Pour célébrer une grande victoire militaire de la France",
+      "Pour apprendre l’histoire des rois de France",
+      "Pour préparer les élèves au service militaire"
+    ],
+    "answer": 0,
+    "explanation": "La Shoah est le génocide d’environ 6 millions de Juifs par l’Allemagne nazie. On l’étudie pour comprendre où mènent la haine, le racisme et l’antisémitisme, et pour le devoir de mémoire.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"
+  },
+  {
+    "id": "CR-135",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel pays a été colonisé par la France ?",
+    "choices": [
+      "L’Algérie",
+      "L’Australie",
+      "Le Japon",
+      "L’Argentine"
+    ],
+    "answer": 0,
+    "explanation": "L’Algérie est conquise par l’armée française à partir de 1830. Elle devient indépendante en 1962, après la guerre d’Algérie.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-1/"
+  },
+  {
+    "id": "CR-136",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "choices": [
+      "Depuis 1962",
+      "Depuis 1789",
+      "Depuis 1945",
+      "Depuis 1981"
+    ],
+    "answer": 0,
+    "explanation": "Le référendum de 1962, voulu par Charles de Gaulle, a instauré l’élection du président au suffrage universel direct. La première élection de ce type a eu lieu en 1965.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/",
+    "review": "Les fiches officielles citent cette réforme (mandat de Charles de Gaulle) sans donner l’année. Date fondée sur le référendum du 28 octobre 1962 ; première élection en 1965. Conforme à leqcmcivique."
+  },
+  {
+    "id": "CR-137",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "choices": [
+      "La création de la CECA (charbon et acier)",
+      "La création de l’Union européenne (UE)",
+      "La mise en circulation de l’euro",
+      "La première élection du Parlement européen"
+    ],
+    "answer": 0,
+    "explanation": "En 1951, six pays dont la France créent la Communauté européenne du charbon et de l’acier (CECA). L’Union européenne naît en 1992 et l’euro circule depuis 2002.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+  },
+  {
+    "id": "CR-138",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "choices": [
+      "François Mitterrand",
+      "Charles de Gaulle",
+      "Georges Pompidou",
+      "Valéry Giscard d’Estaing"
+    ],
+    "answer": 0,
+    "explanation": "La peine de mort est abolie par la loi du 9 octobre 1981, sous la présidence de François Mitterrand. Robert Badinter, ministre de la Justice, a porté cette loi.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  {
+    "id": "CR-139",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "choices": [
+      "La Première République",
+      "La monarchie constitutionnelle",
+      "Le Premier Empire",
+      "Le Consulat"
+    ],
+    "answer": 0,
+    "explanation": "La Première République est proclamée le 22 septembre 1792. La monarchie constitutionnelle, créée en 1791, prend fin quand le roi est renversé le 10 août 1792.",
+    "lesson": "histoire/de-la-monarchie-a-la-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+  },
+  {
+    "id": "CR-140",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "choices": [
+      "Jean Moulin",
+      "Philippe Pétain",
+      "Georges Clemenceau",
+      "Jules Ferry"
+    ],
+    "answer": 0,
+    "explanation": "Jean Moulin unifie les mouvements de la Résistance en créant le Conseil national de la Résistance en 1943. Pétain, lui, dirige le régime de Vichy, qui collabore avec l’Allemagne nazie.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-3/"
+  },
+  {
+    "id": "CR-141",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "choices": [
+      "Elles ont obtenu le droit de vote",
+      "Elles ont obtenu le droit à l’avortement",
+      "Elles ont obtenu le droit à la contraception",
+      "Elles ont obtenu le droit de divorcer"
+    ],
+    "answer": 0,
+    "explanation": "Le 21 avril 1944, une ordonnance donne aux femmes le droit de voter et d’être élues. Elles votent pour la première fois en 1945.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-gouvernement-provisoire-de-la-republique-francaise-1944-1946/"
+  },
+  {
+    "id": "CR-142",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "choices": [
+      "L’Organisation des Nations unies (ONU)",
+      "L’Union européenne (UE)",
+      "La Société des Nations (SDN)",
+      "L’Organisation du traité de l’Atlantique Nord (OTAN)"
+    ],
+    "answer": 0,
+    "explanation": "L’ONU est créée en 1945 pour maintenir la paix dans le monde. La SDN date de la fin de la Première Guerre mondiale, l’OTAN de 1949 et l’UE de 1992.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+  },
+  {
+    "id": "CR-143",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle peine a été supprimée en 1981 ?",
+    "choices": [
+      "La peine de mort",
+      "La réclusion criminelle à perpétuité",
+      "L’amende",
+      "Le travail d’intérêt général"
+    ],
+    "answer": 0,
+    "explanation": "La loi du 9 octobre 1981 abolit la peine de mort en France. Depuis 2007, la Constitution affirme que « nul ne peut être condamné à la peine de mort ».",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  {
+    "id": "CR-144",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+    "choices": [
+      "En 2002",
+      "En 1957",
+      "En 1992",
+      "En 2012"
+    ],
+    "answer": 0,
+    "explanation": "Les pièces et les billets en euros circulent en France depuis le 1er janvier 2002. L’euro remplace alors le franc.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+  },
+  {
+    "id": "CR-145",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "En quelle année a commencé la Première Guerre mondiale ?",
+    "choices": [
+      "En 1914",
+      "En 1870",
+      "En 1918",
+      "En 1939"
+    ],
+    "answer": 0,
+    "explanation": "La Première Guerre mondiale commence en août 1914. Elle se termine avec l’armistice du 11 novembre 1918.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+  },
+  {
+    "id": "CR-146",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Où a eu lieu le débarquement en 1944 ?",
+    "choices": [
+      "En Normandie",
+      "En Bretagne",
+      "En Vendée",
+      "Dans le Pas-de-Calais"
+    ],
+    "answer": 0,
+    "explanation": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie. Un second débarquement a lieu en Provence le 15 août 1944.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+  },
+  {
+    "id": "CR-147",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "choices": [
+      "L’Afrique",
+      "L’Amérique du Sud",
+      "L’Océanie",
+      "L’Europe"
+    ],
+    "answer": 0,
+    "explanation": "La plupart des colonies françaises d’Afrique et Madagascar deviennent indépendantes en 1960. L’Algérie devient indépendante en 1962.",
+    "lesson": "histoire/colonies-cinquieme-republique-europe",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"
+  },
+  {
+    "id": "CR-148",
+    "theme": "histoire",
+    "notion": "histoire.periodes",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que fête-t-on le 8 mai ?",
+    "choices": [
+      "La victoire de 1945 en Europe",
+      "L’armistice de 1918",
+      "La prise de la Bastille",
+      "La fête du Travail"
+    ],
+    "answer": 0,
+    "explanation": "Le 8 mai est un jour férié qui célèbre la victoire du 8 mai 1945 et la fin de la Seconde Guerre mondiale en Europe. Le 11 novembre célèbre l’armistice de 1918.",
+    "lesson": "histoire/les-guerres-mondiales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/"
+  },
+  {
+    "id": "CR-149",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "choices": [
+      "L’océan Atlantique",
+      "La mer Baltique",
+      "La mer Noire",
+      "La mer Rouge"
+    ],
+    "answer": 0,
+    "explanation": "La France métropolitaine est bordée par la mer du Nord, la Manche, l’océan Atlantique et la mer Méditerranée.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  {
+    "id": "CR-150",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "choices": [
+      "L’Italie",
+      "Le Portugal",
+      "L’Autriche",
+      "Le Danemark"
+    ],
+    "answer": 0,
+    "explanation": "La France métropolitaine a 8 voisins terrestres : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie, l’Espagne, Andorre et Monaco.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  {
+    "id": "CR-151",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle ville française est un port maritime ?",
+    "choices": [
+      "Marseille",
+      "Lyon",
+      "Dijon",
+      "Clermont-Ferrand"
+    ],
+    "answer": 0,
+    "explanation": "Marseille, au bord de la Méditerranée, est un grand port maritime. Les autres grands ports de métropole sont Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle et Bordeaux.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais/"
+  },
+  {
+    "id": "CR-152",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "choices": [
+      "La Manche",
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer d’Irlande"
+    ],
+    "answer": 0,
+    "explanation": "La Manche sépare la France de l’Angleterre. Le tunnel sous la Manche relie les deux pays.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  {
+    "id": "CR-153",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est ce que la France d'outre-mer ?",
+    "choices": [
+      "Les territoires français situés hors d’Europe, dans plusieurs océans",
+      "Les anciennes colonies devenues des pays indépendants",
+      "Les pays étrangers où l’on parle français",
+      "Les régions de France situées au bord de la mer"
+    ],
+    "answer": 0,
+    "explanation": "La France d’outre-mer regroupe les territoires français situés loin de l’Hexagone : 5 DROM (Guadeloupe, Guyane, Martinique, La Réunion, Mayotte) et plusieurs collectivités d’outre-mer.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+  },
+  {
+    "id": "CR-154",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?",
+    "choices": [
+      "Les Pyrénées",
+      "Les Alpes",
+      "Le Jura",
+      "Les Vosges"
+    ],
+    "answer": 0,
+    "explanation": "Les Pyrénées forment une barrière de montagnes entre la France et l’Espagne. Les Alpes marquent la limite avec l’Italie.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  {
+    "id": "CR-155",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle île française se trouve dans l'océan Indien ?",
+    "choices": [
+      "La Réunion",
+      "La Martinique",
+      "La Guadeloupe",
+      "La Nouvelle-Calédonie"
+    ],
+    "answer": 0,
+    "explanation": "La Réunion est une île volcanique de l’océan Indien, à l’est de Madagascar. La Martinique et la Guadeloupe sont dans les Caraïbes, la Nouvelle-Calédonie dans le Pacifique.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/la-reunion/"
+  },
+  {
+    "id": "CR-156",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "choices": [
+      "Environ 68 millions d’habitants",
+      "Environ 45 millions d’habitants",
+      "Environ 90 millions d’habitants",
+      "Environ 120 millions d’habitants"
+    ],
+    "answer": 0,
+    "explanation": "Au 1er janvier 2025, la France compte 68,6 millions d’habitants, dont 2,3 millions dans les départements et régions d’outre-mer.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+  },
+  {
+    "id": "CR-157",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel fleuve traverse Paris ?",
+    "choices": [
+      "La Seine",
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "answer": 0,
+    "explanation": "La Seine traverse Troyes, Paris, Rouen et Le Havre, puis se jette dans la Manche.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"
+  },
+  {
+    "id": "CR-158",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+    "choices": [
+      "La Belgique",
+      "La Pologne",
+      "La Suède",
+      "La Grèce"
+    ],
+    "answer": 0,
+    "explanation": "La Belgique touche la France au nord. La Pologne, la Suède et la Grèce n’ont aucune frontière avec la France.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-l-europe/"
+  },
+  {
+    "id": "CR-159",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+    "choices": [
+      "L’Allemagne",
+      "L’Espagne",
+      "L’Italie",
+      "Andorre"
+    ],
+    "answer": 0,
+    "explanation": "Au nord-est, la France touche la Belgique, le Luxembourg et l’Allemagne. Le Rhin sépare en partie la France et l’Allemagne.",
+    "lesson": "histoire/le-territoire-francais",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+  },
+  {
+    "id": "CR-160",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Où se trouvent les principales activités économiques en France ?",
+    "choices": [
+      "Près des grandes villes et des grands axes de transport",
+      "Surtout dans les zones de montagne",
+      "Surtout dans les villages des campagnes",
+      "Surtout dans les territoires d’outre-mer"
+    ],
+    "answer": 0,
+    "explanation": "Les grandes villes, appelées métropoles, concentrent les emplois, les entreprises et les services. Les activités se situent aussi le long des grands axes de communication.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+  },
+  {
+    "id": "CR-161",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+    "choices": [
+      "La France",
+      "L’Italie",
+      "L’Allemagne",
+      "Le Royaume-Uni"
+    ],
+    "answer": 0,
+    "explanation": "La France est la première destination touristique du monde, avec plus de 100 millions de visiteurs étrangers en 2024.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/"
+  },
+  {
+    "id": "CR-162",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Où habite la majorité des Français ?",
+    "choices": [
+      "En ville, dans les aires urbaines",
+      "À la campagne, dans de petits villages",
+      "À la montagne, dans les Alpes",
+      "Dans les territoires d’outre-mer"
+    ],
+    "answer": 0,
+    "explanation": "Environ 9 personnes sur 10 vivent dans une aire urbaine, c’est-à-dire une ville, sa banlieue et les communes autour.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+  },
+  {
+    "id": "CR-163",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle région est la plus peuplée ?",
+    "choices": [
+      "L’Île-de-France",
+      "Auvergne-Rhône-Alpes",
+      "Provence-Alpes-Côte d’Azur",
+      "La Bretagne"
+    ],
+    "answer": 0,
+    "explanation": "L’Île-de-France compte environ 12,4 millions d’habitants. C’est la région la plus peuplée, devant Auvergne-Rhône-Alpes (8,1 millions).",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/"
+  },
+  {
+    "id": "CR-164",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "choices": [
+      "Toulouse",
+      "Limoges",
+      "Poitiers",
+      "Ajaccio"
+    ],
+    "answer": 0,
+    "explanation": "Les 10 plus grandes métropoles sont Paris, Marseille, Lyon, Lille, Bordeaux, Toulouse, Nantes, Nice, Montpellier et Strasbourg.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+  },
+  {
+    "id": "CR-165",
+    "theme": "histoire",
+    "notion": "histoire.geographie",
+    "type": "connaissance",
+    "official": true,
+    "question": "Lequel de ces départements de France est le plus touristique ?",
+    "choices": [
+      "Paris",
+      "La Creuse",
+      "La Lozère",
+      "La Haute-Marne"
+    ],
+    "answer": 0,
+    "explanation": "Paris attire des visiteurs du monde entier avec la tour Eiffel, le Louvre ou le musée d’Orsay. La Creuse, la Lozère et la Haute-Marne sont des départements ruraux, beaucoup moins fréquentés.",
+    "lesson": "histoire/population-villes-economie",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/",
+    "review": "Les fiches officielles ne classent pas les départements selon leur fréquentation. Réponse fondée sur la fiche « Une puissance touristique » (Louvre, Orsay, tour Eiffel). Les distracteurs sont des départements ruraux peu peuplés. leqcmcivique accepte aussi les Alpes-Maritimes, le Var et la Savoie : ils sont exclus des choix."
+  },
+  {
+    "id": "CR-166",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+    "choices": [
+      "Lors des Journées européennes du patrimoine, en septembre",
+      "Uniquement le soir de Noël, le 24 décembre",
+      "Seulement pendant les jours d’élection",
+      "Seulement le jour de la rentrée scolaire"
+    ],
+    "answer": 0,
+    "explanation": "Chaque année en septembre, les Journées européennes du patrimoine ouvrent des lieux culturels, très souvent gratuitement. La plupart des musées nationaux sont aussi gratuits le premier dimanche du mois.",
+    "lesson": "histoire/monuments-fetes-et-traditions",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-acces-a-la-culture/"
+  },
+  {
+    "id": "CR-167",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Combien de personnes parlent français dans le monde ?",
+    "choices": [
+      "Plus de 300 millions",
+      "Environ 50 millions",
+      "Environ 100 millions",
+      "Plus de 2 milliards"
+    ],
+    "answer": 0,
+    "explanation": "Environ 396 millions de personnes parlent français dans le monde, sur les 5 continents.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+  },
+  {
+    "id": "CR-168",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était Marguerite Yourcenar ?",
+    "choices": [
+      "Une écrivaine, première femme élue à l’Académie française",
+      "Une chanteuse célèbre du XXe siècle",
+      "Une sculptrice, élève d’Auguste Rodin",
+      "Une résistante devenue ministre"
+    ],
+    "answer": 0,
+    "explanation": "Marguerite Yourcenar (1903-1987) est une écrivaine, autrice des « Mémoires d’Hadrien ». En 1980, elle devient la première femme élue à l’Académie française.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+  },
+  {
+    "id": "CR-169",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel peintre est français ?",
+    "choices": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Rembrandt",
+      "Diego Velázquez"
+    ],
+    "answer": 0,
+    "explanation": "Claude Monet est un peintre impressionniste français, auteur d’« Impression, soleil levant ». Van Gogh et Rembrandt sont néerlandais, Velázquez est espagnol.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+  },
+  {
+    "id": "CR-170",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel musée est situé à Paris ?",
+    "choices": [
+      "Le musée du Louvre",
+      "Le musée du Prado",
+      "Le British Museum",
+      "Le Rijksmuseum"
+    ],
+    "answer": 0,
+    "explanation": "Le Louvre, à Paris, est l’un des musées les plus célèbres du monde. Le Prado est à Madrid, le British Museum à Londres et le Rijksmuseum à Amsterdam.",
+    "lesson": "histoire/monuments-fetes-et-traditions",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/"
+  },
+  {
+    "id": "CR-171",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était Auguste Rodin ?",
+    "choices": [
+      "Un sculpteur",
+      "Un compositeur",
+      "Un écrivain",
+      "Un architecte"
+    ],
+    "answer": 0,
+    "explanation": "Auguste Rodin (1840-1917) est un grand sculpteur français, auteur du « Penseur » et du « Baiser ». Un musée lui est consacré à Paris.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/"
+  },
+  {
+    "id": "CR-172",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+    "choices": [
+      "Quatrième",
+      "Première",
+      "Deuxième",
+      "Dixième"
+    ],
+    "answer": 0,
+    "explanation": "Avec environ 396 millions de locuteurs, le français est la 4e langue la plus parlée au monde, selon la fiche officielle et le rapport 2026 de la Francophonie.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/",
+    "review": "L’arrêté du 10 octobre 2025 (annexe I) écrit « 5e langue mondiale » et « 321 millions de francophones » (chiffres de l’OIF de 2022). La fiche officielle et le rapport de l’OIF de mars 2026 donnent la 4e place et 396 millions de locuteurs. Nous retenons la 4e place, donnée la plus récente et conforme à leqcmcivique. « Cinquième » est exclu des choix pour éviter deux réponses défendables."
+  },
+  {
+    "id": "CR-173",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+    "choices": [
+      "La cathédrale Notre-Dame de Paris",
+      "La cathédrale de Chartres",
+      "La cathédrale de Reims",
+      "La cathédrale de Strasbourg"
+    ],
+    "answer": 0,
+    "explanation": "Notre-Dame de Paris a brûlé en partie en avril 2019. Plus de 840 millions d’euros de dons ont financé sa reconstruction, et elle a rouvert en décembre 2024.",
+    "lesson": "histoire/monuments-fetes-et-traditions",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france/"
+  },
+  {
+    "id": "CR-174",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était une écrivaine française célèbre ?",
+    "choices": [
+      "Simone de Beauvoir",
+      "Édith Piaf",
+      "Camille Claudel",
+      "Marie Curie"
+    ],
+    "answer": 0,
+    "explanation": "Simone de Beauvoir est une écrivaine et une figure du féminisme, autrice du « Deuxième Sexe ». Édith Piaf est chanteuse, Camille Claudel sculptrice et Marie Curie scientifique.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+  },
+  {
+    "id": "CR-175",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était un célèbre musicien français ?",
+    "choices": [
+      "Claude Debussy",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "answer": 0,
+    "explanation": "Claude Debussy (1862-1918) est un compositeur français, auteur de « Clair de lune ». Mozart est autrichien, Beethoven allemand et Verdi italien.",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/"
+  },
+  {
+    "id": "CR-176",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui était Auguste Renoir ?",
+    "choices": [
+      "Un peintre",
+      "Un compositeur",
+      "Un architecte",
+      "Un écrivain"
+    ],
+    "answer": 0,
+    "explanation": "Auguste Renoir (1841-1919) est un peintre impressionniste français, auteur du « Bal du moulin de la Galette ».",
+    "lesson": "histoire/artistes-et-langue-francaise",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+  },
+  {
+    "id": "CR-177",
+    "theme": "histoire",
+    "notion": "histoire.patrimoine",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle fête est française ?",
+    "choices": [
+      "Le 14 Juillet",
+      "Thanksgiving",
+      "Independence Day",
+      "L’Oktoberfest"
+    ],
+    "answer": 0,
+    "explanation": "Le 14 Juillet est la fête nationale française, avec un défilé militaire, des bals et des feux d’artifice. Thanksgiving et Independence Day sont des fêtes américaines, l’Oktoberfest est allemande.",
+    "lesson": "histoire/monuments-fetes-et-traditions",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/"
+  }
+]
