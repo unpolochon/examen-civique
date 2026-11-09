@@ -1,0 +1,904 @@
+[
+  {
+    "id": "CR-041",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est-ce que l'État de droit ?",
+    "choices": [
+      "Un système où la loi s’applique à tous, y compris à l’État",
+      "Un système où les dirigeants changent la loi quand ils veulent",
+      "Un système où l’État n’a pas à respecter ses propres lois",
+      "Un système où seuls les juges écrivent les lois"
+    ],
+    "answer": 0,
+    "explanation": "Dans un État de droit, la loi est la même pour tous, y compris pour l’État et ses dirigeants. Des juges indépendants contrôlent les autorités publiques.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-042",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "choices": [
+      "Il pourra être jugé après la fin de son mandat",
+      "Il ne pourra jamais être jugé pour ce crime",
+      "Il est jugé tout de suite par un tribunal ordinaire",
+      "Il peut choisir lui-même les juges de son procès"
+    ],
+    "answer": 0,
+    "explanation": "Pendant son mandat, le président ne peut pas être poursuivi devant un tribunal ordinaire (article 67 de la Constitution). Les poursuites peuvent commencer un mois après la fin de son mandat, car personne n’est au-dessus des lois.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+    "review": "Les fiches officielles ne traitent pas ce cas. Réponse fondée sur les articles 67 et 68 de la Constitution (inviolabilité pendant le mandat, destitution possible par le Parlement réuni en Haute Cour). Conforme aux propositions leqcmcivique."
+  },
+  {
+    "id": "CR-043",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "La loi est l'expression de :",
+    "choices": [
+      "La volonté générale",
+      "La volonté du président de la République",
+      "La volonté du Gouvernement",
+      "La volonté des juges"
+    ],
+    "answer": 0,
+    "explanation": "L’article 6 de la Déclaration des droits de l’homme et du citoyen de 1789 dit que la loi est l’expression de la volonté générale. Elle est votée par les représentants élus du peuple.",
+    "lesson": "institutions/democratie-et-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-1/"
+  },
+  {
+    "id": "CR-044",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "choices": [
+      "6 ans",
+      "4 ans",
+      "5 ans",
+      "7 ans"
+    ],
+    "answer": 0,
+    "explanation": "Les conseillers municipaux sont élus pour 6 ans aux élections municipales. Le conseil municipal élit ensuite le maire pour la même durée.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+  },
+  {
+    "id": "CR-045",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que garantit l’État de droit ?",
+    "choices": [
+      "Le respect des droits fondamentaux et l’égalité devant la loi",
+      "Le pouvoir absolu du chef de l’État",
+      "L’impunité des élus pendant toute leur vie",
+      "Le droit de se faire justice soi-même"
+    ],
+    "answer": 0,
+    "explanation": "L’État de droit garantit le respect des droits fondamentaux et l’égalité de tous devant la loi. Il repose aussi sur la séparation des pouvoirs.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-046",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Une personne peut-elle voter à la place d'une autre ?",
+    "choices": [
+      "Oui, mais seulement avec une procuration",
+      "Oui, si c’est un membre de sa famille",
+      "Oui, si elle a la carte d’électeur de l’autre",
+      "Non, jamais, même avec une procuration"
+    ],
+    "answer": 0,
+    "explanation": "Le vote est personnel. On peut voter pour une autre personne uniquement si elle a fait une procuration officielle.",
+    "lesson": "institutions/droit-de-vote",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  {
+    "id": "CR-047",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Est-ce que le vote est obligatoire ?",
+    "choices": [
+      "Non, voter est un droit et non une obligation",
+      "Oui, sinon on doit payer une amende",
+      "Oui, mais seulement pour l’élection présidentielle",
+      "Oui, pour toutes les personnes de plus de 25 ans"
+    ],
+    "answer": 0,
+    "explanation": "En France, le vote n’est pas obligatoire : c’est un droit. Personne n’est puni s’il ne vote pas.",
+    "lesson": "institutions/droit-de-vote",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  {
+    "id": "CR-048",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "choices": [
+      "Non, il ne peut rester que s’il est réélu par les citoyens",
+      "Oui, s’il décide seul de prolonger son mandat",
+      "Oui, si le Premier ministre est d’accord",
+      "Oui, si les ministres votent pour lui"
+    ],
+    "answer": 0,
+    "explanation": "Le président est élu pour 5 ans au suffrage universel direct. Pour rester, il doit être réélu, et il ne peut pas faire plus de deux mandats de suite (article 6 de la Constitution).",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+  },
+  {
+    "id": "CR-049",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui dirige l'action du Gouvernement ?",
+    "choices": [
+      "Le Premier ministre",
+      "Le président du Sénat",
+      "Le président de l’Assemblée nationale",
+      "Le président du Conseil constitutionnel"
+    ],
+    "answer": 0,
+    "explanation": "L’article 21 de la Constitution dit que le Premier ministre dirige l’action du Gouvernement. Il est nommé par le président de la République.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-050",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui nomme le Premier ministre ?",
+    "choices": [
+      "Le président de la République",
+      "Les députés de l’Assemblée nationale",
+      "Les citoyens, par un vote direct",
+      "Le président du Sénat"
+    ],
+    "answer": 0,
+    "explanation": "Le Premier ministre est nommé par le président de la République (article 8 de la Constitution). Il n’est pas élu par les citoyens.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-051",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est l'organisation administrative de la France ?",
+    "choices": [
+      "Un État unitaire décentralisé, avec des communes, des départements et des régions",
+      "Un État fédéral, formé d’États qui votent chacun leurs propres lois",
+      "Un État centralisé, sans aucune collectivité locale élue",
+      "Un ensemble de provinces dirigées par des gouverneurs nommés à vie"
+    ],
+    "answer": 0,
+    "explanation": "La France est un État unitaire et décentralisé : l’État confie des compétences aux collectivités territoriales. Ce sont les communes, les départements et les régions.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  {
+    "id": "CR-052",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+    "choices": [
+      "De discuter et de voter les lois",
+      "D’appliquer les lois et de diriger l’administration",
+      "De juger les personnes qui ne respectent pas la loi",
+      "De commander les armées et la police"
+    ],
+    "answer": 0,
+    "explanation": "Le pouvoir législatif appartient au Parlement : l’Assemblée nationale et le Sénat. Il propose, discute et vote les lois.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-053",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "choices": [
+      "Pour éviter qu’une seule personne ait tout le pouvoir et protéger les libertés",
+      "Pour permettre au président de décider plus vite et sans contrôle",
+      "Pour réduire le nombre d’élections organisées dans le pays",
+      "Pour que les juges puissent aussi voter les lois"
+    ],
+    "answer": 0,
+    "explanation": "La séparation des pouvoirs empêche la concentration du pouvoir : les pouvoirs se contrôlent entre eux. Elle garantit les droits fondamentaux (article 16 de la Déclaration de 1789).",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-054",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "choices": [
+      "Le juge, c’est-à-dire l’autorité judiciaire",
+      "La victime, qui peut se faire justice",
+      "Le maire de la commune",
+      "Le préfet du département"
+    ],
+    "answer": 0,
+    "explanation": "Le vol est une infraction : la justice pénale le sanctionne. Ce sont les juges qui décident de la peine. Personne ne peut se faire justice soi-même.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2/"
+  },
+  {
+    "id": "CR-055",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle du gouvernement ?",
+    "choices": [
+      "Conduire la politique de la Nation et appliquer les lois",
+      "Voter les lois à la place du Parlement",
+      "Juger les personnes qui commettent des infractions",
+      "Vérifier que les lois respectent la Constitution"
+    ],
+    "answer": 0,
+    "explanation": "Le Gouvernement détermine et conduit la politique de la Nation (article 20 de la Constitution). Il applique et fait respecter les lois votées par le Parlement.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-056",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "choices": [
+      "Il peut être jugé et sanctionné, comme tout citoyen",
+      "Rien, car un ministre est au-dessus des lois",
+      "Il est protégé par sa fonction jusqu’à la fin de sa vie",
+      "Seul le Premier ministre peut décider de le juger"
+    ],
+    "answer": 0,
+    "explanation": "Dans un État de droit, la loi s’applique à tous. Un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-057",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Combien de députés composent l’Assemblée nationale ?",
+    "choices": [
+      "577",
+      "348",
+      "500",
+      "720"
+    ],
+    "answer": 0,
+    "explanation": "L’Assemblée nationale compte 577 députés, élus pour 5 ans au suffrage universel direct. Le Sénat, lui, compte 348 sénateurs.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-058",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui peut voter aux élections en France ?",
+    "choices": [
+      "Les citoyens français majeurs inscrits sur les listes électorales",
+      "Toutes les personnes qui vivent en France depuis 5 ans",
+      "Toutes les personnes de plus de 16 ans",
+      "Seulement les personnes qui paient des impôts"
+    ],
+    "answer": 0,
+    "explanation": "Pour voter, il faut être Français, majeur, avoir ses droits civiques et être inscrit sur les listes électorales. Les citoyens de l’Union européenne qui vivent en France peuvent aussi voter aux municipales et aux européennes.",
+    "lesson": "institutions/droit-de-vote",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  {
+    "id": "CR-059",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "choices": [
+      "6 ans",
+      "3 ans",
+      "5 ans",
+      "9 ans"
+    ],
+    "answer": 0,
+    "explanation": "Les sénateurs sont élus pour 6 ans au suffrage indirect, par des grands électeurs. La moitié du Sénat est renouvelée tous les 3 ans.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+  },
+  {
+    "id": "CR-060",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "choices": [
+      "Le pouvoir législatif, le pouvoir exécutif et le pouvoir judiciaire",
+      "Le pouvoir religieux, le pouvoir militaire et le pouvoir civil",
+      "Le pouvoir national, le pouvoir régional et le pouvoir municipal",
+      "Le pouvoir politique, le pouvoir économique et le pouvoir médiatique"
+    ],
+    "answer": 0,
+    "explanation": "Le législatif vote les lois, l’exécutif les applique et le judiciaire contrôle leur application. Ces trois pouvoirs ne sont pas dans les mêmes mains.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-061",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "choices": [
+      "Non, ses pouvoirs sont limités par la Constitution",
+      "Oui, il peut décider seul de toutes les lois",
+      "Oui, il peut donner des ordres aux juges",
+      "Oui, car il est élu par tous les citoyens"
+    ],
+    "answer": 0,
+    "explanation": "Le président doit respecter la Constitution et la séparation des pouvoirs. Le Parlement vote les lois et la justice est indépendante.",
+    "lesson": "institutions/etat-de-droit",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+  },
+  {
+    "id": "CR-062",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui est le préfet ?",
+    "choices": [
+      "Le représentant de l’État dans le département",
+      "Le maire élu de la plus grande ville du département",
+      "Le président élu du conseil régional",
+      "Le juge chargé des conflits avec l’administration"
+    ],
+    "answer": 0,
+    "explanation": "Le préfet représente l’État dans le département et dirige ses services. Il est nommé, pas élu.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-2/"
+  },
+  {
+    "id": "CR-063",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "choices": [
+      "Avoir au moins 18 ans",
+      "Être propriétaire de son logement",
+      "Avoir un emploi",
+      "Avoir un diplôme"
+    ],
+    "answer": 0,
+    "explanation": "Il faut être majeur, c’est-à-dire avoir au moins 18 ans. Il faut aussi être Français, avoir ses droits civiques et être inscrit sur les listes électorales.",
+    "lesson": "institutions/droit-de-vote",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  {
+    "id": "CR-064",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui dirige la commune ?",
+    "choices": [
+      "Le maire, avec le conseil municipal",
+      "Le préfet du département",
+      "Le député de la circonscription",
+      "Le président du conseil régional"
+    ],
+    "answer": 0,
+    "explanation": "La commune est dirigée par des élus : le maire et le conseil municipal. Le conseil municipal, élu par les habitants, élit le maire.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  {
+    "id": "CR-065",
+    "theme": "institutions",
+    "notion": "institutions.democratie-vote",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "choices": [
+      "Une République démocratique",
+      "Une monarchie constitutionnelle",
+      "Un empire",
+      "Une république fédérale"
+    ],
+    "answer": 0,
+    "explanation": "La France est une République démocratique : la Ve République, fondée par la Constitution de 1958. Le pouvoir vient du peuple, qui élit ses représentants.",
+    "lesson": "institutions/democratie-et-republique",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1/"
+  },
+  {
+    "id": "CR-066",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "choices": [
+      "La résidence officielle du Premier ministre",
+      "La résidence officielle du président de la République",
+      "Le lieu où siège le Sénat",
+      "Le lieu où siège le Conseil constitutionnel"
+    ],
+    "answer": 0,
+    "explanation": "Le Premier ministre réside et travaille à l’hôtel de Matignon. Le président de la République, lui, réside au palais de l’Élysée.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-067",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Le Parlement est composé :",
+    "choices": [
+      "De l’Assemblée nationale et du Sénat",
+      "Du Gouvernement et de l’Assemblée nationale",
+      "Du Sénat et du Conseil constitutionnel",
+      "Du président de la République et des ministres"
+    ],
+    "answer": 0,
+    "explanation": "Le Parlement a deux chambres : l’Assemblée nationale (577 députés) et le Sénat (348 sénateurs). Il vote la loi.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-068",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle du président de la République ?",
+    "choices": [
+      "Il est le chef de l’État et le chef des armées",
+      "Il préside l’Assemblée nationale et vote les lois",
+      "Il rend la justice dans les affaires les plus graves",
+      "Il dirige l’administration de chaque commune"
+    ],
+    "answer": 0,
+    "explanation": "Le président de la République est le chef de l’État et des armées. Il veille au respect de la Constitution et nomme le Premier ministre.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-069",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle du Premier ministre ?",
+    "choices": [
+      "Il dirige l’action du Gouvernement",
+      "Il préside le Sénat et ses débats",
+      "Il élit le président de la République",
+      "Il juge les ministres qui ne respectent pas la loi"
+    ],
+    "answer": 0,
+    "explanation": "Le Premier ministre est le chef du Gouvernement : il dirige son action (article 21 de la Constitution). Il propose les ministres au président de la République.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-070",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui est le chef du Gouvernement ?",
+    "choices": [
+      "Le Premier ministre",
+      "Le président de la République",
+      "Le président de l’Assemblée nationale",
+      "Le ministre de l’Intérieur"
+    ],
+    "answer": 0,
+    "explanation": "Le Premier ministre est le chef du Gouvernement. Le président de la République, lui, est le chef de l’État.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+  },
+  {
+    "id": "CR-071",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Combien y a-t-il de régions en France ?",
+    "choices": [
+      "18",
+      "22",
+      "27",
+      "101"
+    ],
+    "answer": 0,
+    "explanation": "La France compte 18 régions : 13 en métropole et 5 en outre-mer. Le nombre 101 correspond aux départements.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  {
+    "id": "CR-072",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "choices": [
+      "Défendre les personnes dont les droits ne sont pas respectés, notamment par un service public",
+      "Défendre les accusés pendant leur procès, comme le fait un avocat",
+      "Voter les lois qui protègent les droits de l’homme",
+      "Juger les conflits entre locataires et propriétaires"
+    ],
+    "answer": 0,
+    "explanation": "Le Défenseur des droits est une autorité indépendante qui veille au respect des droits. Il aide gratuitement les personnes face à un service public et lutte contre les discriminations.",
+    "lesson": "institutions/institutions-nationales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  {
+    "id": "CR-073",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Depuis quand l'euro est-elle la monnaie unique ?",
+    "choices": [
+      "Depuis 2002",
+      "Depuis 1957",
+      "Depuis 1992",
+      "Depuis 2012"
+    ],
+    "answer": 0,
+    "explanation": "Les pièces et les billets en euros circulent depuis le 1er janvier 2002. Le traité de Maastricht de 1992 avait seulement prévu la monnaie unique.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+  },
+  {
+    "id": "CR-074",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle principal du département ?",
+    "choices": [
+      "L’action sociale et la gestion des collèges",
+      "La gestion des lycées et des trains régionaux",
+      "La délivrance des titres de séjour",
+      "La gestion des écoles maternelles et primaires"
+    ],
+    "answer": 0,
+    "explanation": "Le département agit surtout dans l’action sociale (aide aux personnes âgées et handicapées, RSA). Il gère aussi les collèges.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  {
+    "id": "CR-075",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle principal des communes ?",
+    "choices": [
+      "Gérer les services de proximité, comme les écoles primaires",
+      "Gérer les lycées et le développement économique de la région",
+      "Voter les lois de la République",
+      "Diriger la police nationale et la gendarmerie"
+    ],
+    "answer": 0,
+    "explanation": "La commune gère les services de proximité : écoles maternelles et primaires, état civil, urbanisme, action sociale. C’est la collectivité la plus proche des habitants.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+  },
+  {
+    "id": "CR-076",
+    "theme": "institutions",
+    "notion": "institutions.organisation",
+    "type": "connaissance",
+    "official": true,
+    "question": "Combien de communes environ existe-t-il en France ?",
+    "choices": [
+      "Environ 35 000",
+      "Environ 350",
+      "Environ 3 500",
+      "Environ 100 000"
+    ],
+    "answer": 0,
+    "explanation": "La France compte environ 35 000 communes (34 875 selon la fiche officielle). C’est la collectivité territoriale la plus nombreuse.",
+    "lesson": "institutions/collectivites-territoriales",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-3/"
+  },
+  {
+    "id": "CR-077",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel traité concerne la construction de l'Union européenne ?",
+    "choices": [
+      "Le traité de Maastricht",
+      "Le traité de Versailles",
+      "Le traité de Francfort",
+      "Le traité de l’Atlantique Nord"
+    ],
+    "answer": 0,
+    "explanation": "Le traité de Maastricht, signé en 1992, crée l’Union européenne. Les traités de Versailles et de Francfort ont mis fin à des guerres, et celui de l’Atlantique Nord a créé l’OTAN.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  {
+    "id": "CR-078",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel État a quitté l'Union européenne en 2020 ?",
+    "choices": [
+      "Le Royaume-Uni",
+      "La Grèce",
+      "L’Irlande",
+      "Le Danemark"
+    ],
+    "answer": 0,
+    "explanation": "En 2020, le Royaume-Uni est le premier pays à quitter l’Union européenne : c’est le Brexit. La Grèce, l’Irlande et le Danemark en sont toujours membres.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  {
+    "id": "CR-079",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est la devise de l’Union européenne ?",
+    "choices": [
+      "« Unie dans la diversité »",
+      "« Liberté, Égalité, Fraternité »",
+      "« L’union fait la force »",
+      "« Paix et prospérité pour tous »"
+    ],
+    "answer": 0,
+    "explanation": "Depuis 2000, la devise de l’Union européenne est « Unie dans la diversité ». « Liberté, Égalité, Fraternité » est la devise de la France.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/"
+  },
+  {
+    "id": "CR-080",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est l'hymne de l'Union européenne ?",
+    "choices": [
+      "L’« Ode à la joie », de Beethoven",
+      "« La Marseillaise », de Rouget de Lisle",
+      "Le « Boléro », de Ravel",
+      "« Les Quatre Saisons », de Vivaldi"
+    ],
+    "answer": 0,
+    "explanation": "L’hymne européen est l’« Ode à la joie », une mélodie du compositeur allemand Ludwig van Beethoven. « La Marseillaise » est l’hymne de la France.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  {
+    "id": "CR-081",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "De quoi est composé le drapeau européen ?",
+    "choices": [
+      "De douze étoiles jaunes en cercle sur un fond bleu",
+      "De vingt-sept étoiles jaunes en cercle sur un fond bleu",
+      "De douze étoiles blanches alignées sur un fond rouge",
+      "De trois bandes verticales bleue, blanche et rouge"
+    ],
+    "answer": 0,
+    "explanation": "Le drapeau européen montre douze étoiles jaunes en cercle sur un fond bleu. Le nombre d’étoiles ne dépend pas du nombre de pays membres.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  {
+    "id": "CR-082",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "De quelle couleur est le drapeau européen ?",
+    "choices": [
+      "Bleu, avec des étoiles jaunes",
+      "Rouge, avec des étoiles blanches",
+      "Vert, avec des étoiles jaunes",
+      "Blanc, avec des étoiles bleues"
+    ],
+    "answer": 0,
+    "explanation": "Le drapeau européen est bleu, avec un cercle de douze étoiles jaunes. Ce cercle symbolise l’unité et la solidarité entre les peuples d’Europe.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+  },
+  {
+    "id": "CR-083",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "choices": [
+      "En 1992",
+      "En 1951",
+      "En 1957",
+      "En 2007"
+    ],
+    "answer": 0,
+    "explanation": "Le traité de Maastricht a été signé en 1992 et crée l’Union européenne. 1951 correspond au traité de Paris, 1957 au traité de Rome et 2007 au traité de Lisbonne.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  {
+    "id": "CR-084",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Où est le siège du Parlement européen ?",
+    "choices": [
+      "À Strasbourg",
+      "À Bruxelles",
+      "À Genève",
+      "À Francfort"
+    ],
+    "answer": 0,
+    "explanation": "Le siège du Parlement européen est à Strasbourg, où se tiennent ses séances plénières. La Commission européenne, elle, est à Bruxelles.",
+    "lesson": "institutions/institutions-europeennes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/",
+    "review": "Bruxelles est gardé comme distracteur, car c’est la confusion la plus fréquente. Le Parlement y travaille aussi (commissions, sessions additionnelles), mais son siège officiel, fixé par les traités, est Strasbourg. À valider : garder ce distracteur ou le remplacer."
+  },
+  {
+    "id": "CR-085",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Où est le siège de la Commission européenne ?",
+    "choices": [
+      "À Bruxelles",
+      "À Strasbourg",
+      "À Genève",
+      "À Francfort"
+    ],
+    "answer": 0,
+    "explanation": "La Commission européenne siège à Bruxelles, dans le bâtiment du Berlaymont. Le Parlement européen siège à Strasbourg.",
+    "lesson": "institutions/institutions-europeennes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/"
+  },
+  {
+    "id": "CR-086",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "choices": [
+      "La Suisse",
+      "L’Autriche",
+      "La Belgique",
+      "La Pologne"
+    ],
+    "answer": 0,
+    "explanation": "La Suisse n’a jamais rejoint l’Union européenne. La Belgique est un pays fondateur, l’Autriche est entrée en 1995 et la Pologne en 2004.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  },
+  {
+    "id": "CR-087",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "choices": [
+      "Le 9 mai",
+      "Le 8 mai",
+      "Le 14 juillet",
+      "Le 1er janvier"
+    ],
+    "answer": 0,
+    "explanation": "La Journée de l’Europe a lieu chaque 9 mai, en souvenir de la déclaration Schuman du 9 mai 1950. Le 8 mai rappelle la fin de la Seconde Guerre mondiale en Europe.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/"
+  },
+  {
+    "id": "CR-088",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "choices": [
+      "Tous les 5 ans",
+      "Tous les 4 ans",
+      "Tous les 6 ans",
+      "Tous les 7 ans"
+    ],
+    "answer": 0,
+    "explanation": "Les élections européennes ont lieu tous les 5 ans pour élire les députés européens. Les dernières ont eu lieu en 2024.",
+    "lesson": "institutions/institutions-europeennes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/"
+  },
+  {
+    "id": "CR-089",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "choices": [
+      "Avoir la nationalité d’un pays de l’Union européenne",
+      "Avoir obligatoirement la nationalité française",
+      "Habiter en France depuis au moins 10 ans",
+      "Avoir au moins 21 ans le jour du vote"
+    ],
+    "answer": 0,
+    "explanation": "Pour voter en France aux élections européennes, il faut avoir la nationalité d’un pays de l’Union européenne. Il faut aussi habiter en France, avoir 18 ans et être inscrit sur les listes électorales.",
+    "lesson": "institutions/institutions-europeennes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/"
+  },
+  {
+    "id": "CR-090",
+    "theme": "institutions",
+    "notion": "institutions.europe",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "choices": [
+      "L’Italie",
+      "La Pologne",
+      "La Suède",
+      "La Croatie"
+    ],
+    "answer": 0,
+    "explanation": "L’Italie fait partie des 6 pays fondateurs, avec l’Allemagne, la Belgique, la France, le Luxembourg et les Pays-Bas. La Suède est entrée en 1995, la Pologne en 2004 et la Croatie en 2013.",
+    "lesson": "institutions/union-europeenne",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+  }
+]
