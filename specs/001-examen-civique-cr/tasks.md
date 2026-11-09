@@ -37,14 +37,14 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 
 ## Phase 4 : US1 - Profil (P1)
 
-- [ ] T014 [US1] Écran de première ouverture : prénom, date d'examen facultative, bouton « Commencer ». Fichier : `src/screens/Bienvenue.tsx`.
-- [ ] T015 [US1] Redirection vers cet écran tant qu'aucun profil n'existe ; sinon ouverture directe sur l'accueil.
+- [x] T014 [US1] Écran de première ouverture : prénom, date d'examen facultative, bouton « Commencer ». Fichier : `src/screens/Bienvenue.tsx`.
+- [x] T015 [US1] Redirection vers cet écran tant qu'aucun profil n'existe ; sinon ouverture directe sur l'accueil.
 
 ## Phase 5 : US2 - Examen blanc (P1)
 
 - [x] T016 [P] [US2] Tirage et score dans `src/domain/exam.ts` : 28 + 12, répartition de T003, priorité aux questions non vues, mélange. Tests Vitest.
 - [ ] T017 [US2] Écran d'examen : question, 4 choix, minuteur de 45 min, « À revoir », progression, sauvegarde à chaque réponse, reprise après fermeture. Fichier : `src/screens/Examen.tsx`.
-- [ ] T018 [US2] Accueil : carte « Faites un examen blanc » mise en avant tant qu'aucun examen n'est terminé, liste des 5 modules. Fichier : `src/screens/Accueil.tsx`.
+- [x] T018 [US2] Accueil : carte « Faites un examen blanc » mise en avant tant qu'aucun examen n'est terminé, liste des 5 modules. Fichier : `src/screens/Accueil.tsx`.
 
 ## Phase 6 : US3 - Résultats et plan de révision (P1)
 
@@ -68,7 +68,7 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 
 ## Phase 10 : finitions
 
-- [ ] T027 [P] Écran Réglages : modifier prénom et date, exporter, importer, effacer toutes les données avec confirmation. Fichier : `src/screens/Reglages.tsx`.
+- [x] T027 [P] Écran Réglages : modifier prénom et date, exporter, importer, effacer toutes les données avec confirmation. Fichier : `src/screens/Reglages.tsx`.
 - [ ] T028 [P] Installation sur iPhone : icônes, manifest, message « Ajouter à l'écran d'accueil » sur Safari.
 - [ ] T029 Test de bout en bout Playwright sur viewport iPhone : profil, examen complet, résultats, leçon, cartes, progression, mode hors ligne.
 - [ ] T030 Revue visuelle et accessibilité de chaque écran face aux maquettes (contrastes, cibles de 44 px, lecteur d'écran).
