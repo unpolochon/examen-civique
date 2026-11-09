@@ -84,7 +84,12 @@ export interface ExamInProgress {
   /** Questions marked "À revoir". */
   flagged: string[]
   current: number
+  /** Questions as drawn, keyed by id: a content change never blocks or alters the exam. */
+  snapshot: Record<string, QuestionSnapshot>
 }
+
+/** Question as it was when the exam was drawn, so the exam and its correction survive content changes. */
+export type QuestionSnapshot = Pick<Question, 'question' | 'choices' | 'answer' | 'explanation' | 'theme' | 'notion' | 'lesson'>
 
 export interface ExamRecord {
   id: string
@@ -96,6 +101,8 @@ export interface ExamRecord {
   score: number
   byTheme: Record<Theme, Score>
   byNotion: Record<NotionId, Score>
+  /** Keyed by question id, one entry per question of the exam. */
+  snapshot: Record<string, QuestionSnapshot>
 }
 
 export interface CardState {

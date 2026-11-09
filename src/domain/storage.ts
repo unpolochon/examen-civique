@@ -1,4 +1,4 @@
-import type { AppData } from './types'
+import { NOTIONS, THEMES, type AppData } from './types'
 
 const KEY = 'civique:data'
 export const VERSION = 1
@@ -77,6 +77,23 @@ function isChoiceOrder(value: unknown) {
   return isObject(value) && Object.values(value).every((o) => Array.isArray(o) && o.every(Number.isInteger))
 }
 
+function isSnapshot(value: unknown, questionIds: string[]) {
+  if (!isObject(value)) return false
+  return questionIds.every((id) => {
+    const q = value[id]
+    return (
+      isObject(q) &&
+      isString(q.question) &&
+      isStringArray(q.choices) &&
+      Number.isInteger(q.answer) &&
+      isString(q.explanation) &&
+      THEMES.includes(q.theme as never) &&
+      NOTIONS.includes(q.notion as never) &&
+      isString(q.lesson)
+    )
+  })
+}
+
 function isExamBase(exam: unknown): exam is Record<string, unknown> {
   return (
     isObject(exam) &&
@@ -84,7 +101,8 @@ function isExamBase(exam: unknown): exam is Record<string, unknown> {
     isDate(exam.startedAt) &&
     isStringArray(exam.questionIds) &&
     isChoiceOrder(exam.choiceOrder) &&
-    isAnswers(exam.answers)
+    isAnswers(exam.answers) &&
+    isSnapshot(exam.snapshot, exam.questionIds as string[])
   )
 }
 
@@ -97,7 +115,13 @@ function findProblem(data: unknown): string | null {
   if (!isDate(profile.createdAt)) return 'date de création du profil invalide'
   if (!Array.isArray(exams)) return 'liste des examens absente'
   for (const exam of exams) {
-    if (!isExamBase(exam) || !isDate(exam.finishedAt) || !Number.isInteger(exam.score) || !isObject(exam.byTheme) || !isObject(exam.byNotion)) {
+    if (
+      !isExamBase(exam) ||
+      !isDate(exam.finishedAt) ||
+      !Number.isInteger(exam.score) ||
+      !isObject(exam.byTheme) ||
+      !isObject(exam.byNotion)
+    ) {
       return 'examen terminé illisible'
     }
   }

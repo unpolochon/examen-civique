@@ -1,6 +1,10 @@
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest'
 import { clear, exportJson, importJson, load, migrate, save } from './storage'
-import type { AppData } from './types'
+import type { AppData, NotionId, QuestionSnapshot, Theme } from './types'
+
+function snap(question: string, theme: Theme, notion: NotionId): QuestionSnapshot {
+  return { question, choices: ['a', 'b', 'c', 'd'], answer: 0, explanation: 'Parce que.', theme, notion, lesson: `${theme}/lecon` }
+}
 
 const data: AppData = {
   version: 1,
@@ -16,6 +20,10 @@ const data: AppData = {
       score: 1,
       byTheme: {} as AppData['exams'][number]['byTheme'],
       byNotion: {} as AppData['exams'][number]['byNotion'],
+      snapshot: {
+        'CR-011': snap('Quelle est la devise de la République ?', 'principes', 'principes.devise-symboles'),
+        'CR-012': snap('Qui vote les lois ?', 'institutions', 'institutions.organisation'),
+      },
     },
   ],
   examInProgress: {
@@ -26,6 +34,7 @@ const data: AppData = {
     answers: { 'CR-011': null },
     flagged: ['CR-011'],
     current: 0,
+    snapshot: { 'CR-011': snap('Quelle est la devise de la République ?', 'principes', 'principes.devise-symboles') },
   },
   cards: { 'CR-012': { level: 0, due: '2026-11-09T10:40:00.000Z' } },
   lessonsRead: ['principes/symboles'],
@@ -102,6 +111,18 @@ describe('export et import', () => {
     ['date invalide', broken({ profile: { ...data.profile, examDate: 'demain' } }), "Sauvegarde invalide : date d'examen invalide."],
     ['examens absents', broken({ exams: null }), 'Sauvegarde invalide : liste des examens absente.'],
     ['examen sans score', broken({ exams: [{ ...data.exams[0], score: '1' }] }), 'Sauvegarde invalide : examen terminé illisible.'],
+    ['examen sans photo des questions', broken({ exams: [{ ...data.exams[0], snapshot: undefined }] }), 'Sauvegarde invalide : examen terminé illisible.'],
+    [
+      'photo incomplète',
+      broken({ exams: [{ ...data.exams[0], snapshot: { 'CR-011': data.exams[0].snapshot['CR-011'] } }] }),
+      'Sauvegarde invalide : examen terminé illisible.',
+    ],
+    [
+      'photo avec notion inconnue',
+      broken({ exams: [{ ...data.exams[0], snapshot: { ...data.exams[0].snapshot, 'CR-012': { ...data.exams[0].snapshot['CR-012'], notion: 'x' } } }] }),
+      'Sauvegarde invalide : examen terminé illisible.',
+    ],
+    ['examen en cours sans photo', broken({ examInProgress: { ...data.examInProgress, snapshot: {} } }), 'Sauvegarde invalide : examen en cours illisible.'],
     ['réponse invalide', broken({ examInProgress: { ...data.examInProgress, answers: { x: 'A' } } }), 'Sauvegarde invalide : examen en cours illisible.'],
     ['niveau de carte hors limites', broken({ cards: { x: { level: 6, due: data.cards['CR-012'].due } } }), 'Sauvegarde invalide : carte illisible.'],
     ['leçons lues absentes', broken({ lessonsRead: 'principes/symboles' }), 'Sauvegarde invalide : liste des leçons lues absente.'],
