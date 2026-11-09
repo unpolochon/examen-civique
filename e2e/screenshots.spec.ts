@@ -9,9 +9,9 @@ const examDate = new Date(Date.now() + 34 * 86_400_000).toISOString().slice(0, 1
 const profile = { firstName: 'Paul', examDate, createdAt: '2026-11-01T10:00:00.000Z' }
 const cards = Object.fromEntries(Array.from({ length: 18 }, (_, i) => [`c${i}`, { level: 0, due: '2026-01-01T00:00:00.000Z' }]))
 
-async function shoot(page: Page, name: string) {
+async function shoot(page: Page, name: string, fullPage = false) {
   await page.evaluate('document.fonts.ready')
-  await page.screenshot({ path: `e2e/screenshots/${name}.png` })
+  await page.screenshot({ path: `e2e/screenshots/${name}.png`, fullPage })
 }
 
 test('bienvenue', async ({ page }) => {
@@ -35,6 +35,28 @@ test('reglages', async ({ page }) => {
   await shoot(page, 'reglages')
   await page.getByRole('button', { name: 'Effacer toutes mes données' }).click()
   await shoot(page, 'reglages-effacer')
+})
+
+const lessonsRead = ['institutions/democratie-et-republique', 'institutions/etat-de-droit', 'principes/liberte', 'droits/droits-et-libertes']
+
+test('lecons', async ({ page }) => {
+  await seed(page, appData({ profile, lessonsRead }), '#/lecons')
+  await shoot(page, 'lecons')
+})
+
+test('theme', async ({ page }) => {
+  await seed(page, appData({ profile, lessonsRead }), '#/lecons/institutions')
+  await shoot(page, 'theme')
+})
+
+test('lecon', async ({ page }) => {
+  await seed(page, appData({ profile, lessonsRead }), '#/lecon/institutions/institutions-nationales')
+  await shoot(page, 'lecon')
+  await shoot(page, 'lecon-complete', true)
+  await page.getByRole('region', { name: 'Tableau' }).first().scrollIntoViewIfNeeded()
+  await shoot(page, 'lecon-tableau')
+  await page.getByRole('navigation', { name: 'Autres leçons de la thématique' }).scrollIntoViewIfNeeded()
+  await shoot(page, 'lecon-fin')
 })
 
 const due = { level: 1, due: '2026-01-01T00:00:00.000Z' }
