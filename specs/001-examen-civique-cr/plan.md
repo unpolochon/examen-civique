@@ -12,7 +12,7 @@ Une web app installable (PWA), sans serveur. Le contenu (questions, leçons) est
 |---|---|---|
 | Langage | TypeScript | Types partagés entre contenu et logique |
 | Interface | React 19 + Vite | Outillage standard, connu des agents |
-| PWA | `vite-plugin-pwa` | Manifest et service worker hors ligne sans code maison |
+| PWA | `vite-plugin-pwa` | Manifest et service worker hors ligne sans code spécifique |
 | Routage | Routeur par hash (`#/examen`) | Fonctionne sur GitHub Pages sans configuration serveur |
 | Style | CSS simple avec variables (palette ci-dessous, polices Inter et Space Grotesk) | Pas de dépendance de style |
 | Stockage | `localStorage`, une seule clé, JSON versionné | Quelques centaines de Ko au plus, synchrone, simple |
@@ -133,7 +133,7 @@ Le ministère ne publie aucun corrigé. Le contenu est donc rédigé, puis véri
 4. Relecture humaine de 100 % des réponses avant mise en ligne.
 5. Mises en situation : 60 rédigées (30 en « Principes et valeurs », 30 en « Droits et devoirs », seules thématiques concernées par l'arrêté), marquées « non officielles ».
 
-## Délégation aux agents Claude Maison
+## Délégation à des agents Claude
 
 - Les tâches marquées `[P]` dans [tasks.md](tasks.md) peuvent tourner en parallèle, chacune dans son propre worktree git.
 - La rédaction du contenu se fait par thématique : 5 agents en parallèle.

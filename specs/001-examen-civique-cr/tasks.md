@@ -79,7 +79,7 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 - Le contenu (phase 3) peut avancer en parallèle de l'interface (phases 4 à 9). L'interface utilise un petit jeu de questions factices tant que le contenu n'est pas prêt.
 - MVP : phases 1, 2, 4, 5 et 6 avec le contenu d'au moins une thématique.
 
-## Lots parallèles proposés pour les agents Maison
+## Lots parallèles proposés pour les agents Claude
 
 1. T002, T003, T005, T006, T031 après T001.
 2. T007 à T011 (un agent par thématique).
