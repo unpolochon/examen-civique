@@ -69,7 +69,7 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 ## Phase 10 : finitions
 
 - [x] T027 [P] Écran Réglages : modifier prénom et date, exporter, importer, effacer toutes les données avec confirmation. Fichier : `src/screens/Reglages.tsx`.
-- [ ] T028 [P] Installation sur iPhone : icônes, manifest, message « Ajouter à l'écran d'accueil » sur Safari.
+- [x] T028 [P] Installation sur iPhone : icônes, manifest, message « Ajouter à l'écran d'accueil » sur Safari.
 - [ ] T029 Test de bout en bout Playwright sur viewport iPhone : profil, examen complet, résultats, leçon, cartes, progression, mode hors ligne.
 - [ ] T030 Revue visuelle et accessibilité de chaque écran face aux maquettes (contrastes, cibles de 44 px, lecteur d'écran).
 

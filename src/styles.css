@@ -546,7 +546,7 @@ a:hover {
   font-weight: 500;
 }
 
-.reglages__install {
+.install-hint {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -557,9 +557,20 @@ a:hover {
   line-height: 1.5;
 }
 
-.reglages__install svg {
+.install-hint > svg {
   flex: none;
   margin-top: 2px;
+}
+
+.install-hint p {
+  margin: 0;
+}
+
+.install-hint__close {
+  margin: -10px -12px -10px 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
 }
 
 .reglages__erase {

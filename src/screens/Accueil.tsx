@@ -1,8 +1,11 @@
+import { useRef, useState } from 'react'
+import InstallHint from '../components/InstallHint'
 import { lessons, questions } from '../content'
 import { isPassed } from '../domain/exam'
 import { examDateLabel, themeMeta } from '../domain/format'
 import { dueCards } from '../domain/srs'
 import { PASS_SCORE, THEME_LABELS, THEMES, type AppData } from '../domain/types'
+import { dismissInstallHint, installHintDismissed, isIosSafari, isStandalone } from '../install'
 import { useAppData } from '../state'
 
 export default function Accueil() {
@@ -10,6 +13,8 @@ export default function Accueil() {
   const now = new Date()
   const dateLabel = examDateLabel(data.profile.examDate, now)
   const due = dueCards(data.cards, now).length
+  const [installHint, setInstallHint] = useState(() => isIosSafari() && !isStandalone() && !installHintDismissed())
+  const nextLink = useRef<HTMLAnchorElement>(null)
 
   return (
     <div className="accueil">
@@ -28,9 +33,21 @@ export default function Accueil() {
 
       <ExamCard data={data} />
 
+      {installHint && (
+        <InstallHint
+          onDismiss={() => {
+            dismissInstallHint()
+            setInstallHint(false)
+            nextLink.current?.focus() // the focused button disappears
+          }}
+        />
+      )}
+
       <div className="accueil__section">
         <h2>Les 5 thématiques</h2>
-        <a href="#/lecons">Tout voir</a>
+        <a ref={nextLink} href="#/lecons">
+          Tout voir
+        </a>
       </div>
 
       <div className="accueil__tiles">
