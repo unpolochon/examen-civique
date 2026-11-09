@@ -8,7 +8,6 @@ import {
   type ExamRecord,
   type NotionId,
   type Question,
-  type QuestionSnapshot,
   type Score,
   type Theme,
 } from './types'
@@ -50,6 +49,12 @@ export function drawExam(bank: Question[], history: History, rng: () => number, 
   })
   const questions = shuffle(picked, rng)
   const startedAt = now.toISOString()
+  const snapshot = Object.fromEntries(
+    questions.map(({ id, question, choices, answer, explanation, theme, notion, lesson }) => [
+      id,
+      { question, choices: [...choices], answer, explanation, theme, notion, lesson },
+    ]),
+  )
   return {
     id: startedAt,
     startedAt,
@@ -58,23 +63,20 @@ export function drawExam(bank: Question[], history: History, rng: () => number, 
     answers: Object.fromEntries(questions.map((q) => [q.id, null])),
     flagged: [],
     current: 0,
+    snapshot,
   }
 }
 
 const emptyScores = <K extends string>(keys: readonly K[]) =>
   Object.fromEntries(keys.map((k) => [k, { correct: 0, total: 0 }])) as Record<K, Score>
 
-/** Scores a finished exam. An unanswered question counts as wrong. Throws when a question is missing from the bank. */
-export function scoreExam(exam: ExamInProgress, bank: Map<string, Question>, finishedAt: string): ExamRecord {
+/** Scores a finished exam from its own snapshot, without reading the content. An unanswered question counts as wrong. */
+export function scoreExam(exam: ExamInProgress, finishedAt: string): ExamRecord {
   const byTheme = emptyScores<Theme>(THEMES)
   const byNotion = emptyScores<NotionId>(NOTIONS)
-  const snapshot: Record<string, QuestionSnapshot> = {}
   let score = 0
   for (const id of exam.questionIds) {
-    const q = bank.get(id)
-    if (!q) throw new Error(`Question ${id} introuvable dans la banque de questions.`)
-    const { question, choices, answer, explanation, theme, notion, lesson } = q
-    snapshot[id] = { question, choices, answer, explanation, theme, notion, lesson }
+    const { answer, theme, notion } = exam.snapshot[id]
     const correct = exam.answers[id] === answer ? 1 : 0
     score += correct
     for (const s of [byTheme[theme], byNotion[notion]]) {
@@ -92,7 +94,7 @@ export function scoreExam(exam: ExamInProgress, bank: Map<string, Question>, fin
     score,
     byTheme,
     byNotion,
-    snapshot,
+    snapshot: exam.snapshot,
   }
 }
 

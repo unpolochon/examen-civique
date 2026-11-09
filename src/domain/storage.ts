@@ -101,7 +101,8 @@ function isExamBase(exam: unknown): exam is Record<string, unknown> {
     isDate(exam.startedAt) &&
     isStringArray(exam.questionIds) &&
     isChoiceOrder(exam.choiceOrder) &&
-    isAnswers(exam.answers)
+    isAnswers(exam.answers) &&
+    isSnapshot(exam.snapshot, exam.questionIds as string[])
   )
 }
 
@@ -119,8 +120,7 @@ function findProblem(data: unknown): string | null {
       !isDate(exam.finishedAt) ||
       !Number.isInteger(exam.score) ||
       !isObject(exam.byTheme) ||
-      !isObject(exam.byNotion) ||
-      !isSnapshot(exam.snapshot, exam.questionIds as string[])
+      !isObject(exam.byNotion)
     ) {
       return 'examen terminé illisible'
     }

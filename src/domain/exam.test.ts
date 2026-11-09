@@ -44,6 +44,14 @@ describe('drawExam', () => {
     expect(Object.keys(exam.answers).sort()).toEqual([...exam.questionIds].sort())
   })
 
+  test('photo de chaque question tirée, telle que dans la banque', () => {
+    expect(Object.keys(exam.snapshot).sort()).toEqual([...exam.questionIds].sort())
+    for (const id of exam.questionIds) {
+      const { question: text, choices, answer, explanation, theme, notion, lesson } = map.get(id)!
+      expect(exam.snapshot[id]).toEqual({ question: text, choices, answer, explanation, theme, notion, lesson })
+    }
+  })
+
   test('mélange l’ordre des questions entre les notions', () => {
     const notions = exam.questionIds.map((id) => map.get(id)!.notion)
     const grouped = NOTIONS.flatMap((n) => Array(EXAM_GRID[n]).fill(n))
@@ -109,7 +117,7 @@ describe('scoreExam', () => {
   }
   answered.answers[first] = (map.get(first)!.answer + 1) % 4
   answered.answers[second] = null
-  const record = scoreExam(answered, map, '2026-11-09T10:40:00.000Z')
+  const record = scoreExam(answered, '2026-11-09T10:40:00.000Z')
 
   test('score : réponse fausse et absence de réponse valent 0', () => {
     expect(record.score).toBe(38)
@@ -131,7 +139,7 @@ describe('scoreExam', () => {
     }
   })
 
-  test('garde les réponses, l’ordre et une photo de chaque question', () => {
+  test('garde les réponses, l’ordre et la photo du tirage', () => {
     expect(record).toMatchObject({
       id: exam.id,
       startedAt: exam.startedAt,
@@ -140,9 +148,7 @@ describe('scoreExam', () => {
       choiceOrder: exam.choiceOrder,
       answers: answered.answers,
     })
-    const { question: text, choices, answer, explanation, theme, notion, lesson } = map.get(third)!
-    expect(record.snapshot[third]).toEqual({ question: text, choices, answer, explanation, theme, notion, lesson })
-    expect(Object.keys(record.snapshot).sort()).toEqual([...exam.questionIds].sort())
+    expect(record.snapshot).toEqual(exam.snapshot)
   })
 
   test('la correction survit à une modification de la liste officielle', () => {
@@ -154,16 +160,25 @@ describe('scoreExam', () => {
   })
 
   test('examen sans réponse : 0, échoué', () => {
-    const empty = scoreExam(exam, map, '2026-11-09T10:45:00.000Z')
+    const empty = scoreExam(exam, '2026-11-09T10:45:00.000Z')
     expect(empty.score).toBe(0)
     expect(isPassed(empty)).toBe(false)
     expect(missedQuestionIds(empty)).toHaveLength(EXAM_QUESTIONS)
   })
 
-  test('question absente de la banque : erreur claire', () => {
-    const map2 = byId(bank)
-    map2.delete(first)
-    expect(() => scoreExam(exam, map2, now.toISOString())).toThrow(`Question ${first} introuvable`)
+  test('un changement de contenu pendant l’examen ne le bloque pas et ne change pas sa correction', () => {
+    const live = makeBank(0)
+    const inProgress = drawExam(live, noHistory, seededRng(5), now)
+    // App update while the exam is saved: a question changes its answer and wording, another disappears.
+    const changed = live.find((q) => q.id === third)!
+    changed.answer = (changed.answer + 1) % 4
+    changed.question = 'Nouvelle formulation ?'
+    changed.choices[0] = 'Choix modifié'
+    live.splice(live.findIndex((q) => q.id === first), 1)
+    const resumed: ExamInProgress = JSON.parse(JSON.stringify({ ...inProgress, answers: answered.answers }))
+    const rescored = scoreExam(resumed, '2026-11-09T10:40:00.000Z')
+    expect(rescored.score).toBe(38)
+    expect(rescored.snapshot[third]).toMatchObject({ question: question('principes.laicite', 1).question, choices: ['A', 'B', 'C', 'D'] })
   })
 })
 

@@ -5,15 +5,15 @@ import { revisionPlan } from './plan'
 import type { ExamRecord, Lesson, Question } from './types'
 
 const bank = makeBank(0)
-const map = new Map(bank.map((q) => [q.id, q]))
+const byId = new Map(bank.map((q) => [q.id, q]))
 const exam = drawExam(bank, { seen: new Set(), missed: new Set() }, seededRng(9), new Date('2026-11-09T10:00:00.000Z'))
 
 /** Scores the exam with every answer right except the given ids (answered wrong). */
 function recordMissing(wrong: string[], lessonOf: (q: Question) => string = (q) => q.lesson): ExamRecord {
-  const answers = Object.fromEntries(exam.questionIds.map((id) => [id, map.get(id)!.answer]))
-  for (const id of wrong) answers[id] = (map.get(id)!.answer + 1) % 4
-  const relabelled = new Map(bank.map((q) => [q.id, { ...q, lesson: lessonOf(q) }]))
-  return scoreExam({ ...exam, answers }, relabelled, '2026-11-09T10:40:00.000Z')
+  const snapshot = Object.fromEntries(exam.questionIds.map((id) => [id, { ...exam.snapshot[id], lesson: lessonOf(byId.get(id)!) }]))
+  const answers = Object.fromEntries(exam.questionIds.map((id) => [id, snapshot[id].answer]))
+  for (const id of wrong) answers[id] = (snapshot[id].answer + 1) % 4
+  return scoreExam({ ...exam, answers, snapshot }, '2026-11-09T10:40:00.000Z')
 }
 
 const ids = (notion: string, ns: number[]) => ns.map((n) => `${notion}-${n}`)

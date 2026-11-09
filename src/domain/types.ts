@@ -84,9 +84,11 @@ export interface ExamInProgress {
   /** Questions marked "À revoir". */
   flagged: string[]
   current: number
+  /** Questions as drawn, keyed by id: a content change never blocks or alters the exam. */
+  snapshot: Record<string, QuestionSnapshot>
 }
 
-/** Question as it was when the exam was scored, so the correction survives content changes. */
+/** Question as it was when the exam was drawn, so the exam and its correction survive content changes. */
 export type QuestionSnapshot = Pick<Question, 'question' | 'choices' | 'answer' | 'explanation' | 'theme' | 'notion' | 'lesson'>
 
 export interface ExamRecord {
