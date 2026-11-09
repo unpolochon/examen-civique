@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "CR-091",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "choices": [
+      "La liberté d’avoir des enfants",
+      "La liberté d’entreprendre",
+      "La liberté de circulation",
+      "La liberté de réunion"
+    ],
+    "answer": 0,
+    "explanation": "La PMA (procréation médicalement assistée) aide à devenir parent. Depuis la loi de bioéthique du 2 août 2021, elle est ouverte à toutes les femmes, en couple ou seules.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "CR-092",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "choices": [
+      "Au nom de l’ordre public et de l’intérêt général",
+      "Au nom de la religion la plus pratiquée",
+      "Au nom des intérêts d’un parti politique",
+      "Au nom des traditions de chaque région"
+    ],
+    "answer": 0,
+    "explanation": "La loi peut limiter les libertés pour protéger l’intérêt général, l’ordre public (sécurité, tranquillité, salubrité), la dignité humaine et les libertés des autres.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "CR-093",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "choices": [
+      "Deux personnes majeures et consentantes peuvent se marier, quel que soit leur sexe",
+      "La famille peut imposer un mariage à une personne majeure",
+      "Une personne peut être mariée à plusieurs personnes à la fois",
+      "Seuls un homme et une femme peuvent se marier ensemble"
+    ],
+    "answer": 0,
+    "explanation": "Chacun choisit librement son conjoint, quel que soit son sexe, depuis la loi du 17 mai 2013. Le libre consentement est obligatoire (article 146 du Code civil) et la polygamie est interdite.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "CR-094",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Est-il toujours possible de divorcer ?",
+    "choices": [
+      "Oui, le divorce est un droit, même sans faute de l’autre époux",
+      "Non, il faut l’accord des deux familles",
+      "Non, un mariage ne peut jamais être rompu",
+      "Oui, mais seulement à la demande du mari"
+    ],
+    "answer": 0,
+    "explanation": "La liberté conjugale permet de mettre fin au mariage. Le divorce n’exige pas de faute, et un époux peut le demander au juge même si l’autre refuse.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "CR-095",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "La peine de mort est :",
+    "choices": [
+      "abolie en France depuis 1981",
+      "appliquée pour les crimes les plus graves",
+      "possible seulement en temps de guerre",
+      "décidée par le président de la République"
+    ],
+    "answer": 0,
+    "explanation": "La loi du 9 octobre 1981, portée par Robert Badinter, a aboli la peine de mort. Depuis 2007, l’article 66-1 de la Constitution dit : « Nul ne peut être condamné à la peine de mort ».",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+  },
+  {
+    "id": "CR-096",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "choices": [
+      "« Les hommes naissent et demeurent libres et égaux en droits. »",
+      "« La France est une République indivisible, laïque, démocratique et sociale. »",
+      "« Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé. »",
+      "« Chacun a le devoir de travailler et le droit d’obtenir un emploi. »"
+    ],
+    "answer": 0,
+    "explanation": "C’est l’article 1er de la Déclaration de 1789. Les autres phrases viennent de la Constitution de 1958, de la Charte de l’environnement et du Préambule de 1946.",
+    "lesson": "droits/textes-fondamentaux",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/"
+  },
+  {
+    "id": "CR-097",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "choices": [
+      "Oui, c’est une liberté des femmes garantie par la Constitution",
+      "Non, il est interdit dans tous les cas",
+      "Oui, mais seulement avec l’accord du conjoint",
+      "Oui, mais seulement pour les femmes mariées"
+    ],
+    "answer": 0,
+    "explanation": "La loi Veil du 17 janvier 1975 a autorisé l’IVG (interruption volontaire de grossesse). Depuis mars 2024, la Constitution garantit aux femmes la liberté d’y recourir.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/"
+  },
+  {
+    "id": "CR-098",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que contient la Constitution ?",
+    "choices": [
+      "L’organisation des pouvoirs publics et les droits et libertés fondamentaux",
+      "La liste de toutes les lois votées chaque année",
+      "Le programme du gouvernement pour les cinq ans à venir",
+      "Les règles du Code civil et du Code pénal"
+    ],
+    "answer": 0,
+    "explanation": "La Constitution fixe l’organisation de l’État, le régime politique et les droits et libertés fondamentaux, ainsi que la façon de les garantir.",
+    "lesson": "droits/textes-fondamentaux",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  {
+    "id": "CR-099",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que garantit la liberté de la presse ?",
+    "choices": [
+      "Le droit de publier librement des informations et des opinions",
+      "L’obligation de faire relire chaque article par l’État",
+      "Le droit de publier des insultes sans être puni",
+      "Le droit pour l’État de choisir les journalistes"
+    ],
+    "answer": 0,
+    "explanation": "L’article 11 de la Déclaration de 1789 permet de « parler, écrire, imprimer librement ». La loi du 29 juillet 1881 protège la presse, mais punit les abus comme la diffamation ou l’injure.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/"
+  },
+  {
+    "id": "CR-100",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "choices": [
+      "Le droit de vivre dans un environnement équilibré et respectueux de la santé",
+      "La liste des espèces animales protégées en France",
+      "Le droit de polluer à condition de payer une taxe",
+      "L’interdiction totale des voitures dans les villes"
+    ],
+    "answer": 0,
+    "explanation": "C’est l’article 1er de la Charte de l’environnement de 2004, ajoutée à la Constitution en 2005. Elle prévoit aussi le devoir de chacun de préserver l’environnement.",
+    "lesson": "droits/textes-fondamentaux",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement/"
+  },
+  {
+    "id": "CR-101",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que signifie la dignité humaine ?",
+    "choices": [
+      "Chaque personne mérite le respect et ne doit jamais être traitée comme un objet",
+      "Chaque personne doit avoir un travail bien payé",
+      "Seuls les citoyens français ont droit au respect de l’État",
+      "Chaque personne doit obéir aux décisions de sa famille"
+    ],
+    "answer": 0,
+    "explanation": "La dignité humaine signifie que tout être humain a de la valeur et mérite un respect sans condition, quels que soient son âge, son sexe, sa santé, sa religion ou son origine.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/la-diginite-humaine/"
+  },
+  {
+    "id": "CR-102",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que signifie le droit de manifester ?",
+    "choices": [
+      "Le droit de se rassembler sur la voie publique pour défendre une opinion",
+      "Le droit de cesser le travail pour défendre ses intérêts",
+      "Le droit de dégrader des biens publics pour protester",
+      "L’obligation de défiler le jour de la fête nationale"
+    ],
+    "answer": 0,
+    "explanation": "Manifester, c’est exprimer une opinion à plusieurs dans l’espace public, sans violence. La manifestation doit être déclarée à l’avance et peut être interdite en cas de risque grave pour l’ordre public.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/"
+  },
+  {
+    "id": "CR-103",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que signifie PMA ?",
+    "choices": [
+      "Procréation médicalement assistée",
+      "Protection maternelle et accompagnement",
+      "Prestation médicale d’adoption",
+      "Prévention médicale de l’avortement"
+    ],
+    "answer": 0,
+    "explanation": "La PMA regroupe les techniques médicales qui aident à avoir un enfant. Elle est ouverte à toutes les femmes, en couple ou seules, depuis 2021.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "CR-104",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel texte est le plus difficile à modifier ?",
+    "choices": [
+      "La Constitution",
+      "Une loi ordinaire",
+      "Un décret du Premier ministre",
+      "Un arrêté municipal"
+    ],
+    "answer": 0,
+    "explanation": "La Constitution est la norme suprême. Pour la réviser, il faut un vote des deux assemblées puis un référendum ou une majorité des trois cinquièmes du Parlement réuni en Congrès (article 89).",
+    "lesson": "droits/textes-fondamentaux",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  {
+    "id": "CR-105",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "choices": [
+      "La liberté de conscience",
+      "La liberté de la presse",
+      "La liberté d’entreprendre",
+      "La liberté de circulation"
+    ],
+    "answer": 0,
+    "explanation": "La liberté de conscience permet de croire, de ne pas croire ou de changer de religion. La laïcité la garantit à tous, et la pratique d’une religion ne doit pas troubler l’ordre public.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/"
+  },
+  {
+    "id": "CR-106",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est-ce que le droit de grève ?",
+    "choices": [
+      "Le droit pour les salariés de cesser le travail pour défendre leurs revendications",
+      "Le droit pour l’employeur de fermer l’entreprise sans prévenir",
+      "Le droit de ne plus payer ses impôts pour protester",
+      "Le droit de prendre ses congés payés quand on le veut"
+    ],
+    "answer": 0,
+    "explanation": "La grève permet aux salariés d’arrêter le travail pour exprimer un désaccord. Ce droit est garanti par le Préambule de la Constitution de 1946.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/"
+  },
+  {
+    "id": "CR-107",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qu'est-ce que la Constitution ?",
+    "choices": [
+      "Le texte fondateur qui organise l’État et garantit les droits fondamentaux",
+      "Un code qui regroupe toutes les règles du travail",
+      "Un traité signé entre les pays de l’Union européenne",
+      "Le discours du président de la République après son élection"
+    ],
+    "answer": 0,
+    "explanation": "La Constitution du 4 octobre 1958 est le texte fondateur de la Ve République. Elle a été approuvée par référendum le 28 septembre 1958.",
+    "lesson": "droits/textes-fondamentaux",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+  },
+  {
+    "id": "CR-108",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui peut demander à avorter ?",
+    "choices": [
+      "Toute femme enceinte, majeure ou mineure",
+      "Seulement les femmes majeures et mariées",
+      "Seulement les femmes qui ont l’accord de leur conjoint",
+      "Seulement les femmes de nationalité française"
+    ],
+    "answer": 0,
+    "explanation": "L’IVG est possible pour toutes les femmes, sans condition d’âge. Une mineure n’a pas besoin de l’accord de ses parents, mais elle doit être accompagnée d’une personne majeure de son choix.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/"
+  },
+  {
+    "id": "CR-109",
+    "theme": "droits",
+    "notion": "droits.fondamentaux",
+    "type": "connaissance",
+    "official": true,
+    "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "choices": [
+      "Oui, dans les mêmes conditions que les hommes",
+      "Non, seuls les hommes peuvent voter",
+      "Oui, mais seulement aux élections municipales",
+      "Oui, mais seulement avec l’accord de son mari"
+    ],
+    "answer": 0,
+    "explanation": "Les femmes ont le droit de vote depuis l’ordonnance du 21 avril 1944. Le suffrage universel s’applique sans distinction de sexe, à condition d’être inscrite sur les listes électorales.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+  },
+  {
+    "id": "CR-110",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "choices": [
+      "Les insultes et les messages de haine y sont punis par la loi",
+      "On peut y publier n’importe quoi avec un pseudonyme",
+      "Un message raciste n’est pas puni s’il est publié en ligne",
+      "Les lois françaises ne s’appliquent pas sur internet"
+    ],
+    "answer": 0,
+    "explanation": "La loi s’applique en ligne comme ailleurs. L’injure, la diffamation, le harcèlement et l’incitation à la haine sont punis, même sous un pseudonyme.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/",
+    "review": "Les fiches officielles ne traitent pas directement des réseaux sociaux : réponse déduite des limites de la liberté d’expression (article 11 de la DDHC, fiche sur la limite des libertés)."
+  },
+  {
+    "id": "CR-111",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Jeter un mégot par terre est :",
+    "choices": [
+      "une infraction punie d’une amende",
+      "un geste autorisé sur la voie publique",
+      "un crime jugé par la cour d’assises",
+      "interdit seulement dans les forêts"
+    ],
+    "answer": 0,
+    "explanation": "Abandonner un déchet sur la voie publique, même un mégot, est une contravention. L’amende forfaitaire est de 135 €.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "CR-112",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "L'État peut-il limiter les droits et libertés ?",
+    "choices": [
+      "Oui, si la loi le prévoit pour protéger l’ordre public ou les droits des autres",
+      "Non, les libertés ne peuvent jamais être limitées",
+      "Oui, mais seulement pour les personnes étrangères",
+      "Oui, pour défendre les intérêts d’un parti politique"
+    ],
+    "answer": 0,
+    "explanation": "La liberté consiste à faire tout ce qui ne nuit pas à autrui (article 4 de la DDHC). Seule la loi peut fixer ses limites, au nom de l’ordre public, de l’intérêt général ou de la dignité humaine.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "CR-113",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+    "choices": [
+      "Trier ses déchets et éviter le gaspillage",
+      "Laisser les appareils allumés en permanence",
+      "Jeter ses déchets dans la nature",
+      "Prendre la voiture pour tous les petits trajets"
+    ],
+    "answer": 0,
+    "explanation": "Toute personne a le devoir de préserver l’environnement (article 2 de la Charte de l’environnement). Trier, réduire ses déchets et éviter le gaspillage en font partie.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "CR-114",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle proposition constitue une obligation ?",
+    "choices": [
+      "Payer ses impôts",
+      "Adhérer à un syndicat",
+      "Pratiquer une religion",
+      "Adhérer à un parti politique"
+    ],
+    "answer": 0,
+    "explanation": "Payer l’impôt selon ses moyens est une obligation inscrite dans la Déclaration de 1789 (article 13). Adhérer à un syndicat, à un parti ou à une religion reste un libre choix.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "CR-115",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "choices": [
+      "Pour sanctionner des propos racistes ou des appels à la haine",
+      "Pour interdire de critiquer le gouvernement",
+      "Pour interdire de critiquer une religion",
+      "Pour interdire de parler une langue étrangère"
+    ],
+    "answer": 0,
+    "explanation": "La liberté d’expression s’arrête là où elle nuit à autrui : la loi punit l’injure, la diffamation et l’incitation à la haine. Critiquer le pouvoir ou une religion reste permis.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "CR-116",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Pourquoi doit-on trier ses déchets ?",
+    "choices": [
+      "Pour permettre le recyclage et protéger l’environnement",
+      "Pour réduire le montant de son impôt sur le revenu",
+      "Pour pouvoir laisser ses déchets dans la nature",
+      "Pour que tous les déchets soient brûlés ensemble"
+    ],
+    "answer": 0,
+    "explanation": "Le tri permet de recycler le verre, le papier ou le plastique et de réduire la pollution. C’est un geste concret du devoir de protéger l’environnement.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "CR-117",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que doit faire une victime de violences ?",
+    "choices": [
+      "En parler, se faire aider et porter plainte",
+      "Garder le silence pour protéger sa famille",
+      "Se venger elle-même de son agresseur",
+      "Attendre que les violences s’arrêtent seules"
+    ],
+    "answer": 0,
+    "explanation": "Une victime ne doit pas rester seule : des associations l’aident gratuitement et elle peut porter plainte au commissariat ou à la gendarmerie. En urgence, elle appelle le 17.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-protection-des-victimes-de-violences/"
+  },
+  {
+    "id": "CR-118",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "choices": [
+      "Les respecter et y obéir",
+      "Les ignorer si on les trouve injustes",
+      "Y obéir seulement en présence d’un avocat",
+      "Les discuter longuement avant d’obéir"
+    ],
+    "answer": 0,
+    "explanation": "Toute personne appelée ou saisie en vertu de la loi doit obéir à l’instant (article 7 de la DDHC). Refuser d’obtempérer ou résister aux forces de l’ordre est une infraction.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  {
+    "id": "CR-119",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est le rôle de la police ?",
+    "choices": [
+      "Faire respecter la loi, maintenir l’ordre public et protéger les personnes",
+      "Juger les personnes accusées de crimes",
+      "Voter les lois au Parlement",
+      "Collecter les impôts des habitants"
+    ],
+    "answer": 0,
+    "explanation": "La police prévient les infractions, maintient l’ordre public, protège les personnes et les biens et mène les enquêtes. Ce sont les juges qui jugent.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  {
+    "id": "CR-120",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel est un exemple d’assistance à personne en danger ?",
+    "choices": [
+      "Appeler les secours pour une personne qui fait un malaise",
+      "Filmer un accident pour le publier en ligne",
+      "Passer son chemin devant une personne blessée",
+      "Attendre qu’une autre personne appelle les secours"
+    ],
+    "answer": 0,
+    "explanation": "Toute personne doit porter secours à quelqu’un en danger, sans se mettre elle-même en danger. Ne pas le faire peut être puni pour non-assistance à personne en danger.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "CR-121",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "choices": [
+      "Les restrictions de déplacement pendant l’épidémie de Covid-19",
+      "L’interdiction de critiquer le gouvernement",
+      "L’obligation de pratiquer une religion",
+      "L’interdiction de choisir librement son conjoint"
+    ],
+    "answer": 0,
+    "explanation": "En mars 2020, l’état d’urgence sanitaire a limité la liberté d’aller et venir pour protéger la santé de tous. C’est une limite prévue par la loi au nom de l’intérêt général.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "CR-122",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+    "choices": [
+      "Agir sans se mettre en danger, par exemple en appelant le 17",
+      "Ne rien faire, car cela ne nous regarde pas",
+      "Frapper l’agresseur pour l’arrêter",
+      "Filmer la scène pour la publier sur internet"
+    ],
+    "answer": 0,
+    "explanation": "Un témoin doit agir sans se mettre en danger : alerter la police ou les personnes autour, soutenir la victime, puis témoigner si besoin.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/"
+  },
+  {
+    "id": "CR-123",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle est l'infraction la plus grave ?",
+    "choices": [
+      "Le crime",
+      "Le délit",
+      "La contravention",
+      "L’incivilité"
+    ],
+    "answer": 0,
+    "explanation": "Il existe trois catégories d’infractions : la contravention (la moins grave), le délit et le crime (la plus grave). Les crimes sont jugés par la cour d’assises ou la cour criminelle.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  {
+    "id": "CR-124",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "choices": [
+      "Respecter les lois françaises",
+      "Voter à l’élection présidentielle",
+      "Participer à la Journée défense et citoyenneté",
+      "Être juré dans une cour d’assises"
+    ],
+    "answer": 0,
+    "explanation": "Toute personne qui habite en France, quelle que soit sa nationalité, doit respecter la loi. Voter, participer à la JDC ou être juré concernent seulement les citoyens français.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "CR-125",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle proposition représente un exemple de crime ?",
+    "choices": [
+      "Un meurtre",
+      "Un vol à l’étalage",
+      "Du tapage nocturne",
+      "Une fraude fiscale"
+    ],
+    "answer": 0,
+    "explanation": "Le meurtre est un crime, l’infraction la plus grave. Le vol et la fraude fiscale sont des délits ; le tapage nocturne est une contravention.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  {
+    "id": "CR-126",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Quelle proposition représente un exemple de délit ?",
+    "choices": [
+      "Un vol",
+      "Un assassinat",
+      "Un viol",
+      "Du tapage nocturne"
+    ],
+    "answer": 0,
+    "explanation": "Le vol est un délit, jugé par le tribunal correctionnel. L’assassinat et le viol sont des crimes ; le tapage nocturne est une contravention.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  {
+    "id": "CR-127",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "Qui veille au maintien de l’ordre public ?",
+    "choices": [
+      "La police et la gendarmerie",
+      "Les syndicats de salariés",
+      "Les conseils de prud’hommes",
+      "Les associations de locataires"
+    ],
+    "answer": 0,
+    "explanation": "La police (en ville) et la gendarmerie (en zone rurale et périurbaine) sont les forces de l’ordre. Elles maintiennent l’ordre public et font respecter la loi.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  {
+    "id": "CR-128",
+    "theme": "droits",
+    "notion": "droits.obligations",
+    "type": "connaissance",
+    "official": true,
+    "question": "S'agissant des déchets, quelle proposition est correcte ?",
+    "choices": [
+      "Il est interdit de jeter ses déchets dans la rue ou dans la nature",
+      "Le tri des déchets ne concerne que les entreprises",
+      "On peut déposer ses déchets n’importe où s’ils sont dans un sac",
+      "Les déchets peuvent être jetés dans les rivières"
+    ],
+    "answer": 0,
+    "explanation": "Chacun doit respecter les espaces communs et ne pas y jeter de déchets. Un dépôt sauvage est puni d’une amende.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "SIT-DRO-001",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Un soir, Inès entend des cris et des coups chez ses voisins de palier. Une femme appelle à l’aide. Que doit faire Inès ?",
+    "choices": [
+      "Appeler le 17 pour prévenir la police",
+      "Ne rien faire, car c’est une affaire de couple",
+      "Attendre le lendemain pour en parler au gardien",
+      "Entrer chez les voisins pour frapper l’agresseur"
+    ],
+    "answer": 0,
+    "explanation": "Un témoin de violences doit agir sans se mettre en danger. Le 17 (police secours) permet d’aider la victime rapidement.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/"
+  },
+  {
+    "id": "SIT-DRO-002",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Au bureau, un collègue de Marc s’effondre et ne répond plus. Les autres collègues sont en réunion. Que doit faire Marc ?",
+    "choices": [
+      "Appeler tout de suite le 15 ou le 112",
+      "Retourner à son poste et attendre la fin de la réunion",
+      "Envoyer un courriel au service du personnel",
+      "Prendre une photo pour prouver qu’il était là"
+    ],
+    "answer": 0,
+    "explanation": "Porter secours à une personne en danger est une obligation. Ne pas le faire peut être puni pour non-assistance à personne en danger.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "SIT-DRO-003",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Sofia vit avec son compagnon. Il garde son passeport, contrôle sa carte bancaire et l’insulte souvent. Que peut-on dire de cette situation ?",
+    "choices": [
+      "Ce sont des violences interdites ; elle peut appeler le 3919",
+      "C’est normal, car c’est lui qui gère le budget du couple",
+      "C’est autorisé tant qu’il ne la frappe pas",
+      "C’est une affaire privée dont la loi ne s’occupe pas"
+    ],
+    "answer": 0,
+    "explanation": "Confisquer des papiers et insulter sont des violences psychologiques ; contrôler tout l’argent est une violence économique. Le 3919 écoute et oriente gratuitement les victimes de violences conjugales.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-de-toutes-les-formes-de-violences/"
+  },
+  {
+    "id": "SIT-DRO-004",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Claire est institutrice. Un élève arrive en classe avec des bleus et lui dit que son père le frappe souvent. Que doit faire Claire ?",
+    "choices": [
+      "Signaler la situation, par exemple en appelant le 119",
+      "Ne rien dire, car l’éducation regarde seulement les parents",
+      "Demander au père de frapper moins fort",
+      "Attendre que l’enfant en parle une deuxième fois"
+    ],
+    "answer": 0,
+    "explanation": "La maltraitance des enfants est interdite. Le 119 (Allô Enfance en danger) est gratuit et joignable 24 heures sur 24, 7 jours sur 7.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants/"
+  },
+  {
+    "id": "SIT-DRO-005",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Au collège, Hugo subit chaque jour des moqueries et des bousculades de plusieurs élèves. Ses parents ne savent pas quoi faire. Que leur conseiller ?",
+    "choices": [
+      "Le harcèlement scolaire est un délit : ils peuvent appeler le 3018",
+      "C’est un jeu d’enfants, Hugo doit régler cela seul",
+      "Hugo doit se défendre en frappant les autres élèves",
+      "Ils doivent attendre la fin de l’année scolaire"
+    ],
+    "answer": 0,
+    "explanation": "Le harcèlement scolaire est un délit puni par la loi. Le 3018 est le numéro national contre le harcèlement à l’école et en ligne.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants/"
+  },
+  {
+    "id": "SIT-DRO-006",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Nadia, 32 ans, est enceinte de six semaines et souhaite interrompre sa grossesse. Son compagnon n’est pas d’accord. Que dit la loi ?",
+    "choices": [
+      "Nadia peut décider seule de recourir à l’IVG",
+      "Nadia doit obtenir l’accord écrit de son compagnon",
+      "Nadia doit demander l’autorisation du maire",
+      "L’IVG est réservée aux femmes mariées"
+    ],
+    "answer": 0,
+    "explanation": "L’IVG est une liberté garantie aux femmes par la Constitution. Elle n’a pas besoin de l’accord du partenaire ; Nadia prend rendez-vous avec un médecin ou une sage-femme.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/"
+  },
+  {
+    "id": "SIT-DRO-007",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Emma a 16 ans. Après un rapport non protégé, elle a besoin d’une contraception d’urgence, mais elle n’ose pas en parler à ses parents. Que peut-elle faire ?",
+    "choices": [
+      "L’obtenir gratuitement et anonymement en pharmacie",
+      "Attendre l’autorisation écrite de ses parents",
+      "Demander d’abord l’accord d’un juge",
+      "Rien, car la contraception est interdite aux mineures"
+    ],
+    "answer": 0,
+    "explanation": "La contraception d’urgence est délivrée sans ordonnance en pharmacie. Pour une mineure, elle est gratuite et anonyme ; l’infirmière scolaire peut aussi la donner.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/"
+  },
+  {
+    "id": "SIT-DRO-008",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Thomas et sa femme sont mariés depuis dix ans et vivent séparés. Thomas veut divorcer, mais sa femme refuse. Que dit la loi ?",
+    "choices": [
+      "Thomas peut demander le divorce au juge, même si sa femme refuse",
+      "Le divorce est impossible sans l’accord des deux époux",
+      "Le divorce est interdit après dix ans de mariage",
+      "Thomas doit obtenir l’accord de sa belle-famille"
+    ],
+    "answer": 0,
+    "explanation": "La liberté conjugale permet de mettre fin au mariage. Le divorce n’exige pas de faute, et un époux peut le demander au juge même si l’autre n’est pas d’accord.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "SIT-DRO-009",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Laura a 20 ans. Ses parents veulent la marier à un homme qu’elle n’a pas choisi. Elle refuse ce mariage. Que dit la loi ?",
+    "choices": [
+      "Personne ne peut l’obliger : le mariage exige son libre consentement",
+      "Elle doit obéir, car ses parents décident pour elle",
+      "Elle peut refuser seulement si elle a un travail",
+      "Le maire peut célébrer le mariage sans son accord"
+    ],
+    "answer": 0,
+    "explanation": "Chacun choisit librement son conjoint. Sans libre consentement, le mariage n’est pas valable (article 146 du Code civil), et les pressions ou violences pour l’imposer sont punies.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "SIT-DRO-010",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Marie a été engagée pour garder les enfants d’une famille. La famille garde son passeport, ne la paie pas et lui interdit de sortir. Que peut-on dire de cette situation ?",
+    "choices": [
+      "C’est une forme de traite des êtres humains, interdite en France",
+      "C’est légal si la famille la loge et la nourrit",
+      "C’est autorisé pendant la période d’essai",
+      "C’est un simple désaccord de travail sans gravité"
+    ],
+    "answer": 0,
+    "explanation": "Héberger une personne pour l’exploiter par le travail forcé ou la servitude est de la traite des êtres humains. Marie peut alerter la police (17) ou une association.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-traite-des-etres-humains-et-la-prostitution/"
+  },
+  {
+    "id": "SIT-DRO-011",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Élodie, 35 ans, vit seule et veut devenir mère. Elle se demande si elle peut avoir recours à une PMA. Que lui répondre ?",
+    "choices": [
+      "Oui, la PMA est ouverte à toutes les femmes, en couple ou seules",
+      "Non, la PMA est réservée aux couples mariés",
+      "Non, la PMA est réservée aux couples d’un homme et d’une femme",
+      "Oui, mais seulement si elle a plus de 45 ans"
+    ],
+    "answer": 0,
+    "explanation": "Depuis la loi de bioéthique du 2 août 2021, la PMA est ouverte aux couples de femmes et aux femmes seules.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+  },
+  {
+    "id": "SIT-DRO-012",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "La mairie de la ville de Kevin veut fermer l’école du quartier. Avec d’autres parents, Kevin veut défiler dans la rue pour protester. Est-ce possible ?",
+    "choices": [
+      "Oui, si la manifestation est pacifique et déclarée à l’avance",
+      "Non, seuls les syndicats ont le droit de manifester",
+      "Oui, et ils peuvent bloquer la mairie par la force",
+      "Non, on ne peut pas protester contre une décision du maire"
+    ],
+    "answer": 0,
+    "explanation": "Le droit de manifester permet d’exprimer une opinion à plusieurs. Une manifestation sur la voie publique doit être déclarée à la mairie ou à la préfecture et se dérouler sans violence.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/"
+  },
+  {
+    "id": "SIT-DRO-013",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Dans l’entreprise où travaille Mei, les salariés font grève pour obtenir de meilleurs salaires. Son chef lui dit qu’elle sera licenciée si elle participe. A-t-il raison ?",
+    "choices": [
+      "Non, elle ne peut pas être licenciée pour avoir fait grève",
+      "Oui, faire grève est toujours une faute grave",
+      "Oui, si elle n’a pas demandé l’accord de son chef",
+      "Oui, car la grève est interdite dans les entreprises"
+    ],
+    "answer": 0,
+    "explanation": "Le droit de grève est garanti par la Constitution. Un salarié ne peut pas être sanctionné pour avoir fait grève, sauf faute lourde ; les jours de grève ne sont pas payés.",
+    "lesson": "droits/droits-et-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/"
+  },
+  {
+    "id": "SIT-DRO-014",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Jonas découvre qu’un ami a publié sur un réseau social un message raciste contre une famille de son immeuble. Que peut-on dire de ce message ?",
+    "choices": [
+      "Il est puni par la loi et peut être signalé",
+      "Il est autorisé grâce à la liberté d’expression",
+      "Il est permis, car internet n’est pas un lieu public",
+      "Il est autorisé s’il est publié sous un pseudonyme"
+    ],
+    "answer": 0,
+    "explanation": "Les propos racistes et les appels à la haine sont des infractions, en ligne comme ailleurs. Jonas peut signaler le message au réseau social ou sur la plateforme officielle Pharos.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "SIT-DRO-015",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Samuel visite un appartement à louer. L’agence lui dit qu’elle ne loue pas aux personnes de son origine. Que peut faire Samuel ?",
+    "choices": [
+      "Saisir le Défenseur des droits, car c’est une discrimination interdite",
+      "Rien, car le propriétaire choisit ses locataires comme il veut",
+      "Rien, car l’agence lui a répondu poliment",
+      "Rien, car la règle vaut seulement pour les logements sociaux"
+    ],
+    "answer": 0,
+    "explanation": "Refuser un logement à cause de l’origine est une discrimination punie par la loi. Le Défenseur des droits aide gratuitement les victimes ; on peut aussi porter plainte.",
+    "lesson": "droits/reagir-au-quotidien",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  {
+    "id": "SIT-DRO-016",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Depuis six mois, Lucie n’arrive pas à régler un problème de dossier avec sa caisse d’allocations familiales (CAF). Ses courriers restent sans réponse. Vers qui peut-elle se tourner ?",
+    "choices": [
+      "Vers le Défenseur des droits, qui aide à régler les conflits avec un service public",
+      "Vers la cour d’assises, pour faire juger la CAF",
+      "Vers son employeur, qui doit régler le dossier à sa place",
+      "Vers le conseil de prud’hommes, qui juge les services publics"
+    ],
+    "answer": 0,
+    "explanation": "Le Défenseur des droits est une autorité indépendante. Il intervient gratuitement dans les conflits entre un usager et un service public ; ses délégués reçoivent en mairie ou en préfecture.",
+    "lesson": "droits/reagir-au-quotidien",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  {
+    "id": "SIT-DRO-017",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "À la gare, deux policiers demandent à Olivier de présenter une pièce d’identité. Olivier est pressé et trouve ce contrôle inutile. Que doit-il faire ?",
+    "choices": [
+      "Rester calme et respecter les ordres des policiers",
+      "Refuser et partir, car il est pressé",
+      "Insulter les policiers s’il trouve le contrôle injuste",
+      "Exiger un avocat avant de répondre à toute question"
+    ],
+    "answer": 0,
+    "explanation": "On doit obéir aux ordres des forces de l’ordre (article 7 de la DDHC). Si l’on estime un contrôle abusif, on peut ensuite le signaler, par exemple au Défenseur des droits.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+  },
+  {
+    "id": "SIT-DRO-018",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Dans le bus, on a volé le téléphone d’Ana. Elle n’a pas vu qui l’a pris. Que peut-elle faire ?",
+    "choices": [
+      "Porter plainte contre X au commissariat ou à la gendarmerie",
+      "Rien, car on ne peut pas porter plainte sans nom",
+      "Chercher elle-même le voleur pour le punir",
+      "Demander au chauffeur de bus de juger l’affaire"
+    ],
+    "answer": 0,
+    "explanation": "On peut porter plainte même sans connaître l’auteur : c’est une plainte contre X. Le vol est un délit.",
+    "lesson": "droits/reagir-au-quotidien",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  {
+    "id": "SIT-DRO-019",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "À la terrasse d’un café, David finit sa cigarette. Il s’apprête à jeter le mégot sur le trottoir. Que risque-t-il ?",
+    "choices": [
+      "Une amende, car jeter un déchet par terre est interdit",
+      "Rien, car les mégots disparaissent seuls",
+      "Rien, car c’est interdit seulement dans les parcs",
+      "Un procès devant la cour d’assises"
+    ],
+    "answer": 0,
+    "explanation": "Abandonner un déchet sur la voie publique, même un mégot, est une contravention. L’amende forfaitaire est de 135 €.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "SIT-DRO-020",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Priya déménage. Elle veut se débarrasser de son vieux canapé et pense le laisser devant l’immeuble. Que doit-elle faire ?",
+    "choices": [
+      "L’apporter à la déchetterie ou demander la collecte des encombrants",
+      "Le laisser sur le trottoir sans prévenir personne",
+      "Le brûler dans la cour de l’immeuble",
+      "Le déposer discrètement dans un bois"
+    ],
+    "answer": 0,
+    "explanation": "Laisser un objet dans la rue sans autorisation est un dépôt sauvage puni d’une amende. La mairie organise la collecte des encombrants, et la déchetterie accepte ces objets.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+  },
+  {
+    "id": "SIT-DRO-021",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Chaque nuit, le voisin de Malik met de la musique très fort jusqu’à 3 heures du matin. Malik se demande ce que dit la loi. De quelle infraction s’agit-il ?",
+    "choices": [
+      "D’une contravention pour tapage nocturne",
+      "D’un crime jugé par la cour d’assises",
+      "D’aucune infraction, car le voisin est chez lui",
+      "D’un délit puni de dix ans de prison"
+    ],
+    "answer": 0,
+    "explanation": "Le tapage nocturne est une contravention, l’infraction la moins grave. Il est puni d’une amende, sans prison.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+  },
+  {
+    "id": "SIT-DRO-022",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "La haie du voisin de Chloé déborde dans son jardin. Ils se disputent souvent à ce sujet, mais Chloé veut éviter un procès. Que peut-elle faire ?",
+    "choices": [
+      "Faire appel gratuitement à un conciliateur de justice",
+      "Couper la haie chez le voisin sans le prévenir",
+      "Appeler le 17 comme pour une urgence",
+      "Porter l’affaire devant la cour d’assises"
+    ],
+    "answer": 0,
+    "explanation": "Le conciliateur de justice aide gratuitement les deux parties à trouver un accord à l’amiable, sans procès. On peut le rencontrer en mairie ou dans une maison de justice et du droit.",
+    "lesson": "droits/reagir-au-quotidien",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+  },
+  {
+    "id": "SIT-DRO-023",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Elena est infirmière et vit en France depuis deux ans avec un titre de séjour. Un collègue lui dit que les étrangers n’ont pas à déclarer leurs revenus. A-t-il raison ?",
+    "choices": [
+      "Non, toute personne qui réside en France doit payer ses impôts",
+      "Oui, seuls les citoyens français paient des impôts",
+      "Oui, pendant les cinq premières années en France",
+      "Oui, si elle envoie de l’argent à sa famille"
+    ],
+    "answer": 0,
+    "explanation": "Payer l’impôt selon ses revenus est une obligation pour tous les résidents, quelle que soit leur nationalité. L’impôt finance les services publics comme l’école, l’hôpital ou la police.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "SIT-DRO-024",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "La carte de séjour de Bruno arrive bientôt à expiration. Il pense attendre qu’elle expire pour faire les démarches. Que doit-il faire ?",
+    "choices": [
+      "Demander le renouvellement avant la fin de validité de sa carte",
+      "Attendre un an après la fin de validité de sa carte",
+      "Rien, car la carte se renouvelle automatiquement",
+      "Attendre une lettre de la mairie pour agir"
+    ],
+    "answer": 0,
+    "explanation": "Une personne étrangère doit avoir un titre de séjour valide et le renouveler avant son expiration, dans les délais indiqués par l’administration.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+  },
+  {
+    "id": "SIT-DRO-025",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Camille, 40 ans, est française et inscrite sur les listes électorales. Elle reçoit un courrier : elle a été tirée au sort pour être jurée à la cour d’assises. Que doit-elle faire ?",
+    "choices": [
+      "Répondre à la convocation, car c’est un devoir civique",
+      "L’ignorer, car c’est seulement une proposition",
+      "Payer une somme pour pouvoir participer au procès",
+      "Refuser, car seuls les juges peuvent juger un crime"
+    ],
+    "answer": 0,
+    "explanation": "Les citoyens français de plus de 23 ans inscrits sur les listes électorales peuvent être tirés au sort comme jurés. Participer à la justice est un devoir ; une absence sans motif sérieux peut être punie d’une amende.",
+    "lesson": "droits/devoirs-du-resident",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-citoyen-francais/"
+  },
+  {
+    "id": "SIT-DRO-026",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Dans le tram, Léo voit un homme coller une jeune femme et lui faire des remarques sexuelles. Elle semble paniquée. Que doit faire Léo ?",
+    "choices": [
+      "Alerter le conducteur ou appeler le 17, sans se mettre en danger",
+      "Ne rien faire, car la jeune femme n’a rien demandé",
+      "Filmer la scène pour la publier sur les réseaux sociaux",
+      "Frapper l’homme pour lui donner une leçon"
+    ],
+    "answer": 0,
+    "explanation": "Un témoin doit agir sans se mettre en danger : alerter le personnel ou la police, soutenir la victime, puis témoigner si elle porte plainte.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/"
+  },
+  {
+    "id": "SIT-DRO-027",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Charlotte est serveuse dans un restaurant. Son responsable fait des remarques sur son corps et lui promet une augmentation si elle accepte un rendez-vous. Que peut-on dire ?",
+    "choices": [
+      "C’est du harcèlement sexuel, interdit et puni par la loi",
+      "C’est autorisé, car c’est son supérieur",
+      "C’est normal dans le métier de la restauration",
+      "C’est interdit seulement s’il la touche"
+    ],
+    "answer": 0,
+    "explanation": "Imposer des propos à connotation sexuelle ou faire du chantage est du harcèlement sexuel. Charlotte peut se faire aider par une association et porter plainte.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-des-violences-sexuelles/"
+  },
+  {
+    "id": "SIT-DRO-028",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Paul n’est pas d’accord avec un projet du maire de sa ville. Il veut écrire un article très critique sur son blog. En a-t-il le droit ?",
+    "choices": [
+      "Oui, s’il ne l’insulte pas et ne l’accuse pas de faits faux",
+      "Non, il doit d’abord demander l’accord du maire",
+      "Non, il est interdit de critiquer un élu en public",
+      "Oui, et il peut publier des insultes sur son blog"
+    ],
+    "answer": 0,
+    "explanation": "La liberté d’expression permet de critiquer les élus et leurs décisions. Elle s’arrête à l’injure et à la diffamation, qui sont punies par la loi.",
+    "lesson": "droits/limites-des-libertes",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+  },
+  {
+    "id": "SIT-DRO-029",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Au parc, le fils de Nicolas fait une grosse colère. Un passant conseille à Nicolas de lui donner une fessée pour l’éduquer. Que dit la loi ?",
+    "choices": [
+      "Elle interdit les violences physiques, même pour éduquer",
+      "Elle autorise la fessée si elle reste rare",
+      "Elle autorise la fessée jusqu’à 10 ans",
+      "Elle interdit seulement aux enseignants de frapper"
+    ],
+    "answer": 0,
+    "explanation": "Depuis la loi du 10 juillet 2019, l’autorité parentale s’exerce sans violences physiques ou psychologiques. Les fessées, les gifles et les humiliations sont interdites.",
+    "lesson": "droits/violences",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants/"
+  },
+  {
+    "id": "SIT-DRO-030",
+    "theme": "droits",
+    "notion": "droits.situations",
+    "type": "situation",
+    "official": false,
+    "question": "Lina est aide-soignante dans une maison de retraite. Elle voit un collègue se moquer d’un résident âgé et le laisser sans soins. Que doit-elle faire ?",
+    "choices": [
+      "Le signaler, car c’est une atteinte à la dignité de la personne",
+      "Ne rien dire si le résident a perdu la mémoire",
+      "Se taire pour protéger son collègue",
+      "Accepter la situation si le service manque de personnel"
+    ],
+    "answer": 0,
+    "explanation": "Chaque personne mérite le respect, quels que soient son âge ou son état de santé. Se moquer d’une personne vulnérable ou la priver de soins est une maltraitance à signaler, par exemple à la direction ou au 3977.",
+    "lesson": "droits/corps-et-couple",
+    "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/la-diginite-humaine/"
+  }
+]
