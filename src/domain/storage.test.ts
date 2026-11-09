@@ -20,6 +20,7 @@ const data: AppData = {
       score: 1,
       byTheme: {} as AppData['exams'][number]['byTheme'],
       byNotion: {} as AppData['exams'][number]['byNotion'],
+      flagged: ['CR-012'],
       snapshot: {
         'CR-011': snap('Quelle est la devise de la République ?', 'principes', 'principes.devise-symboles'),
         'CR-012': snap('Qui vote les lois ?', 'institutions', 'institutions.organisation'),

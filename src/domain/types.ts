@@ -101,6 +101,8 @@ export interface ExamRecord {
   score: number
   byTheme: Record<Theme, Score>
   byNotion: Record<NotionId, Score>
+  /** Questions marked "À revoir" during the exam. */
+  flagged: string[]
   /** Keyed by question id, one entry per question of the exam. */
   snapshot: Record<string, QuestionSnapshot>
 }
@@ -147,4 +149,9 @@ export const NOTION_LABELS: Record<NotionId, string> = {
   'societe.soins': "L'accès aux soins",
   'societe.travail': 'Travailler en France',
   'societe.ecole': 'Autorité parentale et système éducatif',
+/** Labels where space is short (results rows, progress tiles), as in the mockups. */
+export const THEME_SHORT_LABELS: Record<Theme, string> = {
+  ...THEME_LABELS,
+  institutions: 'Institutions',
+  histoire: 'Histoire, géographie',
 }

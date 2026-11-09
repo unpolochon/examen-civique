@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
 import { lesson, question } from './fixtures'
-import { examDateLabel, exportFileName, intervalLabel, scoreDeltaLabel, themeMeta } from './format'
+import { examDateLabel, examTitle, exportFileName, formatTimer, frenchSpacing, intervalLabel, plural, scoreDeltaLabel, splitSituation, themeMeta } from './format'
 import { INTERVALS_MS } from './srs'
 
 const now = new Date(2026, 10, 9, 23, 30) // 9 Nov 2026, late evening local time
@@ -44,4 +44,32 @@ test('scoreDeltaLabel compare le premier et le dernier examen affichés', () => 
   expect(scoreDeltaLabel(exam(20, 9), exam(24, 9))).toBe("+4 aujourd'hui")
   expect(scoreDeltaLabel(exam(20, 1, 7), exam(30, 9))).toBe('+10 en 3 mois')
   expect(scoreDeltaLabel(exam(25, 1), exam(25, 9))).toBe('Score stable')
+test('plural accorde chaque mot', () => {
+  expect(plural(1, 'bonne réponse')).toBe('1 bonne réponse')
+  expect(plural(5, 'bonne réponse')).toBe('5 bonnes réponses')
+  expect(plural(0, 'erreur')).toBe('0 erreur')
+})
+
+test('formatTimer arrondit à la seconde supérieure', () => {
+  expect(formatTimer(45 * 60 * 1000)).toBe('45:00')
+  expect(formatTimer(31 * 60 * 1000 + 23_200)).toBe('31:24')
+  expect(formatTimer(500)).toBe('00:01')
+  expect(formatTimer(0)).toBe('00:00')
+})
+
+test('splitSituation sépare le scénario de la question finale', () => {
+  expect(splitSituation('Nadia est enceinte. Son compagnon n’est pas d’accord. Que dit la loi ?')).toEqual({
+    scenario: 'Nadia est enceinte. Son compagnon n’est pas d’accord.',
+    question: 'Que dit la loi ?',
+  })
+  expect(splitSituation('Quelle est la devise de la France ?')).toBeNull()
+})
+
+test('examTitle donne le jour et le mois', () => {
+  expect(examTitle(new Date(2026, 10, 9, 10).toISOString())).toBe('Examen blanc du 9 nov.')
+})
+
+test('frenchSpacing rend insécables les espaces de la ponctuation française', () => {
+  expect(frenchSpacing('Le territoire : la Seine ? « Oui » ; non !')).toBe('Le territoire\u00a0: la Seine\u00a0? «\u00a0Oui\u00a0»\u00a0; non\u00a0!')
+  expect(frenchSpacing('Le 14 Juillet')).toBe('Le 14 Juillet')
 })
