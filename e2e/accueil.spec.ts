@@ -18,7 +18,7 @@ test('un examen en cours se reprend depuis l’accueil', async ({ page }) => {
   await expect(card.getByText('En cours')).toBeVisible()
   await expect(card.getByText('Question 13 sur 40')).toBeVisible()
   await expect(card.getByText('Recommandé')).toHaveCount(0)
-  await expect(card.getByRole('link', { name: "Reprendre l'examen blanc" })).toHaveAttribute('href', '#/examen')
+  await expect(card.getByRole('link', { name: 'Reprendre l’examen blanc' })).toHaveAttribute('href', '#/examen')
 })
 
 test('après un examen terminé, l’accueil montre le dernier score', async ({ page }) => {
@@ -51,4 +51,34 @@ test('thématiques, cartes du jour et réglages', async ({ page }) => {
 
   await page.getByRole('link', { name: 'Réglages' }).click()
   await expect(page).toHaveURL(/#\/reglages$/)
+})
+
+test.describe('conseil d’installation', () => {
+  test('sur Safari iPhone, il s’affiche jusqu’à ce qu’on le masque', async ({ page, browserName }) => {
+    test.skip(browserName !== 'webkit', 'Safari iPhone seulement')
+    await seed(page)
+    const hint = page.getByRole('region', { name: 'Installer l’app' })
+    await expect(hint).toContainText('touchez Partager puis Sur l’écran d’accueil')
+    await hint.getByRole('button', { name: 'Masquer ce conseil' }).click()
+    await expect(hint).toHaveCount(0)
+    await expect(page.getByRole('link', { name: 'Tout voir' })).toBeFocused()
+    await page.reload()
+    await expect(page.getByRole('heading', { level: 1, name: 'Bonjour Paul' })).toBeVisible()
+    await expect(hint).toHaveCount(0)
+  })
+
+  test('absent une fois l’app installée', async ({ page, browserName }) => {
+    test.skip(browserName !== 'webkit', 'Safari iPhone seulement')
+    await page.addInitScript(() => Object.defineProperty(navigator, 'standalone', { value: true }))
+    await seed(page)
+    await expect(page.getByRole('heading', { level: 1, name: 'Bonjour Paul' })).toBeVisible()
+    await expect(page.getByRole('region', { name: 'Installer l’app' })).toHaveCount(0)
+  })
+
+  test('absent hors de Safari iPhone', async ({ page, browserName }) => {
+    test.skip(browserName === 'webkit', 'Android seulement')
+    await seed(page)
+    await expect(page.getByRole('heading', { level: 1, name: 'Bonjour Paul' })).toBeVisible()
+    await expect(page.getByRole('region', { name: 'Installer l’app' })).toHaveCount(0)
+  })
 })

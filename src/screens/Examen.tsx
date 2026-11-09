@@ -67,9 +67,9 @@ export default function Examen() {
       <div className="examen">
         <div className="card examen__unavailable">
           <h1>Examen blanc indisponible</h1>
-          <p>{shortage}</p>
+          <p>{frenchSpacing(shortage)}</p>
           <a href="#/" className="pill-button pill-button--primary">
-            Retour à l'accueil
+            Retour à l’accueil
           </a>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Examen() {
   return (
     <div className="examen">
       <header className="examen__header">
-        <button type="button" className="icon-button icon-button--small" aria-label="Quitter l'examen" onClick={() => setConfirmQuit(true)}>
+        <button type="button" className="icon-button icon-button--small" aria-label="Quitter l’examen" onClick={() => setConfirmQuit(true)}>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
             <path d="M6 6l12 12M18 6L6 18" />
           </svg>
@@ -144,7 +144,7 @@ export default function Examen() {
         ))}
       </fieldset>
 
-      <p className="examen__hint">Comme le jour de l'examen, la correction s'affiche à la fin.</p>
+      <p className="examen__hint">Comme le jour de l’examen, la correction s’affiche à la fin.</p>
 
       <div className="examen__footer">
         <button type="button" className="examen__previous" disabled={n === 1} onClick={() => go(exam.current - 1)}>
@@ -170,7 +170,7 @@ export default function Examen() {
             className="pill-button pill-button--primary examen__next"
             onClick={() => (n === total ? setSummary(true) : go(exam.current + 1))}
           >
-            {n === total ? "Terminer l'examen" : 'Question suivante'}
+            {n === total ? 'Terminer l’examen' : 'Question suivante'}
           </button>
         </div>
       </div>
@@ -211,7 +211,7 @@ function SummarySheet({ exam, onJump, onCancel, onConfirm }: { exam: ExamInProgr
 
   return (
     <dialog ref={ref} className="dialog sheet" aria-labelledby="sheet-titre" onCancel={onCancel}>
-      <h2 id="sheet-titre">Terminer l'examen ?</h2>
+      <h2 id="sheet-titre">Terminer l’examen&nbsp;?</h2>
       <dl className="sheet__stats">
         <div>
           <dt>Répondues</dt>

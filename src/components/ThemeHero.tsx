@@ -1,3 +1,4 @@
+import { frenchSpacing } from '../domain/format'
 import type { Theme } from '../domain/types'
 
 /** Pastel header of the Theme and Lecon screens (mockup Lecon.dc.html). */
@@ -12,7 +13,7 @@ export default function ThemeHero(props: { theme: Theme; back: string; eyebrow: 
         </a>
         <span className="theme-hero__eyebrow">{props.eyebrow}</span>
       </div>
-      <h1>{props.title}</h1>
+      <h1>{frenchSpacing(props.title)}</h1>
       <div className="theme-hero__chips">
         {props.chips.map((chip) => (
           <span key={chip} className="chip">

@@ -31,7 +31,7 @@ export function validateContent(files: Record<string, string>, official: Officia
         continue
       }
       const at = `${path} (${lesson.id})`
-      if (lesson.id !== `${lessonPath[1]}/${lessonPath[2]}`) errors.push(`${at} : l'id doit être « ${lessonPath[1]}/${lessonPath[2]} »`)
+      if (lesson.id !== `${lessonPath[1]}/${lessonPath[2]}`) errors.push(`${at} : l’id doit être « ${lessonPath[1]}/${lessonPath[2]} »`)
       if (lesson.theme !== lessonPath[1] || !THEMES.includes(lesson.theme)) errors.push(`${at} : thème « ${lesson.theme} » invalide`)
       if (!isNotionOf(lesson.notion, lesson.theme)) errors.push(`${at} : notion « ${lesson.notion} » invalide pour le thème`)
       if (lesson.sources.length === 0) errors.push(`${at} : au moins une source est requise`)
@@ -57,7 +57,7 @@ export function validateContent(files: Record<string, string>, official: Officia
       }
       for (const q of parsed) {
         if (typeof q === 'object' && q !== null) questions.push({ file: questionPath[1], q })
-        else errors.push(`${path} : élément qui n'est pas une question`)
+        else errors.push(`${path} : élément qui n’est pas une question`)
       }
     }
   }

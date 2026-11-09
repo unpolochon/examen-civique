@@ -1,13 +1,12 @@
 import { useRef, useState } from 'react'
 import ConfirmDialog from '../components/ConfirmDialog'
-import { exportFileName } from '../domain/format'
+import InstallHint from '../components/InstallHint'
+import { exportFileName, frenchSpacing } from '../domain/format'
 import { exportJson, importJson } from '../domain/storage'
 import type { AppData } from '../domain/types'
+import { isStandalone } from '../install'
 import { navigate } from '../router'
 import { useAppData } from '../state'
-
-const isStandalone = () =>
-  matchMedia('(display-mode: standalone)').matches || (navigator as Navigator & { standalone?: boolean }).standalone === true
 
 export default function Reglages() {
   const { data, update, reset } = useAppData()
@@ -85,23 +84,12 @@ export default function Reglages() {
         />
         {message && (
           <p role={message.error ? 'alert' : 'status'} className={message.error ? 'field__error' : 'reglages__status'}>
-            {message.text}
+            {frenchSpacing(message.text)}
           </p>
         )}
       </section>
 
-      {!isStandalone() && (
-        <div className="reglages__install">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <rect x="6" y="2" width="12" height="20" rx="3" />
-            <path d="M11 18h2" />
-          </svg>
-          <span>
-            Sur iPhone, touchez <strong>Partager</strong> puis <strong>Sur l'écran d'accueil</strong>. L'app marche hors ligne et vos données
-            sont mieux conservées.
-          </span>
-        </div>
-      )}
+      {!isStandalone() && <InstallHint />}
 
       <button type="button" className="reglages__erase" onClick={() => setConfirmErase(true)}>
         Effacer toutes mes données
@@ -131,7 +119,7 @@ export default function Reglages() {
           }}
           onCancel={() => setConfirmErase(false)}
         >
-          Votre profil, vos examens et vos cartes seront supprimés de ce téléphone. Exportez d'abord une sauvegarde pour les garder.
+          Votre profil, vos examens et vos cartes seront supprimés de ce téléphone. Exportez d’abord une sauvegarde pour les garder.
         </ConfirmDialog>
       )}
     </div>
@@ -167,7 +155,7 @@ function ProfileForm({ data, update }: { data: AppData; update: ReturnType<typeo
         )}
       </label>
       <label className="field">
-        Date de l'examen
+        Date de l’examen
         <input type="date" value={data.profile.examDate ?? ''} onChange={(e) => setProfile({ examDate: e.target.value || null })} />
       </label>
     </form>

@@ -15,15 +15,17 @@ export default defineConfig({
       manifest: {
         name: 'Civique - examen carte de résident',
         short_name: 'Civique',
+        description: 'Examen blanc, leçons et cartes de révision pour l’examen civique de la carte de résident.',
         lang: 'fr',
         start_url: './',
         scope: './',
         display: 'standalone',
-        theme_color: '#5B5BD6',
+        theme_color: '#F2F3F7', // the screen background: the status bar blends in, as in the mockups
         background_color: '#F2F3F7',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {

@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react'
+import { frenchSpacing } from '../domain/format'
 
 /** Modal confirmation, opened on mount. Escape and "Annuler" call onCancel. */
 export default function ConfirmDialog(props: {
@@ -17,7 +18,7 @@ export default function ConfirmDialog(props: {
   }, [])
   return (
     <dialog ref={ref} className="dialog" aria-labelledby="dialog-titre" aria-describedby="dialog-texte" onCancel={props.onCancel}>
-      <h2 id="dialog-titre">{props.title}</h2>
+      <h2 id="dialog-titre">{frenchSpacing(props.title)}</h2>
       <p id="dialog-texte">{props.children}</p>
       <div className="dialog__buttons">
         <button type="button" className="soft-button" onClick={props.onCancel} autoFocus>

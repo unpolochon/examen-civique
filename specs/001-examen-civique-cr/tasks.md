@@ -32,7 +32,7 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 - [x] T009 [P] Thématique « Droits et devoirs » : 38 questions officielles + 30 mises en situation + leçons.
 - [x] T010 [P] Thématique « Histoire, géographie et culture » : 49 questions officielles + leçons.
 - [x] T011 [P] Thématique « Vivre dans la société française » : 32 questions officielles + leçons.
-- [ ] T012 Recouper les bonnes réponses avec le jeu de données leqcmcivique.fr et produire `docs/divergences.md` (dépend de T007 à T011).
+- [x] T012 Recouper les bonnes réponses avec le jeu de données leqcmcivique.fr et produire `docs/divergences.md` (dépend de T007 à T011).
 - [ ] T013 Relecture humaine de toutes les réponses et des divergences (Paul).
 
 ## Phase 4 : US1 - Profil (P1)
@@ -69,9 +69,9 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 ## Phase 10 : finitions
 
 - [x] T027 [P] Écran Réglages : modifier prénom et date, exporter, importer, effacer toutes les données avec confirmation. Fichier : `src/screens/Reglages.tsx`.
-- [ ] T028 [P] Installation sur iPhone : icônes, manifest, message « Ajouter à l'écran d'accueil » sur Safari.
-- [ ] T029 Test de bout en bout Playwright sur viewport iPhone : profil, examen complet, résultats, leçon, cartes, progression, mode hors ligne.
-- [ ] T030 Revue visuelle et accessibilité de chaque écran face aux maquettes (contrastes, cibles de 44 px, lecteur d'écran).
+- [x] T028 [P] Installation sur iPhone : icônes, manifest, message « Ajouter à l'écran d'accueil » sur Safari.
+- [x] T029 Test de bout en bout Playwright sur viewport iPhone : profil, examen complet, résultats, leçon, cartes, progression, mode hors ligne.
+- [x] T030 Revue visuelle et accessibilité de chaque écran face aux maquettes (contrastes, cibles de 44 px, lecteur d'écran).
 
 ## Dépendances et ordre
 

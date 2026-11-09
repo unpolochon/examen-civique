@@ -116,9 +116,9 @@ describe('parseLesson', () => {
 
   test.each([
     ['sans en-tête', '# Titre', 'en-tête manquant (bloc entre deux lignes ---)'],
-    ['champ manquant', '---\nid: a/b\n---\ncorps', 'champ « theme » manquant dans l\'en-tête'],
+    ['champ manquant', '---\nid: a/b\n---\ncorps', 'champ « theme » manquant dans l’en-tête'],
     ['minutes invalide', '---\nid: a\ntheme: a\nnotion: a\ntitle: a\nminutes: cinq\norder: 1\n---\n', '« minutes » doit être un entier positif'],
-    ['ligne illisible', '---\nid a\n---\n', 'ligne d\'en-tête illisible : « id a »'],
+    ['ligne illisible', '---\nid a\n---\n', 'ligne d’en-tête illisible : « id a »'],
   ])('refuse un fichier %s', (_, text, message) => {
     expect(() => parseLesson(text)).toThrow(message)
   })

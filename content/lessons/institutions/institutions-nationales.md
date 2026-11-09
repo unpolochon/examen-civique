@@ -54,7 +54,7 @@ Le Gouvernement est responsable devant l’Assemblée nationale. Les députés p
 
 Le Parlement est composé de **deux chambres** : l’**Assemblée nationale** et le **Sénat**. Il vote les lois, contrôle le Gouvernement et évalue les politiques publiques.
 
-| | Assemblée nationale | Sénat |
+| Chambre | Assemblée nationale | Sénat |
 |---|---|---|
 | Membres | **577 députés** | **348 sénateurs** |
 | Élection | Suffrage direct, par les citoyens | Suffrage indirect, par des grands électeurs |

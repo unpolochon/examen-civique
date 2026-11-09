@@ -29,7 +29,7 @@ Le **bail** est le contrat écrit entre le **bailleur** (le plus souvent le prop
 
 Le locataire peut quitter le logement à tout moment. Il doit prévenir avec un **préavis** de **3 mois**, ou de **1 mois** dans certains cas (logement meublé, zone où les logements manquent, raison de santé, nouvel emploi…). Le bailleur, lui, ne peut mettre fin au bail que dans des conditions précises.
 
-| | Le propriétaire | Le locataire |
+| Pour | Le propriétaire | Le locataire |
 |---|---|---|
 | Droits | Recevoir le loyer et les charges | Vivre tranquillement dans le logement ; demander les grosses réparations |
 | Devoirs | Louer un logement **décent** (sûr et sain) ; faire les grosses réparations ; remettre le bail et l’état des lieux | Payer le loyer et les charges à temps ; **assurer le logement** ; faire l’entretien courant et les petites réparations |

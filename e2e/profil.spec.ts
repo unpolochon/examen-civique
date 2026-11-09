@@ -4,7 +4,7 @@ import { seed, stored } from './helpers'
 test('première ouverture : le profil est créé puis conservé après rechargement', async ({ page }) => {
   await page.goto('./#/cartes')
   await expect(page).toHaveURL(/#\/bienvenue$/)
-  await expect(page.getByRole('heading', { level: 1, name: "Préparez l'examen civique de la carte de résident" })).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1, name: 'Préparez l’examen civique de la carte de résident' })).toBeVisible()
   await expect(page.getByRole('navigation')).toHaveCount(0)
 
   // A blank first name is refused.

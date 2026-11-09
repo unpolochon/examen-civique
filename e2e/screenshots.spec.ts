@@ -6,6 +6,9 @@ import { appData, examInProgress, finishedExam, seed } from './helpers'
 // Screenshots at 390x844 to compare with design/mockups by eye. Not assertions.
 test.skip(({ browserName }) => browserName !== 'webkit', 'iPhone 13 only')
 test.use({ viewport: { width: 390, height: 844 } }) // the mockup frame, without the Safari toolbars
+// The mockups show the installed app: no install hint, except in accueil-installation.
+const HINT_KEY = 'civique:conseil-installation-masque'
+test.beforeEach(({ page }) => page.addInitScript((key) => localStorage.setItem(key, '1'), HINT_KEY))
 
 const examDate = new Date(Date.now() + 34 * 86_400_000).toISOString().slice(0, 10)
 const profile = { firstName: 'Paul', examDate, createdAt: '2026-11-01T10:00:00.000Z' }
@@ -31,6 +34,12 @@ for (const [name, extra] of [
     await shoot(page, name)
   })
 }
+
+test('accueil-installation', async ({ page }) => {
+  await page.addInitScript((key) => localStorage.removeItem(key), HINT_KEY)
+  await seed(page, appData({ profile, cards }))
+  await shoot(page, 'accueil-installation')
+})
 
 test('reglages', async ({ page }) => {
   await seed(page, appData({ profile }), '#/reglages')
@@ -76,7 +85,7 @@ test('examen-terminer', async ({ page }) => {
   exam.answers[exam.questionIds[21]] = null
   exam.flagged = [exam.questionIds[4], exam.questionIds[17], exam.questionIds[33]]
   await seed(page, appData({ profile, examInProgress: exam }), '#/examen')
-  await page.getByRole('button', { name: "Terminer l'examen" }).click()
+  await page.getByRole('button', { name: 'Terminer l’examen' }).click()
   await shoot(page, 'examen-terminer')
 })
 

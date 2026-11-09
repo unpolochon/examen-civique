@@ -30,7 +30,7 @@ test('correction : réponse, bonne réponse, explication, leçon et filtres', as
   await expect(wrongItem.getByRole('link', { name: /^Lire la leçon : / })).toHaveAttribute('href', `#/lecon/${w.lesson}`)
   await expect(wrongItem.getByText('À revoir')).toBeVisible()
 
-  await expect(item(unanswered).getByText("Vous n'avez pas répondu")).toBeVisible()
+  await expect(item(unanswered).getByText('Vous n’avez pas répondu')).toBeVisible()
   await expect(item(right).getByText('Votre réponse est juste')).toBeVisible()
   await expect(item(right).getByText('Bonne réponse')).toHaveCount(0)
 
@@ -60,7 +60,7 @@ test('correction sans erreur ni question à revoir', async ({ page }) => {
   await page.getByRole('button', { name: /^Erreurs \(0\)$/ }).click()
   await expect(page.getByText('Aucune erreur : toutes vos réponses sont justes.')).toBeVisible()
   await page.getByRole('button', { name: /^À revoir \(0\)$/ }).click()
-  await expect(page.getByText("Vous n'avez marqué aucune question « À revoir » pendant l'examen.")).toBeVisible()
+  await expect(page.getByText('Vous n’avez marqué aucune question « À revoir » pendant l’examen.')).toBeVisible()
 
   await page.goto(`./#/resultats/${encodeURIComponent(perfect.id)}`)
   await expect(page.getByText('Aucune erreur : rien à revoir.')).toBeVisible()

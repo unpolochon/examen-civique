@@ -104,12 +104,12 @@ describe('export et import', () => {
 
   const broken = (patch: object) => JSON.stringify({ ...data, ...patch })
   test.each([
-    ['JSON illisible', 'abc', "Ce fichier n'est pas une sauvegarde Civique (JSON illisible)."],
-    ['tableau', '[]', "Ce fichier n'est pas une sauvegarde Civique (version inconnue)."],
-    ['sans version', broken({ version: undefined }), "Ce fichier n'est pas une sauvegarde Civique (version inconnue)."],
-    ['version future', broken({ version: 2 }), "Cette sauvegarde vient d'une version plus récente de l'app. Mettez l'app à jour puis réessayez."],
+    ['JSON illisible', 'abc', 'Ce fichier n’est pas une sauvegarde Civique (JSON illisible).'],
+    ['tableau', '[]', 'Ce fichier n’est pas une sauvegarde Civique (version inconnue).'],
+    ['sans version', broken({ version: undefined }), 'Ce fichier n’est pas une sauvegarde Civique (version inconnue).'],
+    ['version future', broken({ version: 2 }), 'Cette sauvegarde vient d’une version plus récente de l’app. Mettez l’app à jour puis réessayez.'],
     ['prénom vide', broken({ profile: { ...data.profile, firstName: ' ' } }), 'Sauvegarde invalide : prénom manquant.'],
-    ['date invalide', broken({ profile: { ...data.profile, examDate: 'demain' } }), "Sauvegarde invalide : date d'examen invalide."],
+    ['date invalide', broken({ profile: { ...data.profile, examDate: 'demain' } }), 'Sauvegarde invalide : date d’examen invalide.'],
     ['examens absents', broken({ exams: null }), 'Sauvegarde invalide : liste des examens absente.'],
     ['examen sans score', broken({ exams: [{ ...data.exams[0], score: '1' }] }), 'Sauvegarde invalide : examen terminé illisible.'],
     ['examen sans photo des questions', broken({ exams: [{ ...data.exams[0], snapshot: undefined }] }), 'Sauvegarde invalide : examen terminé illisible.'],

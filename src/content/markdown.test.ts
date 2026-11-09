@@ -26,3 +26,9 @@ test('renderLesson affiche le HTML brut comme du texte', () => {
 test('renderLesson sans section « À retenir »', () => {
   expect(renderLesson('Texte.')).toEqual({ html: '<p>Texte.</p>\n', retenir: '' })
 })
+
+test('renderLesson met des espaces insécables devant la ponctuation double', () => {
+  const { html, retenir } = renderLesson('Le vote : un droit ? Oui !\n\n## À retenir\n\n- « Liberté »')
+  expect(html).toContain('<p>Le vote\u00a0: un droit\u00a0? Oui\u00a0!</p>')
+  expect(retenir).toContain('«\u00a0Liberté\u00a0»')
+})

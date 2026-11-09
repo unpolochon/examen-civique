@@ -16,7 +16,7 @@ type Filter = (typeof FILTERS)[number][0]
 const EMPTY: Record<Filter, string> = {
   toutes: '',
   erreurs: 'Aucune erreur : toutes vos réponses sont justes.',
-  revoir: "Vous n'avez marqué aucune question « À revoir » pendant l'examen.",
+  revoir: 'Vous n’avez marqué aucune question « À revoir » pendant l’examen.',
 }
 
 export default function Correction({ id }: Record<string, string>) {
@@ -60,7 +60,7 @@ export default function Correction({ id }: Record<string, string>) {
           ))}
         </ol>
       ) : (
-        <p className="card correction__empty">{EMPTY[filter]}</p>
+        <p className="card correction__empty">{frenchSpacing(EMPTY[filter])}</p>
       )}
     </div>
   )
@@ -91,7 +91,7 @@ function Item({ n, q, given, flagged }: { n: number; q: QuestionSnapshot; given:
         </Answer>
       ) : (
         <>
-          <Answer right={false} label={given === null ? "Vous n'avez pas répondu" : 'Votre réponse est fausse'}>
+          <Answer right={false} label={given === null ? 'Vous n’avez pas répondu' : 'Votre réponse est fausse'}>
             {given === null ? null : q.choices[given]}
           </Answer>
           <Answer right label="Bonne réponse">

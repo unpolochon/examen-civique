@@ -55,7 +55,7 @@ export function importJson(text: string): AppData {
   try {
     raw = JSON.parse(text)
   } catch {
-    throw new Error("Ce fichier n'est pas une sauvegarde Civique (JSON illisible).")
+    throw new Error('Ce fichier n’est pas une sauvegarde Civique (JSON illisible).')
   }
   const data = migrate(raw)
   const problem = findProblem(data)
@@ -68,9 +68,9 @@ export function migrate(raw: unknown): unknown {
   const version = isObject(raw) ? raw.version : undefined
   if (version === VERSION) return raw
   if (typeof version === 'number' && version > VERSION) {
-    throw new Error("Cette sauvegarde vient d'une version plus récente de l'app. Mettez l'app à jour puis réessayez.")
+    throw new Error('Cette sauvegarde vient d’une version plus récente de l’app. Mettez l’app à jour puis réessayez.')
   }
-  throw new Error("Ce fichier n'est pas une sauvegarde Civique (version inconnue).")
+  throw new Error('Ce fichier n’est pas une sauvegarde Civique (version inconnue).')
 }
 
 function isObject(value: unknown): value is Record<string, unknown> {
@@ -123,7 +123,7 @@ function findProblem(data: unknown): string | null {
   if (!isObject(data)) return 'contenu absent'
   const { profile, exams, examInProgress, cards, lessonsRead } = data
   if (!isObject(profile) || !isString(profile.firstName) || !(profile.firstName as string).trim()) return 'prénom manquant'
-  if (profile.examDate !== null && !isDate(profile.examDate)) return "date d'examen invalide"
+  if (profile.examDate !== null && !isDate(profile.examDate)) return 'date d’examen invalide'
   if (!isDate(profile.createdAt)) return 'date de création du profil invalide'
   if (!Array.isArray(exams)) return 'liste des examens absente'
   for (const exam of exams) {
