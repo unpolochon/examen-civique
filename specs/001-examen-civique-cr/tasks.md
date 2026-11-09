@@ -32,7 +32,7 @@ Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs
 - [x] T009 [P] Thématique « Droits et devoirs » : 38 questions officielles + 30 mises en situation + leçons.
 - [x] T010 [P] Thématique « Histoire, géographie et culture » : 49 questions officielles + leçons.
 - [x] T011 [P] Thématique « Vivre dans la société française » : 32 questions officielles + leçons.
-- [ ] T012 Recouper les bonnes réponses avec le jeu de données leqcmcivique.fr et produire `docs/divergences.md` (dépend de T007 à T011).
+- [x] T012 Recouper les bonnes réponses avec le jeu de données leqcmcivique.fr et produire `docs/divergences.md` (dépend de T007 à T011).
 - [ ] T013 Relecture humaine de toutes les réponses et des divergences (Paul).
 
 ## Phase 4 : US1 - Profil (P1)
