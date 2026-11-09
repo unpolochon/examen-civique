@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { useRef, useState } from 'react'
+import ConfirmDialog from '../components/ConfirmDialog'
 import { exportFileName } from '../domain/format'
 import { exportJson, importJson } from '../domain/storage'
 import type { AppData } from '../domain/types'
@@ -170,35 +171,5 @@ function ProfileForm({ data, update }: { data: AppData; update: ReturnType<typeo
         <input type="date" value={data.profile.examDate ?? ''} onChange={(e) => setProfile({ examDate: e.target.value || null })} />
       </label>
     </form>
-  )
-}
-
-function ConfirmDialog(props: {
-  title: string
-  confirm: string
-  danger?: boolean
-  onConfirm: () => void
-  onCancel: () => void
-  children: ReactNode
-}) {
-  const ref = useRef<HTMLDialogElement>(null)
-  useEffect(() => {
-    const dialog = ref.current!
-    dialog.showModal()
-    return () => dialog.close()
-  }, [])
-  return (
-    <dialog ref={ref} className="dialog" aria-labelledby="dialog-titre" aria-describedby="dialog-texte" onCancel={props.onCancel}>
-      <h2 id="dialog-titre">{props.title}</h2>
-      <p id="dialog-texte">{props.children}</p>
-      <div className="dialog__buttons">
-        <button type="button" className="soft-button" onClick={props.onCancel} autoFocus>
-          Annuler
-        </button>
-        <button type="button" className={props.danger ? 'soft-button soft-button--danger' : 'soft-button soft-button--primary'} onClick={props.onConfirm}>
-          {props.confirm}
-        </button>
-      </div>
-    </dialog>
   )
 }

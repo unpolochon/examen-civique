@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { drawExam, isPassed, missedQuestionIds, remainingMs, scoreExam, shuffle } from './exam'
+import { drawExam, examHistory, gridShortage, isPassed, missedQuestionIds, remainingMs, scoreExam, shuffle, typeScores } from './exam'
 import { makeBank, question, seededRng } from './fixtures'
 import { EXAM_GRID, EXAM_QUESTIONS, NOTIONS, type ExamInProgress, type NotionId, type Question } from './types'
 
@@ -99,6 +99,7 @@ describe('drawExam', () => {
   })
 
   test('fonctionne avec juste assez de questions', () => {
+    expect(gridShortage(makeBank(0))).toBeNull()
     expect(drawExam(makeBank(0), noHistory, seededRng(3), now).questionIds).toHaveLength(EXAM_QUESTIONS)
   })
 })
@@ -149,6 +150,23 @@ describe('scoreExam', () => {
       answers: answered.answers,
     })
     expect(record.snapshot).toEqual(exam.snapshot)
+  })
+
+  test('garde les questions marquées « À revoir »', () => {
+    expect(scoreExam({ ...answered, flagged: [third] }, '2026-11-09T10:40:00.000Z').flagged).toEqual([third])
+  })
+
+  test('sous-scores connaissances et mises en situation', () => {
+    expect(typeScores(record)).toEqual({ connaissance: { correct: 26, total: 28 }, situation: { correct: 12, total: 12 } })
+  })
+
+  test('historique : une question est ratée si elle l’a été la dernière fois', () => {
+    // A later exam with the same questions where `first` is now right; `second` stays unanswered.
+    const later = scoreExam({ ...answered, answers: { ...answered.answers, [first]: map.get(first)!.answer } }, '2026-11-10T10:40:00.000Z')
+    const history = examHistory([later, record]) // not in chronological order
+    expect(history.seen).toEqual(new Set(exam.questionIds))
+    expect(history.missed).toEqual(new Set([second]))
+    expect(examHistory([])).toEqual(noHistory)
   })
 
   test('la correction survit à une modification de la liste officielle', () => {

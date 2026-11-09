@@ -132,7 +132,8 @@ function findProblem(data: unknown): string | null {
       !isDate(exam.finishedAt) ||
       !Number.isInteger(exam.score) ||
       !isObject(exam.byTheme) ||
-      !isObject(exam.byNotion)
+      !isObject(exam.byNotion) ||
+      !isStringArray(exam.flagged)
     ) {
       return 'examen terminé illisible'
     }

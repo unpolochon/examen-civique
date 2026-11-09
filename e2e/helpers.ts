@@ -32,6 +32,7 @@ export function finishedExam(score: number, finishedAt = '2026-11-05T10:45:00.00
     score,
     byTheme: {},
     byNotion: {},
+    flagged: [],
     snapshot,
   }
 }

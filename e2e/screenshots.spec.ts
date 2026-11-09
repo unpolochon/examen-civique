@@ -1,4 +1,6 @@
 import { test, type Page } from '@playwright/test'
+import type { ExamInProgress, Question } from '../src/domain/types.ts'
+import { answered, bank, drawn, finished } from './exam'
 import { appData, examInProgress, finishedExam, seed } from './helpers'
 
 // Screenshots at 390x844 to compare with design/mockups by eye. Not assertions.
@@ -9,9 +11,9 @@ const examDate = new Date(Date.now() + 34 * 86_400_000).toISOString().slice(0, 1
 const profile = { firstName: 'Paul', examDate, createdAt: '2026-11-01T10:00:00.000Z' }
 const cards = Object.fromEntries(Array.from({ length: 18 }, (_, i) => [`c${i}`, { level: 0, due: '2026-01-01T00:00:00.000Z' }]))
 
-async function shoot(page: Page, name: string) {
+async function shoot(page: Page, name: string, fullPage = false) {
   await page.evaluate('document.fonts.ready')
-  await page.screenshot({ path: `e2e/screenshots/${name}.png` })
+  await page.screenshot({ path: `e2e/screenshots/${name}.png`, fullPage })
 }
 
 test('bienvenue', async ({ page }) => {
@@ -35,4 +37,66 @@ test('reglages', async ({ page }) => {
   await shoot(page, 'reglages')
   await page.getByRole('button', { name: 'Effacer toutes mes données' }).click()
   await shoot(page, 'reglages-effacer')
+})
+
+/** A drawn exam showing question `current`, replaced by `shown` when given, `leftMs` before the end. */
+function examAt(current: number, leftMs: number, shown?: Question): ExamInProgress {
+  const exam = drawn(new Date(Date.now() - (45 * 60_000 - leftMs)))
+  if (!shown) return { ...exam, current }
+  const { id, question, choices, answer, explanation, theme, notion, lesson } = shown
+  const questionIds = exam.questionIds.with(current, id)
+  return {
+    ...exam,
+    questionIds,
+    current,
+    snapshot: { ...exam.snapshot, [id]: { question, choices, answer, explanation, theme, notion, lesson } },
+    choiceOrder: { ...exam.choiceOrder, [id]: [1, 0, 2, 3] },
+    answers: { ...exam.answers, [id]: null },
+  }
+}
+
+test('examen', async ({ page }) => {
+  const exam = examAt(11, 31 * 60_000 + 24_500, bank.find((q) => q.question === 'Quelle est la devise de la France ?'))
+  const id = exam.questionIds[11]
+  exam.answers[id] = exam.snapshot[id].answer
+  await seed(page, appData({ profile, examInProgress: exam }), '#/examen')
+  await shoot(page, 'examen')
+})
+
+test('examen-situation', async ({ page }) => {
+  const exam = examAt(30, 4 * 60_000 + 12_500, bank.find((q) => q.notion === 'droits.situations'))
+  exam.flagged = [exam.questionIds[30]]
+  await seed(page, appData({ profile, examInProgress: exam }), '#/examen')
+  await shoot(page, 'examen-situation')
+})
+
+test('examen-terminer', async ({ page }) => {
+  const exam = { ...answered(examAt(39, 12 * 60_000), []), flagged: [] as string[] }
+  exam.answers[exam.questionIds[7]] = null
+  exam.answers[exam.questionIds[21]] = null
+  exam.flagged = [exam.questionIds[4], exam.questionIds[17], exam.questionIds[33]]
+  await seed(page, appData({ profile, examInProgress: exam }), '#/examen')
+  await page.getByRole('button', { name: "Terminer l'examen" }).click()
+  await shoot(page, 'examen-terminer')
+})
+
+const failed = finished(answered(drawn(new Date('2026-11-09T10:00:00.000Z')), ['institutions', 'histoire']))
+const passed = finished(answered(drawn(new Date('2026-11-09T10:00:00.000Z'), 2), ['societe']))
+
+for (const [name, record] of [
+  ['resultats', failed],
+  ['resultats-reussi', passed],
+] as const) {
+  test(name, async ({ page }) => {
+    await seed(page, appData({ profile, exams: [record] }), `#/resultats/${encodeURIComponent(record.id)}`)
+    await shoot(page, name, true)
+  })
+}
+
+test('correction', async ({ page }) => {
+  const record = { ...failed, flagged: [failed.questionIds[0], failed.questionIds[5]] }
+  await seed(page, appData({ profile, exams: [record] }), `#/correction/${encodeURIComponent(record.id)}`)
+  await shoot(page, 'correction')
+  await page.getByRole('button', { name: /^Erreurs/ }).click()
+  await shoot(page, 'correction-erreurs')
 })
