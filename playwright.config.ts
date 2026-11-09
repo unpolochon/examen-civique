@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test'
 
-const port = 4173
+// E2E_PORT lets several worktrees run their e2e at the same time.
+const port = Number(process.env.E2E_PORT ?? 4173)
 
 export default defineConfig({
   testDir: 'e2e',
@@ -13,7 +14,7 @@ export default defineConfig({
     { name: 'pixel-chromium', use: { ...devices['Pixel 7'] } },
   ],
   webServer: {
-    command: 'npm run build && npm run preview',
+    command: `npm run build && npm run preview -- --port ${port} --strictPort`,
     url: `http://localhost:${port}/`,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,

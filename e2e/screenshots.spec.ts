@@ -36,3 +36,34 @@ test('reglages', async ({ page }) => {
   await page.getByRole('button', { name: 'Effacer toutes mes données' }).click()
   await shoot(page, 'reglages-effacer')
 })
+
+const due = { level: 1, due: '2026-01-01T00:00:00.000Z' }
+const history = ['10-12', '10-19', '10-26', '11-02', '11-09'].map((d, i) => finishedExam([18, 21, 24, 25, 27][i], `2026-${d}T10:45:00.000Z`))
+
+test('cartes', async ({ page }) => {
+  await seed(page, appData({ profile, cards: { 'CR-041': due, 'CR-001': due } }), '#/cartes')
+  await shoot(page, 'cartes')
+  await page.getByRole('button', { name: 'Voir la réponse' }).click()
+  await shoot(page, 'cartes-reponse')
+  await page.getByRole('button', { name: /^Oui/ }).click()
+  await page.getByRole('button', { name: 'Voir la réponse' }).click()
+  await page.getByRole('button', { name: /^Hésité/ }).click()
+  await shoot(page, 'cartes-fin')
+})
+
+test('cartes-vide', async ({ page }) => {
+  await seed(page, appData({ profile }), '#/cartes')
+  await shoot(page, 'cartes-vide')
+})
+
+test('progression', async ({ page }) => {
+  const cardsMastered = Object.fromEntries(['CR-041', 'CR-042', 'CR-043', 'CR-001', 'CR-002'].map((id) => [id, { level: 3, due: '2030-01-01T00:00:00.000Z' }]))
+  await seed(page, appData({ profile, exams: history, cards: cardsMastered }), '#/progres')
+  await shoot(page, 'progression')
+  await page.screenshot({ path: 'e2e/screenshots/progression-page.png', fullPage: true })
+})
+
+test('progression-vide', async ({ page }) => {
+  await seed(page, appData({ profile }), '#/progres')
+  await shoot(page, 'progression-vide')
+})
