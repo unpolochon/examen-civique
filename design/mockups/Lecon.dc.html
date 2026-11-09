@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Leçon</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#5B5BD6}a:hover{color:#3F3FB0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #F2F3F7; color: #1D1F2C; font-family: Inter, system-ui, sans-serif; display: flex; flex-direction: column">
+  <div style="background: #BBD7F7; border-radius: 0 0 30px 30px; padding: 52px 20px 24px; display: flex; flex-direction: column; gap: 14px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <a href="Accueil.dc.html" aria-label="Retour" style="width: 44px; height: 44px; border-radius: 22px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; color: #1D1F2C">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>
+      </a>
+      <span style="font-size: 13px; font-weight: 500; color: #26354A">Institutions · Leçon 4 sur 9</span>
+    </div>
+    <h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 26px; line-height: 1.2; font-weight: 600">Le Parlement et la fabrication de la loi</h1>
+    <div style="display: flex; gap: 8px">
+      <span style="padding: 6px 12px; border-radius: 14px; background: #FFFFFF; font-size: 12px; font-weight: 600">6 min de lecture</span>
+      <span style="padding: 6px 12px; border-radius: 14px; background: #FFFFFF; font-size: 12px; font-weight: 600">7 questions officielles</span>
+    </div>
+  </div>
+
+  <div style="flex: 1; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 14px">
+    <p style="margin: 0; font-size: 15px; line-height: 1.55">Le Parlement vote la loi, contrôle l'action du Gouvernement et évalue les politiques publiques. Il est composé de <strong>deux assemblées</strong>.</p>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+      <div style="padding: 14px; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-weight: 600; font-size: 15px">Assemblée nationale</span>
+        <span style="font-size: 13px; line-height: 1.45; color: #5B6072">577 députés élus au suffrage universel direct pour 5 ans. Palais Bourbon.</span>
+      </div>
+      <div style="padding: 14px; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; gap: 4px">
+        <span style="font-weight: 600; font-size: 15px">Sénat</span>
+        <span style="font-size: 13px; line-height: 1.45; color: #5B6072">348 sénateurs élus au suffrage universel indirect pour 6 ans. Palais du Luxembourg.</span>
+      </div>
+    </div>
+    <p style="margin: 0; font-size: 15px; line-height: 1.55">Un texte passe d'une assemblée à l'autre : c'est la <strong>navette parlementaire</strong>. En cas de désaccord, l'Assemblée nationale peut avoir le dernier mot.</p>
+    <div style="padding: 14px 16px; background: #F8DF8B; border-radius: 18px; display: flex; flex-direction: column; gap: 6px">
+      <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #4A3D12">À retenir</span>
+      <span style="font-size: 15px; line-height: 1.5">Le Parlement fait la loi, le Gouvernement l'applique, la justice la fait respecter.</span>
+    </div>
+
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 12px">
+      <div role="progressbar" aria-label="Lecture" aria-valuenow="2" aria-valuemin="0" aria-valuemax="4" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px">
+        <span style="height: 6px; border-radius: 3px; background: #5B5BD6"></span>
+        <span style="height: 6px; border-radius: 3px; background: #5B5BD6"></span>
+        <span style="height: 6px; border-radius: 3px; background: #DCDDF3"></span>
+        <span style="height: 6px; border-radius: 3px; background: #DCDDF3"></span>
+      </div>
+      <a href="Cartes.dc.html" style="height: 54px; border-radius: 27px; background: #5B5BD6; color: #FFFFFF; font-size: 15px; font-weight: 600; display: flex; align-items: center; justify-content: center; text-decoration: none">Me tester sur cette leçon</a>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
