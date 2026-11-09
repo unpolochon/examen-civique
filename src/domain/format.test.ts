@@ -1,6 +1,7 @@
 import { expect, test } from 'vitest'
 import { lesson, question } from './fixtures'
-import { examDateLabel, exportFileName, themeMeta } from './format'
+import { examDateLabel, exportFileName, intervalLabel, scoreDeltaLabel, themeMeta } from './format'
+import { INTERVALS_MS } from './srs'
 
 const now = new Date(2026, 10, 9, 23, 30) // 9 Nov 2026, late evening local time
 
@@ -28,4 +29,19 @@ test('themeMeta compte leçons et questions officielles, sans les zéros', () =>
 
 test('exportFileName utilise la date locale', () => {
   expect(exportFileName(now)).toBe('civique-sauvegarde-2026-11-09.json')
+})
+
+test('intervalLabel donne le délai avant la prochaine révision', () => {
+  expect(INTERVALS_MS.map(intervalLabel)).toEqual(['dans 10 min', 'demain', 'dans 3 jours', 'dans 7 jours', 'dans 16 jours', 'dans 35 jours'])
+  expect(intervalLabel(3 * 3_600_000)).toBe('dans 3 h')
+})
+
+test('scoreDeltaLabel compare le premier et le dernier examen affichés', () => {
+  const exam = (score: number, day: number, month = 10) => ({ score, finishedAt: new Date(2026, month, day, 10).toISOString() })
+  expect(scoreDeltaLabel(exam(18, 12, 9), exam(27, 9))).toBe('+9 en 4 semaines')
+  expect(scoreDeltaLabel(exam(30, 6), exam(28, 9))).toBe('-2 en 3 jours')
+  expect(scoreDeltaLabel(exam(30, 8), exam(31, 9))).toBe('+1 en 1 jour')
+  expect(scoreDeltaLabel(exam(20, 9), exam(24, 9))).toBe("+4 aujourd'hui")
+  expect(scoreDeltaLabel(exam(20, 1, 7), exam(30, 9))).toBe('+10 en 3 mois')
+  expect(scoreDeltaLabel(exam(25, 1), exam(25, 9))).toBe('Score stable')
 })

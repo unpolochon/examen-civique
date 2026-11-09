@@ -8,7 +8,7 @@ import Correction from './screens/Correction'
 import Examen from './screens/Examen'
 import Lecon from './screens/Lecon'
 import Lecons from './screens/Lecons'
-import Progres from './screens/Progres'
+import Progression from './screens/Progression'
 import Reglages from './screens/Reglages'
 import Resultats from './screens/Resultats'
 import Theme from './screens/Theme'
@@ -24,11 +24,12 @@ const screens: Record<RouteName, ComponentType<Record<string, string>>> = {
   theme: Theme,
   lecon: Lecon,
   cartes: Cartes,
-  progres: Progres,
+  progres: Progression,
   reglages: Reglages,
 }
 
-const withNav: RouteName[] = ['accueil', 'lecons', 'cartes', 'progres']
+// Cartes is full screen in the mockup, with its own close button.
+const withNav: RouteName[] = ['accueil', 'lecons', 'progres']
 
 export default function App() {
   return (

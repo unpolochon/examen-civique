@@ -7,8 +7,7 @@ test('la barre de navigation change d’écran et d’élément actif', async ({
 
   for (const [label, title, hash] of [
     ['Leçons', 'Leçons', '#/lecons'],
-    ['Cartes', 'Cartes', '#/cartes'],
-    ['Progrès', 'Progrès', '#/progres'],
+    ['Progrès', 'Votre progression', '#/progres'],
     ['Accueil', 'Bonjour Paul', '#/'],
   ]) {
     await nav.getByRole('link', { name: label }).click()
@@ -16,6 +15,14 @@ test('la barre de navigation change d’écran et d’élément actif', async ({
     await expect(page.getByRole('heading', { level: 1, name: title })).toBeVisible()
     await expect(nav.locator('[aria-current="page"]')).toHaveText(label)
   }
+
+  // Cartes is full screen: no bar, a close button back home.
+  await nav.getByRole('link', { name: 'Cartes' }).click()
+  await expect(page).toHaveURL(/#\/cartes$/)
+  await expect(page.getByRole('heading', { level: 1, name: 'Aucune carte à revoir' })).toBeVisible()
+  await expect(page.getByRole('navigation')).toHaveCount(0)
+  await page.getByRole('link', { name: 'Fermer les cartes' }).click()
+  await expect(page.getByRole('heading', { level: 1, name: 'Bonjour Paul' })).toBeVisible()
 })
 
 test('la barre est absente hors des écrans principaux et ne masque pas le contenu', async ({ page }) => {

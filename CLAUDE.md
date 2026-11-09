@@ -9,7 +9,7 @@ Installable PWA to prepare the French civic exam (carte de résident). No backen
 - `npm run preview`: serve `dist/` on port 4173.
 - `npm test`: Vitest unit tests.
 - `npm run lint`: ESLint.
-- `npm run e2e`: Playwright (iPhone 13 WebKit, Pixel 7 Chromium) against the built app. First run: `npx playwright install chromium webkit`.
+- `npm run e2e`: Playwright (iPhone 13 WebKit, Pixel 7 Chromium) against the built app. First run: `npx playwright install chromium webkit`. `E2E_PORT=4184 npm run e2e` when port 4173 is taken (another worktree), since an existing server on the port is reused.
 - `npm run icons`: regenerate the PNG icons in `public/` from `public/icon.svg`.
 
 ## Structure (target, from plan.md)
