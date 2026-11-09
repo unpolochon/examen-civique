@@ -33,6 +33,18 @@ export function clear(): void {
   }
 }
 
+/** Fresh data for a new profile. */
+export function newAppData(firstName: string, examDate: string | null, now: Date): AppData {
+  return {
+    version: VERSION,
+    profile: { firstName, examDate, createdAt: now.toISOString() },
+    exams: [],
+    examInProgress: null,
+    cards: {},
+    lessonsRead: [],
+  }
+}
+
 export function exportJson(data: AppData): string {
   return JSON.stringify(data, null, 2)
 }

@@ -1,6 +1,6 @@
-import type { ComponentType } from 'react'
+import { useEffect, type ComponentType } from 'react'
 import BottomNav from './components/BottomNav'
-import { useRoute, type RouteName } from './router'
+import { navigate, useRoute, type RouteName } from './router'
 import Accueil from './screens/Accueil'
 import Bienvenue from './screens/Bienvenue'
 import Cartes from './screens/Cartes'
@@ -12,6 +12,7 @@ import Progres from './screens/Progres'
 import Reglages from './screens/Reglages'
 import Resultats from './screens/Resultats'
 import Theme from './screens/Theme'
+import { AppDataProvider, useAppData } from './state'
 
 const screens: Record<RouteName, ComponentType<Record<string, string>>> = {
   accueil: Accueil,
@@ -30,7 +31,23 @@ const screens: Record<RouteName, ComponentType<Record<string, string>>> = {
 const withNav: RouteName[] = ['accueil', 'lecons', 'cartes', 'progres']
 
 export default function App() {
-  const { name, params } = useRoute()
+  return (
+    <AppDataProvider>
+      <Shell />
+    </AppDataProvider>
+  )
+}
+
+function Shell() {
+  const route = useRoute()
+  const { data } = useAppData()
+  // No profile: everything leads to Bienvenue. A profile: Bienvenue leads to Accueil.
+  const redirect = !data && route.name !== 'bienvenue' ? '/bienvenue' : data && route.name === 'bienvenue' ? '/' : null
+  useEffect(() => {
+    if (redirect) navigate(redirect, true)
+  }, [redirect])
+  const name: RouteName = redirect ? (data ? 'accueil' : 'bienvenue') : route.name
+  const params = redirect ? {} : route.params
   const Screen = screens[name]
   const nav = withNav.includes(name)
   return (
