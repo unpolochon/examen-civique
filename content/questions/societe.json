@@ -20,7 +20,7 @@
   {
     "id": "CR-179",
     "theme": "societe",
-    "notion": "societe.installation",
+    "notion": "societe.ecole",
     "type": "connaissance",
     "official": true,
     "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
@@ -32,13 +32,13 @@
     ],
     "answer": 0,
     "explanation": "Pour inscrire un enfant à l’école publique, les parents s’adressent à la mairie de leur commune ou à l’école proche de chez eux.",
-    "lesson": "societe/etat-civil-et-famille",
+    "lesson": "societe/ecole-et-parents",
     "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/"
   },
   {
     "id": "CR-180",
     "theme": "societe",
-    "notion": "societe.installation",
+    "notion": "societe.ecole",
     "type": "connaissance",
     "official": true,
     "question": "En cas de divorce, qui exerce l'autorité parentale ?",
@@ -50,7 +50,7 @@
     ],
     "answer": 0,
     "explanation": "Les deux parents gardent l’autorité parentale, qu’ils soient mariés, séparés ou divorcés. Seul un juge peut en décider autrement, dans l’intérêt de l’enfant.",
-    "lesson": "societe/etat-civil-et-famille",
+    "lesson": "societe/autorite-parentale",
     "source": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/"
   },
   {
