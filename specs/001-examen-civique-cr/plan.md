@@ -80,17 +80,18 @@ Question :
   "choices": ["Liberté, Égalité, Fraternité", "Travail, Famille, Patrie", "Unité, Progrès, Justice", "Liberté, Sécurité, Solidarité"],
   "answer": 0,
   "explanation": "La devise est inscrite à l'article 2 de la Constitution.",
+  "notion": "principes.devise-symboles",
   "lesson": "principes/symboles"
 }
 ```
 
-Les mises en situation ont `"type": "situation"` et `"official": false`. L'ordre des choix est mélangé à l'affichage.
+`notion` prend une des valeurs de [docs/referentiel.md](../../docs/referentiel.md). Les mises en situation ont `"type": "situation"`, `"official": false` et une notion `*.situations` ; elles n'existent que pour `principes` et `droits`. L'ordre des choix est mélangé à l'affichage.
 
 ## Règles métier
 
 ### Tirage de l'examen blanc
 
-1. Tirer 28 questions officielles et 12 mises en situation selon la répartition par thématique de l'arrêté (tâche T003).
+1. Tirer les 40 questions selon la grille par notion de l'article 3 de l'arrêté ([docs/referentiel.md](../../docs/referentiel.md)) : 28 questions officielles de connaissance et 12 mises en situation (6 en `principes.situations`, 6 en `droits.situations`).
 2. Donner priorité aux questions jamais vues, puis aux questions ratées.
 3. Mélanger l'ordre des questions et des choix.
 
@@ -130,7 +131,7 @@ Le ministère ne publie aucun corrigé. Le contenu est donc rédigé, puis véri
 2. Pour chaque question officielle : une bonne réponse justifiée par la fiche officielle, trois distracteurs plausibles mais faux, une explication.
 3. Recoupement automatique avec le jeu de données leqcmcivique.fr. Toute divergence est listée pour relecture humaine.
 4. Relecture humaine de 100 % des réponses avant mise en ligne.
-5. Mises en situation : 60 rédigées (12 par thématique), sur le modèle des questions officielles, marquées « non officielles ».
+5. Mises en situation : 60 rédigées (30 en « Principes et valeurs », 30 en « Droits et devoirs », seules thématiques concernées par l'arrêté), marquées « non officielles ».
 
 ## Délégation aux agents Claude Maison
 

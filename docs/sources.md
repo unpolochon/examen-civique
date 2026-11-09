@@ -67,6 +67,6 @@ Le ministère ne publie aucun corrigé. Ces jeux proposent des réponses. Ils se
 
 Aucun forum ne recense de façon fiable les mises en situation tombées. L'app génère donc ses propres mises en situation, marquées « non officielles ».
 
-## Points ouverts
+## Répartition par thématique
 
-- La répartition des 40 questions par thématique (annexe de l'arrêté du 10 octobre 2025) n'est pas confirmée : les sites tiers se contredisent. À vérifier sur Légifrance (tâche T003).
+Confirmée sur Légifrance le 2026-11-09 (article 3 de l'arrêté du 10 octobre 2025, version en vigueur) : 11 / 6 / 11 / 8 / 4 questions, dont 6 mises en situation en « Principes et valeurs » et 6 en « Droits et devoirs ». Détail par notion et connaissances attendues : [referentiel.md](referentiel.md).

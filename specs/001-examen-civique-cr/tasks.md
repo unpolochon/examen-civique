@@ -12,7 +12,7 @@ Format : `[ID] [P?] [Histoire] Description`
 
 - [ ] T001 Initialiser le projet : Vite + React + TypeScript, `vite-plugin-pwa`, ESLint, Vitest, Playwright, git. Fichiers : `package.json`, `vite.config.ts`, `tsconfig.json`.
 - [ ] T002 [P] Déploiement GitHub Pages par GitHub Actions à chaque push sur `main`. Fichier : `.github/workflows/deploy.yml`.
-- [ ] T003 [P] Vérifier sur Légifrance la répartition des 40 questions par thématique (annexe de l'arrêté du 10 octobre 2025). Consigner le résultat dans `docs/sources.md` et `src/domain/exam.ts`.
+- [x] T003 [P] Vérifier sur Légifrance la répartition des 40 questions par thématique. Fait : [docs/referentiel.md](../../docs/referentiel.md).
 
 ## Phase 2 : fondations (bloque les histoires utilisateur)
 
@@ -25,11 +25,13 @@ Format : `[ID] [P?] [Histoire] Description`
 
 Chaque tâche produit `content/questions/<theme>.json` et `content/lessons/<theme>/*.md` à partir des fiches officielles, en suivant le format de [plan.md](plan.md).
 
-- [ ] T007 [P] Thématique « Principes et valeurs de la République » : 40 questions officielles + 12 mises en situation + leçons.
-- [ ] T008 [P] Thématique « Système institutionnel et politique » : 50 questions officielles + 12 mises en situation + leçons.
-- [ ] T009 [P] Thématique « Droits et devoirs » : 38 questions officielles + 12 mises en situation + leçons.
-- [ ] T010 [P] Thématique « Histoire, géographie et culture » : 49 questions officielles + 12 mises en situation + leçons.
-- [ ] T011 [P] Thématique « Vivre dans la société française » : 32 questions officielles + 12 mises en situation + leçons.
+Chaque question est rattachée à une notion de [docs/referentiel.md](../../docs/referentiel.md).
+
+- [ ] T007 [P] Thématique « Principes et valeurs de la République » : 40 questions officielles + 30 mises en situation + leçons.
+- [ ] T008 [P] Thématique « Système institutionnel et politique » : 50 questions officielles + leçons.
+- [ ] T009 [P] Thématique « Droits et devoirs » : 38 questions officielles + 30 mises en situation + leçons.
+- [ ] T010 [P] Thématique « Histoire, géographie et culture » : 49 questions officielles + leçons.
+- [ ] T011 [P] Thématique « Vivre dans la société française » : 32 questions officielles + leçons.
 - [ ] T012 Recouper les bonnes réponses avec le jeu de données leqcmcivique.fr et produire `docs/divergences.md` (dépend de T007 à T011).
 - [ ] T013 Relecture humaine de toutes les réponses et des divergences (Paul).
 
