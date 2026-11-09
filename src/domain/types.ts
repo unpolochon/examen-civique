@@ -86,6 +86,9 @@ export interface ExamInProgress {
   current: number
 }
 
+/** Question as it was when the exam was scored, so the correction survives content changes. */
+export type QuestionSnapshot = Pick<Question, 'question' | 'choices' | 'answer' | 'explanation' | 'theme' | 'notion' | 'lesson'>
+
 export interface ExamRecord {
   id: string
   startedAt: string
@@ -96,6 +99,8 @@ export interface ExamRecord {
   score: number
   byTheme: Record<Theme, Score>
   byNotion: Record<NotionId, Score>
+  /** Keyed by question id, one entry per question of the exam. */
+  snapshot: Record<string, QuestionSnapshot>
 }
 
 export interface CardState {
