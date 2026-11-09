@@ -1,0 +1,203 @@
+/* Palette tokens: specs/001-examen-civique-cr/plan.md. Values from design/mockups. */
+:root {
+  --bg: #f2f3f7;
+  --surface: #ffffff;
+  --ink: #1d1f2c;
+  --muted: #5b6072;
+  --primary: #5b5bd6;
+  --primary-hover: #3f3fb0;
+  --primary-soft: #e9e9fb;
+  --warn: #9a4a12;
+  --examen: #d5c8f5;
+
+  /* Per theme: pastel, bar color, secondary text on the pastel. */
+  --principes: #f7c6da;
+  --principes-bar: #d9659a;
+  --principes-ink: #3a3346;
+  --institutions: #bbd7f7;
+  --institutions-bar: #4f8fe0;
+  --institutions-ink: #26354a;
+  --droits: #b5e3be;
+  --droits-bar: #45a85f;
+  --droits-ink: #24402b;
+  --histoire: #f8df8b;
+  --histoire-bar: #d9a21b;
+  --histoire-ink: #4a3d12;
+  --societe: #fbd3bf;
+  --societe-bar: #e58a5c;
+  --societe-ink: #4a2e20;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --nav-space: calc(68px + 24px + env(safe-area-inset-bottom)); /* nav height + bottom margin */
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  max-width: 480px;
+  min-height: 100dvh;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* 52px top in the mockups = iPhone status bar (47px) + 5px. */
+.screen {
+  display: flex;
+  flex-direction: column;
+  padding: max(20px, calc(env(safe-area-inset-top) + 5px)) max(20px, env(safe-area-inset-right))
+    calc(28px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+}
+
+.screen--with-nav {
+  padding-bottom: calc(var(--nav-space) + 12px);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 22px;
+  padding: 20px;
+}
+
+.pill-button {
+  height: 54px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pill-button--primary,
+.pill-button--primary:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+.pill-button--secondary,
+.pill-button--secondary:hover {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.theme-tile {
+  height: 108px;
+  padding: 14px;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--tile-bg);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.theme-tile:hover {
+  color: var(--ink);
+}
+
+.theme-tile__title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.theme-tile__meta {
+  font-size: 12px;
+  color: var(--tile-ink);
+}
+
+.theme-tile--principes { --tile-bg: var(--principes); --tile-ink: var(--principes-ink); }
+.theme-tile--institutions { --tile-bg: var(--institutions); --tile-ink: var(--institutions-ink); }
+.theme-tile--droits { --tile-bg: var(--droits); --tile-ink: var(--droits-ink); }
+.theme-tile--histoire { --tile-bg: var(--histoire); --tile-ink: var(--histoire-ink); }
+.theme-tile--societe { --tile-bg: var(--societe); --tile-ink: var(--societe-ink); }
+
+.chip {
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 14px;
+  background: var(--surface);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(24px + env(safe-area-inset-bottom));
+  width: min(440px, calc(100% - 40px));
+  height: 68px;
+  margin: 0 auto;
+  padding: 8px;
+  background: var(--surface);
+  border-radius: 34px;
+  box-shadow: 0 10px 28px rgba(29, 31, 44, 0.14);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border-radius: 26px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.bottom-nav a[aria-current='page'] {
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-weight: 600;
+}
